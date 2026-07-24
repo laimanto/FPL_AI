@@ -1,0 +1,12 @@
+# This repo intentionally publishes only Dashboard/ -- everything else
+# (raw/engineered data, trained models, pipeline scripts, notebooks) stays
+# local. Some of it is 100MB+ (e.g. File/models/) and would fail a GitHub
+# push outright; the rest is working data, not the public deliverable.
+/File/
+/Program/
+/Doc/
+*.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.claude/
