@@ -10,3 +10,7 @@
 __pycache__/
 *.pyc
 .claude/
+
+# model-performance dashboard stays local only, not published
+/Dashboard/fpl_model_dashboard.html
+/Dashboard/fpl_model_dashboard_v2.html
