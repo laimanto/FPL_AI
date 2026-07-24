@@ -161,7 +161,19 @@ table.fi-table tbody tr:hover { background: color-mix(in srgb, var(--text-primar
     Trained on 8 seasons (2016-17 through 2024-25, 126,076 rows), validated on the
     entirely unseen 2025-26 season. Ridge regression is a reference baseline only.
     The LightGBM + Random Forest ensemble is the best-performing result overall.
+    This page also covers the downstream squad optimizer that turns those
+    predictions into an actual 15-man squad recommendation.
   </p>
+  <div class="changelog">
+    <span>🆕</span>
+    <span><strong>Updated 2026-07-24:</strong> added a live-deployment (walk-forward)
+    validation card below — the single-season holdout above tests one static split;
+    walk-forward retrains fresh before every gameweek using only data strictly before
+    it, matching what a real live deployment actually sees. Also added two new
+    sections covering the squad optimizer: how it turns predictions into a squad, and
+    a head-to-head comparison of the optimizer strategies tested before settling on
+    the current one.</span>
+  </div>
   <div class="changelog">
     <span>🆕</span>
     <span><strong>What's new in v2 — treated as final for now (2026-07-23):</strong> added the
@@ -184,6 +196,14 @@ table.fi-table tbody tr:hover { background: color-mix(in srgb, var(--text-primar
       <thead><tr><th>Model</th><th>RMSE (all rows)</th><th>RMSE (played only)</th><th>R²</th><th>Spearman</th></tr></thead>
       <tbody></tbody>
     </table>
+  </div>
+
+  <div class="card">
+    <h2>Live-deployment validation (walk-forward)</h2>
+    <p class="desc">The card above holds out all of 2025-26 at once — one static split. A stronger, more realistic test: retrain the model fresh before <em>every single gameweek</em> using only data strictly before it, then predict that gameweek — exactly what a real live weekly deployment would have seen, rather than one holdout drawn all at once.</p>
+    <div class="legend" id="wf-legend"></div>
+    <div class="metric-grid" id="wf-metric-grid"></div>
+    <p class="foot">Run across all 38 gameweeks of 2025-26 (29,747 rows, ensemble model only). Result: statistically consistent with — and very slightly better than — the single-holdout number above, confirming the model generalizes the same way under this more realistic evaluation. Took ~2 hours of wall-clock (38 fresh retrains, mostly Random Forest fit time) run in checkpointed chunks due to this environment's ~20-25min background-task limit.</p>
   </div>
 
   <div class="card">
@@ -295,6 +315,61 @@ table.fi-table tbody tr:hover { background: color-mix(in srgb, var(--text-primar
       tuning-slice-noise case.
     </p>
   </div>
+
+  <div class="card">
+    <h2>Squad Optimizer</h2>
+    <p class="desc">A separate layer downstream of the prediction model above — turns <code>pred_ensemble</code> into an actual 15-man squad recommendation, solved fresh every gameweek. Doesn't touch the model or its predictions at all.</p>
+    <p style="font-size:13px; color:var(--text-secondary); line-height:1.6; margin: 0 0 14px;">
+      An integer linear program (ILP, solved via PuLP + CBC) picks, from every available player that gameweek
+      (the full ~500-900 candidate pool, no pre-filtering):
+    </p>
+    <ul style="font-size:13px; color:var(--text-secondary); line-height:1.8; margin: 0 0 16px; padding-left: 20px;">
+      <li>A 15-man squad: exactly 2 GKP, 5 DEF, 5 MID, 3 FWD, total cost ≤ £100m</li>
+      <li>A starting XI: 1 GKP, DEF 3-5, MID 3-5, FWD 1-3 — formation chosen freely each week, not fixed</li>
+      <li>A captain (predicted points doubled) and vice-captain (real FPL fallback if the captain doesn't play, simulated via an autosub + captain→VC engine matching real FPL rules)</li>
+      <li>Max 3 players from any one real-life club</li>
+    </ul>
+    <p style="font-size:13px; color:var(--text-secondary); line-height:1.6; margin: 0;">
+      <strong style="color:var(--text-primary);">Objective:</strong> maximize starting-XI predicted points, plus a small tiebreaker on
+      bench players' predicted points, subject to one constraint — a player can only be benched (owned but not
+      started) if they started (60+ minutes) their own team's <em>most recent</em> match. That single rule is the
+      end result of testing several alternatives head-to-head on a full 38-gameweek backtest, not a first guess —
+      see the comparison below.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Squad Optimizer: strategies compared</h2>
+    <p class="desc">Every strategy solved over the identical full-season 2025-26 walk-forward predictions (GW1-38) — only the squad-construction objective changes between rows, never the underlying forecast. Total actual points is the real season-long outcome, not a forecast.</p>
+    <div class="legend" id="opt-legend"></div>
+    <div class="metric-grid" id="opt-metric-grid"></div>
+    <button class="toggle-table" data-target="opt-table">View as table</button>
+    <table class="data-table" id="opt-table">
+      <thead><tr><th>Strategy</th><th>Total actual pts (season)</th><th>Avg bench cost</th><th>Zero-output bench incidents</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="foot">
+      <strong>The starting point had a real bug:</strong> the original objective had no bench-cost term at all —
+      only a shared £100m budget cap — so nothing rewarded a cheap, <em>reliable</em> bench. One player sat on the
+      bench 32 of 38 gameweeks, started 0, scored 10 total points all season, and was never once actually used as
+      a real substitute — cheap enough to be "free" under the old objective, but effectively guaranteed zero output.
+    </p>
+    <p class="foot">
+      <strong>Adding a bench-cost penalty fixed the budget-waste problem but made the reliability problem worse</strong>
+      (32 → 32 zero-output incidents, no change) — a pure cost incentive rewards being cheap, not being reliable, so
+      it made the trap <em>more</em> attractive, not less. Adding the appearance-floor rule directly fixed
+      reliability (32 → 1 incident) but cost points versus having no cost mechanism at all when stacked on top of
+      the penalty.
+    </p>
+    <p class="foot">
+      <strong>The question that settled it: does the cost penalty still earn its keep once the floor already
+      fixes reliability directly?</strong> No — once a player can only be benched by having proven themselves
+      reliable, the penalty's only remaining job is squeezing an already-cheap, already-reliable pool toward its
+      literal cheapest member, trading away bench value that occasionally scores via genuine autosubs for budget
+      that barely moves the needle on an already-affordable starting XI. <strong>The cost penalty was removed
+      entirely</strong> — final strategy is the appearance floor alone, no cost term at all.
+    </p>
+  </div>
 </div>
 </div>
 
@@ -327,40 +402,76 @@ function moveTip(e) {
 function hideTip() { tooltip.classList.remove('show'); }
 document.addEventListener('mousemove', e => { if (tooltip.classList.contains('show')) moveTip(e); });
 
-// --- legend ---
-const legendEl = document.getElementById('model-legend');
-Object.values(metrics).forEach(m => {
-  legendEl.innerHTML += `<div class="legend-item ${m.headline ? 'headline' : ''}"><span class="swatch" style="background:${m.color}"></span>${m.label}${m.headline ? ' — best' : ''}</div>`;
-});
-
-// --- metric small multiples ---
-const grid = document.getElementById('metric-grid');
-metricDefs.forEach(def => {
-  const block = document.createElement('div');
-  block.innerHTML = `<div class="metric-title">${def.title} <span class="hint">(${def.hint})</span></div>`;
-  Object.values(metrics).forEach(m => {
-    const val = m[def.key];
-    const pct = Math.max(2, Math.min(100, (val / def.max) * 100));
-    const row = document.createElement('div');
-    row.className = 'bar-row' + (m.headline ? ' headline' : '');
-    row.innerHTML = `
-      <div class="bar-label">${m.label}</div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:${pct}%; background:${m.color}"></div>
-        <div class="bar-value" style="left:${pct}%">${def.fmt(val)}</div>
-      </div>`;
-    const fillEl = row.querySelector('.bar-fill');
-    fillEl.addEventListener('mousemove', e => showTip(e, m.label, [`${def.title}: ${def.fmt(val)}`]));
-    fillEl.addEventListener('mouseleave', hideTip);
-    block.appendChild(row);
+// --- reusable legend + metric small-multiples renderer ---
+function renderLegend(legendEl, metricsObj) {
+  Object.values(metricsObj).forEach(m => {
+    legendEl.innerHTML += `<div class="legend-item ${m.headline ? 'headline' : ''}"><span class="swatch" style="background:${m.color}"></span>${m.label}${m.headline ? ' — best' : ''}</div>`;
   });
-  grid.appendChild(block);
-});
+}
+function renderMetricGrid(gridEl, metricsObj, defs) {
+  defs.forEach(def => {
+    const block = document.createElement('div');
+    block.innerHTML = `<div class="metric-title">${def.title} <span class="hint">(${def.hint})</span></div>`;
+    Object.values(metricsObj).forEach(m => {
+      const val = m[def.key];
+      const pct = Math.max(2, Math.min(100, (val / def.max) * 100));
+      const row = document.createElement('div');
+      row.className = 'bar-row' + (m.headline ? ' headline' : '');
+      row.innerHTML = `
+        <div class="bar-label">${m.label}</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:${pct}%; background:${m.color}"></div>
+          <div class="bar-value" style="left:${pct}%">${def.fmt(val)}</div>
+        </div>`;
+      const fillEl = row.querySelector('.bar-fill');
+      fillEl.addEventListener('mousemove', e => showTip(e, m.label, [`${def.title}: ${def.fmt(val)}`]));
+      fillEl.addEventListener('mouseleave', hideTip);
+      block.appendChild(row);
+    });
+    gridEl.appendChild(block);
+  });
+}
+
+renderLegend(document.getElementById('model-legend'), metrics);
+renderMetricGrid(document.getElementById('metric-grid'), metrics, metricDefs);
 
 // --- metrics table ---
 const metricsTbody = document.querySelector('#metrics-table tbody');
 Object.values(metrics).forEach(m => {
   metricsTbody.innerHTML += `<tr><td>${m.label}</td><td>${m.rmse_all.toFixed(4)}</td><td>${m.rmse_played.toFixed(4)}</td><td>${m.r2.toFixed(4)}</td><td>${m.spearman.toFixed(4)}</td></tr>`;
+});
+
+// --- walk-forward (live-deployment) validation: same renderer, 2-series comparison ---
+const wfMetrics = {
+  "holdout":    {label: "Single-season holdout", color: "var(--series-ref)", rmse_all: 1.8849, r2: 0.3576, spearman: 0.7394},
+  "walkforward":{label: "Walk-forward (38 gameweeks)", color: "var(--series-ens)", headline: true, rmse_all: 1.8821, r2: 0.3595, spearman: 0.7397},
+};
+const wfMetricDefs = [
+  {key: "spearman", title: "Spearman rank corr.", hint: "higher is better", fmt: v => v.toFixed(4), max: 0.8},
+  {key: "r2",       title: "R²",                   hint: "higher is better", fmt: v => v.toFixed(4), max: 0.4},
+  {key: "rmse_all", title: "RMSE — all rows",     hint: "lower is better",  fmt: v => v.toFixed(4), max: 2.1},
+];
+renderLegend(document.getElementById('wf-legend'), wfMetrics);
+renderMetricGrid(document.getElementById('wf-metric-grid'), wfMetrics, wfMetricDefs);
+
+// --- squad optimizer strategy comparison ---
+const optMetrics = {
+  "none":    {label: "No cost term (original)", color: "var(--series-ref)", total_pts: 2458, bench_cost: 16.86, incidents: 8},
+  "penalty": {label: "+ Bench-cost penalty (λ=0.12)", color: "var(--series-ref)", total_pts: 2483, bench_cost: 15.23, incidents: 32},
+  "both":    {label: "+ Appearance floor (on top of penalty)", color: "var(--series-ref)", total_pts: 2395, bench_cost: 15.84, incidents: 1},
+  "floor":   {label: "Appearance floor only (final)", color: "var(--series-ens)", headline: true, total_pts: 2410, bench_cost: 17.12, incidents: 1},
+};
+const optMetricDefs = [
+  {key: "total_pts", title: "Total actual points (season)",     hint: "higher is better",                      fmt: v => v.toFixed(0), max: 2600},
+  {key: "incidents",  title: "Zero-output bench incidents",      hint: "lower is better — bench reliability",   fmt: v => v.toFixed(0), max: 35},
+  {key: "bench_cost", title: "Avg bench cost",                   hint: "context only, not the optimized target", fmt: v => '£' + v.toFixed(2) + 'm', max: 18},
+];
+renderLegend(document.getElementById('opt-legend'), optMetrics);
+renderMetricGrid(document.getElementById('opt-metric-grid'), optMetrics, optMetricDefs);
+
+const optTbody = document.querySelector('#opt-table tbody');
+Object.values(optMetrics).forEach(m => {
+  optTbody.innerHTML += `<tr><td>${m.label}</td><td>${m.total_pts}</td><td>£${m.bench_cost.toFixed(2)}m</td><td>${m.incidents}</td></tr>`;
 });
 
 // --- feature importance: sortable, filterable table ---
