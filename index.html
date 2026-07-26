@@ -48,8 +48,8 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
 .topbar-row1 { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; position: relative; z-index: 1; }
 .title { font-size: 20px; font-weight: 800; letter-spacing: -0.01em; margin: 0; }
 .title .accent { color: var(--fpl-green); }
-.clock { text-align: right; font-size: 11px; line-height: 1.6; color: #ddc2e8; white-space: nowrap; }
-.clock strong { color: var(--fpl-cyan); font-variant-numeric: tabular-nums; }
+.clock { text-align: right; font-size: 13px; font-weight: 600; line-height: 1.7; color: #f0e0f7; white-space: nowrap; }
+.clock strong { color: var(--fpl-cyan); font-variant-numeric: tabular-nums; font-weight: 800; }
 
 /* ---- big tabs: Best Team | Team AI, full width. Active tab fills with the
    same purple gradient as the topbar (not just a thin underline) and uses
@@ -443,6 +443,7 @@ function renderSharedClock() {
   const app = apps[activeApp];
   if (!app || !app.state.DATA) return;
   const t = new Date(app.state.DATA.generated_at_utc);
+  if (isNaN(t.getTime())) return;  // missing/invalid generated_at_utc -- leave the "-" placeholder rather than throwing
   const fmt = (offsetHours) => {
     const shifted = new Date(t.getTime() + offsetHours * 3600 * 1000);
     return shifted.toISOString().slice(0, 16).replace('T', ' ');
