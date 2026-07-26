@@ -1,11 +1,15 @@
 {
-  "run_count": 1,
+  "run_count": 2,
   "history": [
     {
       "run_utc": "2026-07-26T01:34:29.181381+00:00",
       "trigger_label": "test"
+    },
+    {
+      "run_utc": "2026-07-26T01:34:43.256324+00:00",
+      "trigger_label": "test2"
     }
   ],
-  "last_run_utc": "2026-07-26T01:34:29.181381+00:00",
-  "last_trigger_label": "test"
+  "last_run_utc": "2026-07-26T01:34:43.256324+00:00",
+  "last_trigger_label": "test2"
 }
