@@ -48,8 +48,8 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
 .topbar-row1 { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; position: relative; z-index: 1; }
 .title { font-size: 20px; font-weight: 800; letter-spacing: -0.01em; margin: 0; }
 .title .accent { color: var(--fpl-green); }
-.clock { text-align: right; font-size: 13px; font-weight: 600; line-height: 1.7; color: #f0e0f7; white-space: nowrap; }
-.clock strong { color: var(--fpl-cyan); font-variant-numeric: tabular-nums; font-weight: 800; }
+.clock { text-align: right; font-size: 12px; font-weight: 500; line-height: 1.7; color: #ecdcf3; white-space: nowrap; }
+.clock strong { color: var(--fpl-cyan); font-variant-numeric: tabular-nums; font-weight: 700; }
 
 /* ---- big tabs: Best Team | Team AI, full width. Active tab fills with the
    same purple gradient as the topbar (not just a thin underline) and uses
@@ -442,8 +442,15 @@ function playerCard(p) {
 function renderSharedClock() {
   const app = apps[activeApp];
   if (!app || !app.state.DATA) return;
-  const t = new Date(app.state.DATA.generated_at_utc);
-  if (isNaN(t.getTime())) return;  // missing/invalid generated_at_utc -- leave the "-" placeholder rather than throwing
+  // one JSON file per season (2026-07-25) means generated_at_utc now lives
+  // PER SEASON (state.DATA.seasons[season].generated_at_utc), not at the old
+  // merged top level -- show the most recently generated of whichever
+  // seasons are loaded, so the clock reflects the latest real update.
+  const timestamps = Object.values(app.state.DATA.seasons)
+    .map(s => new Date(s.generated_at_utc))
+    .filter(d => !isNaN(d.getTime()));
+  if (!timestamps.length) return;  // no valid generated_at_utc anywhere -- leave the "-" placeholder rather than throwing
+  const t = new Date(Math.max(...timestamps.map(d => d.getTime())));
   const fmt = (offsetHours) => {
     const shifted = new Date(t.getTime() + offsetHours * 3600 * 1000);
     return shifted.toISOString().slice(0, 16).replace('T', ' ');
