@@ -1,9 +1,10 @@
 {
+  "generated_at_utc": "2026-07-27T22:30:25.511308+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.45,
+      "solve_seconds": 0.21,
       "candidate_pool_size": 616,
       "formation": "3-4-3",
       "total_cost": 100.0,
@@ -460,12 +461,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-08-16 19:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-08-17 11:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-08-17 14:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-08-17 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2024-08-17 14:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-08-17 14:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-08-17 16:30"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-08-18 13:00"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-08-18 15:30"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-08-19 19:00"
+        }
       ]
     },
     "2": {
       "round": 2,
       "status": "Optimal",
-      "solve_seconds": 0.41,
+      "solve_seconds": 0.24,
       "candidate_pool_size": 627,
       "formation": "3-5-2",
       "total_cost": 99.8,
@@ -922,12 +1036,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-08-24 11:30"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-08-24 14:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-08-24 14:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-08-24 14:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2024-08-24 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 4,
+          "away_score": 0,
+          "kickoff": "2024-08-24 14:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-08-24 16:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-08-25 13:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 2,
+          "away_score": 6,
+          "kickoff": "2024-08-25 13:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-08-25 15:30"
+        }
       ]
     },
     "3": {
       "round": 3,
       "status": "Optimal",
-      "solve_seconds": 0.3,
+      "solve_seconds": 0.27,
       "candidate_pool_size": 648,
       "formation": "3-4-3",
       "total_cost": 100.0,
@@ -1384,43 +1611,186 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-08-31 11:30"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-08-31 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 2,
+          "away_score": 3,
+          "kickoff": "2024-08-31 14:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-08-31 14:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-08-31 14:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-08-31 14:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2024-08-31 16:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-09-01 12:30"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-09-01 12:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2024-09-01 15:00"
+        }
       ]
     },
     "4": {
       "round": 4,
       "status": "Optimal",
-      "solve_seconds": 0.31,
+      "solve_seconds": 0.2,
       "candidate_pool_size": 659,
       "formation": "3-4-3",
-      "total_cost": 100.0,
-      "forecasted_points": 62,
-      "actual_points": 44,
+      "total_cost": 99.9,
+      "forecasted_points": 78,
+      "actual_points": 52,
       "players": [
         {
-          "name": "Adam Wharton",
-          "web_name": "Wharton",
+          "name": "Amadou Onana",
+          "web_name": "Onana",
           "position": "MID",
           "position_short": "MF",
-          "team": "Crystal Palace",
-          "team_short": "CRY",
-          "team_code": 31,
-          "photo_code": "496221",
+          "team": "Aston Villa",
+          "team_short": "AVL",
+          "team_code": 7,
+          "photo_code": "449871",
           "opponents": [
             {
-              "team": "Leicester",
-              "team_short": "LEI",
-              "team_code": 13,
+              "team": "Everton",
+              "team_short": "EVE",
+              "team_code": 11,
               "was_home": true
             }
           ],
-          "cost": 4.9,
-          "pred_points": 3.22,
-          "actual_points": 2,
-          "actual_minutes": 90,
-          "is_starter": false,
+          "cost": 5.1,
+          "pred_points": 4.34,
+          "actual_points": 1,
+          "actual_minutes": 45,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 3,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Andrew Robertson",
+          "web_name": "Robertson",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Liverpool",
+          "team_short": "LIV",
+          "team_code": 14,
+          "photo_code": "122798",
+          "opponents": [
+            {
+              "team": "Nott'm Forest",
+              "team_short": "NFO",
+              "team_code": 17,
+              "was_home": true
+            }
+          ],
+          "cost": 6.0,
+          "pred_points": 4.2,
+          "actual_points": 1,
+          "actual_minutes": 74,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1447,10 +1817,10 @@
           "pred_points": 4.84,
           "actual_points": 1,
           "actual_minutes": 6,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1507,10 +1877,10 @@
           "pred_points": 3.59,
           "actual_points": 1,
           "actual_minutes": 90,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 1,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1567,10 +1937,10 @@
           "pred_points": 4.19,
           "actual_points": 0,
           "actual_minutes": 90,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 1,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1607,36 +1977,6 @@
           "points_multiplier": 2
         },
         {
-          "name": "Ezri Konsa Ngoyo",
-          "web_name": "Konsa",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Aston Villa",
-          "team_short": "AVL",
-          "team_code": 7,
-          "photo_code": "199798",
-          "opponents": [
-            {
-              "team": "Everton",
-              "team_short": "EVE",
-              "team_code": 11,
-              "was_home": true
-            }
-          ],
-          "cost": 4.5,
-          "pred_points": 3.77,
-          "actual_points": 1,
-          "actual_minutes": 90,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 2,
-          "was_subbed_in": true,
-          "was_subbed_out": false,
-          "sub_label": "Sub1",
-          "points_multiplier": 1
-        },
-        {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
           "web_name": "Jo\u00e3o Pedro",
           "position": "FWD",
@@ -1662,8 +2002,8 @@
           "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
-          "was_subbed_out": true,
-          "sub_label": "Sub1",
+          "was_subbed_out": false,
+          "sub_label": null,
           "points_multiplier": 1
         },
         {
@@ -1757,30 +2097,60 @@
           "points_multiplier": 1
         },
         {
-          "name": "Trent Alexander-Arnold",
-          "web_name": "Alexander-Arnold",
+          "name": "Noussair Mazraoui",
+          "web_name": "Mazraoui",
           "position": "DEF",
           "position_short": "DF",
-          "team": "Liverpool",
-          "team_short": "LIV",
-          "team_code": 14,
-          "photo_code": "169187",
+          "team": "Man Utd",
+          "team_short": "MUN",
+          "team_code": 1,
+          "photo_code": "230001",
           "opponents": [
             {
-              "team": "Nott'm Forest",
-              "team_short": "NFO",
-              "team_code": 17,
-              "was_home": true
+              "team": "Southampton",
+              "team_short": "SOU",
+              "team_code": 20,
+              "was_home": false
             }
           ],
-          "cost": 7.0,
-          "pred_points": 4.39,
-          "actual_points": 1,
-          "actual_minutes": 90,
+          "cost": 4.5,
+          "pred_points": 3.67,
+          "actual_points": 6,
+          "actual_minutes": 73,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Rico Lewis",
+          "web_name": "Lewis",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Man City",
+          "team_short": "MCI",
+          "team_code": 43,
+          "photo_code": "477064",
+          "opponents": [
+            {
+              "team": "Brentford",
+              "team_short": "BRE",
+              "team_code": 94,
+              "was_home": true
+            }
+          ],
+          "cost": 4.7,
+          "pred_points": 3.75,
+          "actual_points": 1,
+          "actual_minutes": 45,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1807,51 +2177,134 @@
           "pred_points": 4.31,
           "actual_points": 2,
           "actual_minutes": 90,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Yerson Mosquera",
-          "web_name": "Mosquera",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Wolves",
-          "team_short": "WOL",
-          "team_code": 39,
-          "photo_code": "501837",
-          "opponents": [
-            {
-              "team": "Newcastle",
-              "team_short": "NEW",
-              "team_code": 4,
-              "was_home": true
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 2.11,
-          "actual_points": 1,
-          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 4,
+          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        }
+      ],
+      "chip_used": "bench_boost",
+      "match_results": [
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2024-09-14 11:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-09-14 14:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-09-14 14:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-09-14 14:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-09-14 14:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-09-14 14:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2024-09-14 16:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-09-14 19:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-09-15 13:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-09-15 15:30"
         }
       ]
     },
     "5": {
       "round": 5,
       "status": "Optimal",
-      "solve_seconds": 0.29,
+      "solve_seconds": 0.34,
       "candidate_pool_size": 661,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -2308,12 +2761,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2024-09-21 11:30"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-09-21 14:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-09-21 14:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-09-21 14:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-09-21 14:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2024-09-21 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-09-21 14:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-09-21 16:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-09-22 13:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-09-22 15:30"
+        }
       ]
     },
     "6": {
       "round": 6,
       "status": "Optimal",
-      "solve_seconds": 0.33,
+      "solve_seconds": 0.27,
       "candidate_pool_size": 664,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -2770,12 +3336,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-09-28 11:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 4,
+          "away_score": 2,
+          "kickoff": "2024-09-28 14:00"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 4,
+          "away_score": 2,
+          "kickoff": "2024-09-28 14:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-09-28 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-09-28 14:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-09-28 14:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-09-28 16:30"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-09-29 13:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2024-09-29 15:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-09-30 19:00"
+        }
       ]
     },
     "7": {
       "round": 7,
       "status": "Optimal",
-      "solve_seconds": 0.32,
+      "solve_seconds": 0.29,
       "candidate_pool_size": 666,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -3232,12 +3911,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-10-05 11:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-10-05 14:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 5,
+          "away_score": 3,
+          "kickoff": "2024-10-05 14:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-10-05 14:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2024-10-05 14:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2024-10-05 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-10-05 16:30"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-10-06 13:00"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-10-06 13:00"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2024-10-06 15:30"
+        }
       ]
     },
     "8": {
       "round": 8,
       "status": "Optimal",
-      "solve_seconds": 0.24,
+      "solve_seconds": 0.22,
       "candidate_pool_size": 667,
       "formation": "3-4-3",
       "total_cost": 99.8,
@@ -3694,17 +4486,130 @@
           "sub_label": "Sub1",
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2024-10-19 11:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-10-19 14:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 3,
+          "kickoff": "2024-10-19 14:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2024-10-19 14:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-10-19 14:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-10-19 14:15"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-10-19 16:30"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-10-20 13:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-10-20 15:30"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-10-21 19:00"
+        }
       ]
     },
     "9": {
       "round": 9,
       "status": "Optimal",
-      "solve_seconds": 0.33,
+      "solve_seconds": 0.27,
       "candidate_pool_size": 670,
       "formation": "3-4-3",
       "total_cost": 100.0,
-      "forecasted_points": 64,
-      "actual_points": 56,
+      "forecasted_points": 72,
+      "actual_points": 66,
       "players": [
         {
           "name": "Brennan Johnson",
@@ -3824,7 +4729,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 2
+          "points_multiplier": 3
         },
         {
           "name": "Erling Haaland",
@@ -4156,12 +5061,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": "triple_captain",
+      "match_results": [
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2024-10-25 19:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-10-26 14:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 4,
+          "away_score": 3,
+          "kickoff": "2024-10-26 14:00"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-10-26 14:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-10-26 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-10-26 16:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-10-27 14:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-10-27 14:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-10-27 14:00"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-10-27 16:30"
+        }
       ]
     },
     "10": {
       "round": 10,
       "status": "Optimal",
-      "solve_seconds": 0.34,
+      "solve_seconds": 0.27,
       "candidate_pool_size": 674,
       "formation": "3-4-3",
       "total_cost": 99.9,
@@ -4618,12 +5636,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-11-02 12:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-11-02 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-11-02 15:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-11-02 15:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-11-02 15:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2024-11-02 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-11-02 17:30"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2024-11-03 14:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-11-03 16:30"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-11-04 20:00"
+        }
       ]
     },
     "11": {
       "round": 11,
       "status": "Optimal",
-      "solve_seconds": 0.31,
+      "solve_seconds": 0.25,
       "candidate_pool_size": 678,
       "formation": "3-5-2",
       "total_cost": 99.9,
@@ -5080,18 +6211,161 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2024-11-09 15:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-11-09 15:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-11-09 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-11-09 15:00"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-11-09 17:30"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-11-09 20:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2024-11-10 14:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2024-11-10 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-11-10 14:00"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-11-10 16:30"
+        }
       ]
     },
     "12": {
       "round": 12,
       "status": "Optimal",
-      "solve_seconds": 0.31,
+      "solve_seconds": 0.34,
       "candidate_pool_size": 684,
-      "formation": "3-4-3",
+      "formation": "4-5-1",
       "total_cost": 100.0,
       "forecasted_points": 62,
-      "actual_points": 67,
+      "actual_points": 51,
       "players": [
+        {
+          "name": "Adam Armstrong",
+          "web_name": "Armstrong",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Southampton",
+          "team_short": "SOU",
+          "team_code": 20,
+          "photo_code": "155511",
+          "opponents": [
+            {
+              "team": "Liverpool",
+              "team_short": "LIV",
+              "team_code": 14,
+              "was_home": true
+            }
+          ],
+          "cost": 5.1,
+          "pred_points": 1.91,
+          "actual_points": 7,
+          "actual_minutes": 76,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
         {
           "name": "Alexander Isak",
           "web_name": "Isak",
@@ -5235,8 +6509,38 @@
           "actual_minutes": 82,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": true,
+          "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Cameron Archer",
+          "web_name": "Archer",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Southampton",
+          "team_short": "SOU",
+          "team_code": 20,
+          "photo_code": "433979",
+          "opponents": [
+            {
+              "team": "Liverpool",
+              "team_short": "LIV",
+              "team_code": 14,
+              "was_home": true
+            }
+          ],
+          "cost": 5.0,
+          "pred_points": 1.95,
+          "actual_points": 1,
+          "actual_minutes": 13,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5267,6 +6571,36 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": 4,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Cole Palmer",
+          "web_name": "Palmer",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Chelsea",
+          "team_short": "CHE",
+          "team_code": 8,
+          "photo_code": "244851",
+          "opponents": [
+            {
+              "team": "Leicester",
+              "team_short": "LEI",
+              "team_code": 13,
+              "was_home": false
+            }
+          ],
+          "cost": 10.9,
+          "pred_points": 5.97,
+          "actual_points": 2,
+          "actual_minutes": 90,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5363,6 +6697,36 @@
           "points_multiplier": 1
         },
         {
+          "name": "Lucas Digne",
+          "web_name": "Digne",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Aston Villa",
+          "team_short": "AVL",
+          "team_code": 7,
+          "photo_code": "101188",
+          "opponents": [
+            {
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": true
+            }
+          ],
+          "cost": 4.7,
+          "pred_points": 4.08,
+          "actual_points": 1,
+          "actual_minutes": 21,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
           "name": "Mohamed Salah",
           "web_name": "M.Salah",
           "position": "MID",
@@ -5393,126 +6757,6 @@
           "points_multiplier": 2
         },
         {
-          "name": "Nicolas Jackson",
-          "web_name": "N.Jackson",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Chelsea",
-          "team_short": "CHE",
-          "team_code": 8,
-          "photo_code": "517052",
-          "opponents": [
-            {
-              "team": "Leicester",
-              "team_short": "LEI",
-              "team_code": 13,
-              "was_home": false
-            }
-          ],
-          "cost": 7.9,
-          "pred_points": 4.85,
-          "actual_points": 12,
-          "actual_minutes": 90,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Ollie Watkins",
-          "web_name": "Watkins",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Aston Villa",
-          "team_short": "AVL",
-          "team_code": 7,
-          "photo_code": "178301",
-          "opponents": [
-            {
-              "team": "Crystal Palace",
-              "team_short": "CRY",
-              "team_code": 31,
-              "was_home": true
-            }
-          ],
-          "cost": 9.0,
-          "pred_points": 5.15,
-          "actual_points": 7,
-          "actual_minutes": 90,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Sean Longstaff",
-          "web_name": "Longstaff",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Newcastle",
-          "team_short": "NEW",
-          "team_code": 4,
-          "photo_code": "180135",
-          "opponents": [
-            {
-              "team": "West Ham",
-              "team_short": "WHU",
-              "team_code": 21,
-              "was_home": true
-            }
-          ],
-          "cost": 4.7,
-          "pred_points": 3.09,
-          "actual_points": 1,
-          "actual_minutes": 56,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 2,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Sepp van den Berg",
-          "web_name": "Van den Berg",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Brentford",
-          "team_short": "BRE",
-          "team_code": 94,
-          "photo_code": "444765",
-          "opponents": [
-            {
-              "team": "Everton",
-              "team_short": "EVE",
-              "team_code": 11,
-              "was_home": false
-            }
-          ],
-          "cost": 4.1,
-          "pred_points": 2.63,
-          "actual_points": 6,
-          "actual_minutes": 90,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 3,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
           "name": "\u0141ukasz Fabia\u0144ski",
           "web_name": "Fabianski",
           "position": "GKP",
@@ -5541,6 +6785,119 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-11-23 12:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2024-11-23 15:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-11-23 15:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-11-23 15:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-11-23 15:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 1,
+          "away_score": 4,
+          "kickoff": "2024-11-23 15:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 0,
+          "away_score": 4,
+          "kickoff": "2024-11-23 17:30"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 2,
+          "away_score": 3,
+          "kickoff": "2024-11-24 14:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-11-24 16:30"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-11-25 20:00"
         }
       ]
     },
@@ -6004,12 +7361,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-11-29 20:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2024-11-30 15:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-11-30 15:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-11-30 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 2,
+          "away_score": 4,
+          "kickoff": "2024-11-30 15:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 2,
+          "away_score": 5,
+          "kickoff": "2024-11-30 17:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2024-12-01 13:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 4,
+          "away_score": 0,
+          "kickoff": "2024-12-01 13:30"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-12-01 13:30"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-12-01 16:00"
+        }
       ]
     },
     "14": {
       "round": 14,
       "status": "Optimal",
-      "solve_seconds": 0.23,
+      "solve_seconds": 0.22,
       "candidate_pool_size": 693,
       "formation": "3-4-3",
       "total_cost": 100.0,
@@ -6466,17 +7936,130 @@
           "sub_label": "Sub1",
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-12-03 19:30"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-12-03 20:15"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 4,
+          "away_score": 0,
+          "kickoff": "2024-12-04 19:30"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 1,
+          "away_score": 5,
+          "kickoff": "2024-12-04 19:30"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2024-12-04 19:30"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 3,
+          "away_score": 3,
+          "kickoff": "2024-12-04 19:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-12-04 20:15"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-12-04 20:15"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-12-05 19:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-12-05 20:15"
+        }
       ]
     },
     "15": {
       "round": 15,
       "status": "Optimal",
-      "solve_seconds": 0.24,
+      "solve_seconds": 0.21,
       "candidate_pool_size": 630,
-      "formation": "3-5-2",
+      "formation": "3-4-3",
       "total_cost": 100.0,
       "forecasted_points": 59,
-      "actual_points": 62,
+      "actual_points": 51,
       "players": [
         {
           "name": "Aaron Wan-Bissaka",
@@ -6503,6 +8086,36 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Boubakary Soumar\u00e9",
+          "web_name": "B.Soumar\u00e9",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Leicester",
+          "team_short": "LEI",
+          "team_code": 13,
+          "photo_code": "225902",
+          "opponents": [
+            {
+              "team": "Brighton",
+              "team_short": "BHA",
+              "team_code": 36,
+              "was_home": true
+            }
+          ],
+          "cost": 4.4,
+          "pred_points": 2.09,
+          "actual_points": 1,
+          "actual_minutes": 90,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6569,30 +8182,30 @@
           "points_multiplier": 2
         },
         {
-          "name": "Cole Palmer",
-          "web_name": "Palmer",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Chelsea",
-          "team_short": "CHE",
-          "team_code": 8,
-          "photo_code": "244851",
+          "name": "Dara O'Shea",
+          "web_name": "O'Shea",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Ipswich",
+          "team_short": "IPS",
+          "team_code": 40,
+          "photo_code": "216616",
           "opponents": [
             {
-              "team": "Spurs",
-              "team_short": "TOT",
-              "team_code": 6,
-              "was_home": false
+              "team": "Bournemouth",
+              "team_short": "BOU",
+              "team_code": 91,
+              "was_home": true
             }
           ],
-          "cost": 11.0,
-          "pred_points": 5.45,
-          "actual_points": 18,
+          "cost": 4.0,
+          "pred_points": 2.41,
+          "actual_points": 1,
           "actual_minutes": 90,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
-          "is_vice_captain": true,
-          "sub_priority": null,
+          "is_vice_captain": false,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6629,60 +8242,60 @@
           "points_multiplier": 1
         },
         {
-          "name": "Emiliano Mart\u00ednez Romero",
-          "web_name": "Martinez",
-          "position": "GKP",
-          "position_short": "GK",
-          "team": "Aston Villa",
-          "team_short": "AVL",
-          "team_code": 7,
-          "photo_code": "98980",
+          "name": "Erling Haaland",
+          "web_name": "Haaland",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Man City",
+          "team_short": "MCI",
+          "team_code": 43,
+          "photo_code": "223094",
           "opponents": [
             {
-              "team": "Southampton",
-              "team_short": "SOU",
-              "team_code": 20,
-              "was_home": true
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": false
             }
           ],
-          "cost": 5.0,
-          "pred_points": 3.98,
-          "actual_points": 6,
+          "cost": 15.0,
+          "pred_points": 5.64,
+          "actual_points": 7,
           "actual_minutes": 90,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 1,
+          "is_vice_captain": true,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
         },
         {
-          "name": "Francisco Evanilson de Lima Barbosa",
-          "web_name": "Evanilson",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Bournemouth",
-          "team_short": "BOU",
-          "team_code": 91,
-          "photo_code": "444102",
+          "name": "James Bree",
+          "web_name": "Bree",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Southampton",
+          "team_short": "SOU",
+          "team_code": 20,
+          "photo_code": "184386",
           "opponents": [
             {
-              "team": "Ipswich",
-              "team_short": "IPS",
-              "team_code": 40,
+              "team": "Aston Villa",
+              "team_short": "AVL",
+              "team_code": 7,
               "was_home": false
             }
           ],
-          "cost": 6.1,
-          "pred_points": 4.24,
-          "actual_points": 2,
-          "actual_minutes": 73,
+          "cost": 3.9,
+          "pred_points": 1.26,
+          "actual_points": 1,
+          "actual_minutes": 45,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6779,36 +8392,6 @@
           "points_multiplier": 1
         },
         {
-          "name": "Milos Kerkez",
-          "web_name": "Kerkez",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Bournemouth",
-          "team_short": "BOU",
-          "team_code": 91,
-          "photo_code": "544877",
-          "opponents": [
-            {
-              "team": "Ipswich",
-              "team_short": "IPS",
-              "team_code": 40,
-              "was_home": false
-            }
-          ],
-          "cost": 4.6,
-          "pred_points": 3.96,
-          "actual_points": 2,
-          "actual_minutes": 90,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 3,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
           "name": "Mitoma Kaoru",
           "web_name": "Mitoma",
           "position": "MID",
@@ -6833,36 +8416,6 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Noussair Mazraoui",
-          "web_name": "Mazraoui",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Man Utd",
-          "team_short": "MUN",
-          "team_code": 1,
-          "photo_code": "230001",
-          "opponents": [
-            {
-              "team": "Nott'm Forest",
-              "team_short": "NFO",
-              "team_code": 17,
-              "was_home": true
-            }
-          ],
-          "cost": 4.7,
-          "pred_points": 3.65,
-          "actual_points": 1,
-          "actual_minutes": 24,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6927,6 +8480,138 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        },
+        {
+          "name": "\u0141ukasz Fabia\u0144ski",
+          "web_name": "Fabianski",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "West Ham",
+          "team_short": "WHU",
+          "team_code": 21,
+          "photo_code": "37096",
+          "opponents": [
+            {
+              "team": "Wolves",
+              "team_short": "WOL",
+              "team_code": 39,
+              "was_home": true
+            }
+          ],
+          "cost": 4.1,
+          "pred_points": 3.46,
+          "actual_points": 2,
+          "actual_minutes": 90,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 1,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-12-07 15:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 4,
+          "away_score": 2,
+          "kickoff": "2024-12-07 15:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-12-07 15:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 2,
+          "away_score": 3,
+          "kickoff": "2024-12-07 17:30"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-12-08 14:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-12-08 14:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-12-08 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 3,
+          "away_score": 4,
+          "kickoff": "2024-12-08 16:30"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-12-09 20:00"
         }
       ]
     },
@@ -7390,12 +9075,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-12-14 15:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-12-14 15:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 4,
+          "away_score": 0,
+          "kickoff": "2024-12-14 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-12-14 15:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-12-14 17:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2024-12-15 14:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-12-15 16:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-12-15 19:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 0,
+          "away_score": 5,
+          "kickoff": "2024-12-15 19:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-12-16 20:00"
+        }
       ]
     },
     "17": {
       "round": 17,
       "status": "Optimal",
-      "solve_seconds": 0.26,
+      "solve_seconds": 0.23,
       "candidate_pool_size": 701,
       "formation": "4-5-1",
       "total_cost": 99.9,
@@ -7852,12 +9650,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-12-21 12:30"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-12-21 15:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 0,
+          "away_score": 4,
+          "kickoff": "2024-12-21 15:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-12-21 15:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 5,
+          "kickoff": "2024-12-21 17:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2024-12-22 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-12-22 14:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-12-22 14:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2024-12-22 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 3,
+          "away_score": 6,
+          "kickoff": "2024-12-22 16:30"
+        }
       ]
     },
     "18": {
       "round": 18,
       "status": "Optimal",
-      "solve_seconds": 0.28,
+      "solve_seconds": 0.27,
       "candidate_pool_size": 705,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -8314,12 +10225,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2024-12-26 12:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2024-12-26 15:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-12-26 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2024-12-26 15:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2024-12-26 15:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-12-26 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-12-26 17:30"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2024-12-26 20:00"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2024-12-27 19:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2024-12-27 20:15"
+        }
       ]
     },
     "19": {
       "round": 19,
       "status": "Optimal",
-      "solve_seconds": 0.18,
+      "solve_seconds": 0.28,
       "candidate_pool_size": 709,
       "formation": "3-4-3",
       "total_cost": 100.0,
@@ -8776,12 +10800,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-12-29 14:30"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2024-12-29 15:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-12-29 15:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-12-29 15:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-12-29 15:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 5,
+          "kickoff": "2024-12-29 17:15"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2024-12-30 19:45"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2024-12-30 19:45"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2024-12-30 20:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2025-01-01 17:30"
+        }
       ]
     },
     "20": {
       "round": 20,
       "status": "Optimal",
-      "solve_seconds": 0.32,
+      "solve_seconds": 0.29,
       "candidate_pool_size": 711,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -9238,12 +11375,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-01-04 12:30"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-01-04 15:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-01-04 15:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-01-04 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 0,
+          "away_score": 5,
+          "kickoff": "2025-01-04 15:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2025-01-04 15:00"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-01-04 17:30"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-01-05 14:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-01-05 16:30"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2025-01-06 20:00"
+        }
       ]
     },
     "21": {
       "round": 21,
       "status": "Optimal",
-      "solve_seconds": 0.28,
+      "solve_seconds": 0.26,
       "candidate_pool_size": 724,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -9700,12 +11950,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-01-14 19:30"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-01-14 19:30"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2025-01-14 19:30"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-01-14 20:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-01-15 19:30"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-01-15 19:30"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2025-01-15 19:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-01-15 20:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-01-16 19:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2025-01-16 20:00"
+        }
       ]
     },
     "22": {
       "round": 22,
       "status": "Optimal",
-      "solve_seconds": 0.3,
+      "solve_seconds": 0.28,
       "candidate_pool_size": 729,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -10162,12 +12525,125 @@
           "sub_label": "Sub1",
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 1,
+          "away_score": 4,
+          "kickoff": "2025-01-18 12:30"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-01-18 15:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-01-18 15:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-01-18 15:00"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-01-18 17:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2025-01-19 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2025-01-19 14:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2025-01-19 14:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 6,
+          "kickoff": "2025-01-19 16:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2025-01-20 20:00"
+        }
       ]
     },
     "23": {
       "round": 23,
       "status": "Optimal",
-      "solve_seconds": 0.25,
+      "solve_seconds": 0.3,
       "candidate_pool_size": 736,
       "formation": "3-4-3",
       "total_cost": 100.0,
@@ -10624,6 +13100,119 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 5,
+          "away_score": 0,
+          "kickoff": "2025-01-25 15:00"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-01-25 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2025-01-25 15:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2025-01-25 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-01-25 15:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2025-01-25 17:30"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-01-26 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-01-26 14:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-01-26 16:30"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-01-26 19:00"
+        }
       ]
     },
     "24": {
@@ -10633,8 +13222,8 @@
       "candidate_pool_size": 742,
       "formation": "3-5-2",
       "total_cost": 100.0,
-      "forecasted_points": 88,
-      "actual_points": 118,
+      "forecasted_points": 101,
+      "actual_points": 147,
       "players": [
         {
           "name": "Alexander Isak",
@@ -10958,7 +13547,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 2
+          "points_multiplier": 3
         },
         {
           "name": "Noni Madueke",
@@ -11122,18 +13711,172 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": "triple_captain",
+      "match_results": [
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 7,
+          "away_score": 0,
+          "kickoff": "2025-02-01 12:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-02-01 15:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 4,
+          "away_score": 0,
+          "kickoff": "2025-02-01 15:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-02-01 15:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-02-01 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-02-01 17:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-02-02 14:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-02-02 14:00"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 5,
+          "away_score": 1,
+          "kickoff": "2025-02-02 16:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-02-03 20:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-02-12 19:30"
+        }
       ]
     },
     "25": {
       "round": 25,
       "status": "Optimal",
-      "solve_seconds": 0.3,
+      "solve_seconds": 0.34,
       "candidate_pool_size": 759,
       "formation": "3-5-2",
-      "total_cost": 98.4,
+      "total_cost": 100.0,
       "forecasted_points": 92,
-      "actual_points": 102,
+      "actual_points": 95,
       "players": [
+        {
+          "name": "Aaron Cresswell",
+          "web_name": "Cresswell",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "West Ham",
+          "team_short": "WHU",
+          "team_code": 21,
+          "photo_code": "55459",
+          "opponents": [
+            {
+              "team": "Brentford",
+              "team_short": "BRE",
+              "team_code": 94,
+              "was_home": true
+            }
+          ],
+          "cost": 3.9,
+          "pred_points": 2.24,
+          "actual_points": 0,
+          "actual_minutes": 0,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
         {
           "name": "Antoine Semenyo",
           "web_name": "Semenyo",
@@ -11185,40 +13928,10 @@
           "pred_points": 4.16,
           "actual_points": 1,
           "actual_minutes": 90,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Dean Henderson",
-          "web_name": "Henderson",
-          "position": "GKP",
-          "position_short": "GK",
-          "team": "Crystal Palace",
-          "team_short": "CRY",
-          "team_code": 31,
-          "photo_code": "172649",
-          "opponents": [
-            {
-              "team": "Everton",
-              "team_short": "EVE",
-              "team_code": 11,
-              "was_home": true
-            }
-          ],
-          "cost": 4.5,
-          "pred_points": 4.0,
-          "actual_points": 2,
-          "actual_minutes": 90,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 1,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -11261,26 +13974,26 @@
           "points_multiplier": 1
         },
         {
-          "name": "Gabriel dos Santos Magalh\u00e3es",
-          "web_name": "Gabriel",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "226597",
+          "name": "Erling Haaland",
+          "web_name": "Haaland",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Man City",
+          "team_short": "MCI",
+          "team_code": 43,
+          "photo_code": "223094",
           "opponents": [
             {
-              "team": "Leicester",
-              "team_short": "LEI",
-              "team_code": 13,
-              "was_home": false
+              "team": "Newcastle",
+              "team_short": "NEW",
+              "team_code": 4,
+              "was_home": true
             }
           ],
-          "cost": 6.3,
-          "pred_points": 4.61,
-          "actual_points": 6,
-          "actual_minutes": 90,
+          "cost": 14.7,
+          "pred_points": 5.76,
+          "actual_points": 5,
+          "actual_minutes": 86,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -11291,30 +14004,30 @@
           "points_multiplier": 1
         },
         {
-          "name": "Jean-Philippe Mateta",
-          "web_name": "Mateta",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Crystal Palace",
-          "team_short": "CRY",
-          "team_code": 31,
-          "photo_code": "231747",
+          "name": "H\u00e1kon Valdimarsson",
+          "web_name": "Valdimarsson",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Brentford",
+          "team_short": "BRE",
+          "team_code": 94,
+          "photo_code": "507433",
           "opponents": [
             {
-              "team": "Everton",
-              "team_short": "EVE",
-              "team_code": 11,
-              "was_home": true
+              "team": "West Ham",
+              "team_short": "WHU",
+              "team_code": 21,
+              "was_home": false
             }
           ],
-          "cost": 7.3,
-          "pred_points": 5.16,
-          "actual_points": 7,
-          "actual_minutes": 90,
-          "is_starter": true,
+          "cost": 3.9,
+          "pred_points": 1.84,
+          "actual_points": 0,
+          "actual_minutes": 0,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 1,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -11489,6 +14202,36 @@
           "points_multiplier": 1
         },
         {
+          "name": "Norberto Bercique Gomes Betuncal",
+          "web_name": "Beto",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Everton",
+          "team_short": "EVE",
+          "team_code": 11,
+          "photo_code": "486385",
+          "opponents": [
+            {
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": false
+            }
+          ],
+          "cost": 4.9,
+          "pred_points": 2.6,
+          "actual_points": 8,
+          "actual_minutes": 90,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
           "name": "Ollie Watkins",
           "web_name": "Watkins",
           "position": "FWD",
@@ -11525,30 +14268,30 @@
           "points_multiplier": 1
         },
         {
-          "name": "Ra\u00fal Jim\u00e9nez",
-          "web_name": "Ra\u00fal",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Fulham",
-          "team_short": "FUL",
-          "team_code": 54,
-          "photo_code": "102057",
+          "name": "Sepp van den Berg",
+          "web_name": "Van den Berg",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Brentford",
+          "team_short": "BRE",
+          "team_code": 94,
+          "photo_code": "444765",
           "opponents": [
             {
-              "team": "Nott'm Forest",
-              "team_short": "NFO",
-              "team_code": 17,
-              "was_home": true
+              "team": "West Ham",
+              "team_short": "WHU",
+              "team_code": 21,
+              "was_home": false
             }
           ],
-          "cost": 5.6,
-          "pred_points": 3.94,
-          "actual_points": 5,
-          "actual_minutes": 75,
+          "cost": 4.1,
+          "pred_points": 2.65,
+          "actual_points": 1,
+          "actual_minutes": 59,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 4,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -11589,43 +14332,137 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2025-02-14 20:00"
         },
         {
-          "name": "William Saliba",
-          "web_name": "Saliba",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "462424",
-          "opponents": [
-            {
-              "team": "Leicester",
-              "team_short": "LEI",
-              "team_code": 13,
-              "was_home": false
-            }
-          ],
-          "cost": 6.2,
-          "pred_points": 4.07,
-          "actual_points": 6,
-          "actual_minutes": 90,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 3,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-02-15 12:30"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-02-15 15:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-02-15 15:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 4,
+          "away_score": 0,
+          "kickoff": "2025-02-15 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2025-02-15 15:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-02-15 15:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-02-15 17:30"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-02-16 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-02-16 16:30"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-02-19 19:30"
         }
       ]
     },
     "26": {
       "round": 26,
       "status": "Optimal",
-      "solve_seconds": 0.27,
+      "solve_seconds": 0.22,
       "candidate_pool_size": 763,
       "formation": "3-5-2",
       "total_cost": 99.9,
@@ -12082,12 +14919,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 0,
+          "away_score": 4,
+          "kickoff": "2025-02-21 20:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-02-22 12:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-02-22 15:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-02-22 15:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-02-22 15:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 1,
+          "away_score": 4,
+          "kickoff": "2025-02-22 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 0,
+          "away_score": 4,
+          "kickoff": "2025-02-22 15:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-02-22 17:30"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 4,
+          "away_score": 3,
+          "kickoff": "2025-02-23 14:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-02-23 16:30"
+        }
       ]
     },
     "27": {
       "round": 27,
       "status": "Optimal",
-      "solve_seconds": 0.33,
+      "solve_seconds": 0.31,
       "candidate_pool_size": 764,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -12544,12 +15494,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-02-25 19:30"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2025-02-25 19:30"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-02-25 19:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 4,
+          "away_score": 0,
+          "kickoff": "2025-02-25 20:15"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-02-26 19:30"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2025-02-26 19:30"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2025-02-26 19:30"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-02-26 19:30"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-02-26 20:15"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-02-27 20:00"
+        }
       ]
     },
     "28": {
       "round": 28,
       "status": "Optimal",
-      "solve_seconds": 0.29,
+      "solve_seconds": 0.31,
       "candidate_pool_size": 769,
       "formation": "4-5-1",
       "total_cost": 99.9,
@@ -13005,6 +16068,119 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-03-08 12:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-03-08 15:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-03-08 15:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2025-03-08 15:00"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-03-08 17:30"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-03-08 20:00"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-03-09 14:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-03-09 14:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-03-09 16:30"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-03-10 20:00"
         }
       ]
     },
@@ -13468,12 +16644,103 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-03-15 15:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 2,
+          "away_score": 4,
+          "kickoff": "2025-03-15 15:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-03-15 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-03-15 15:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-03-15 17:30"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-03-16 13:30"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-03-16 13:30"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2025-03-16 19:00"
+        }
       ]
     },
     "30": {
       "round": 30,
       "status": "Optimal",
-      "solve_seconds": 0.3,
+      "solve_seconds": 0.26,
       "candidate_pool_size": 771,
       "formation": "3-4-3",
       "total_cost": 100.0,
@@ -13930,12 +17197,125 @@
           "sub_label": "Sub1",
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-04-01 18:45"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-04-01 18:45"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-04-01 19:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-04-02 18:45"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2025-04-02 18:45"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-04-02 18:45"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-04-02 18:45"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-04-02 18:45"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-04-02 19:00"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-04-03 19:00"
+        }
       ]
     },
     "31": {
       "round": 31,
       "status": "Optimal",
-      "solve_seconds": 0.19,
+      "solve_seconds": 0.15,
       "candidate_pool_size": 772,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -14392,12 +17772,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-04-05 11:30"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-04-05 14:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-04-05 14:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-04-05 14:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-04-05 16:30"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2025-04-06 13:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2025-04-06 13:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2025-04-06 13:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2025-04-06 15:30"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2025-04-07 19:00"
+        }
       ]
     },
     "32": {
       "round": 32,
       "status": "Optimal",
-      "solve_seconds": 0.29,
+      "solve_seconds": 0.33,
       "candidate_pool_size": 778,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -14890,18 +18383,172 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 5,
+          "away_score": 2,
+          "kickoff": "2025-04-12 11:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-04-12 14:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-04-12 14:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 0,
+          "away_score": 3,
+          "kickoff": "2025-04-12 14:00"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-04-12 16:30"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-04-13 13:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-04-13 13:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 4,
+          "away_score": 2,
+          "kickoff": "2025-04-13 13:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2025-04-13 15:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-04-14 19:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 5,
+          "away_score": 0,
+          "kickoff": "2025-04-16 18:30"
+        }
       ]
     },
     "33": {
       "round": 33,
       "status": "Optimal",
-      "solve_seconds": 0.22,
+      "solve_seconds": 0.28,
       "candidate_pool_size": 779,
-      "formation": "3-5-2",
-      "total_cost": 99.7,
-      "forecasted_points": 102,
-      "actual_points": 83,
+      "formation": "3-4-3",
+      "total_cost": 99.6,
+      "forecasted_points": 120,
+      "actual_points": 93,
       "players": [
+        {
+          "name": "Aaron Wan-Bissaka",
+          "web_name": "Wan-Bissaka",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "West Ham",
+          "team_short": "WHU",
+          "team_code": 21,
+          "photo_code": "214590",
+          "opponents": [
+            {
+              "team": "Southampton",
+              "team_short": "SOU",
+              "team_code": 20,
+              "was_home": true
+            }
+          ],
+          "cost": 4.5,
+          "pred_points": 3.48,
+          "actual_points": 0,
+          "actual_minutes": 0,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
         {
           "name": "Bukayo Saka",
           "web_name": "Saka",
@@ -14939,36 +18586,36 @@
           "points_multiplier": 2
         },
         {
-          "name": "Daniel Mu\u00f1oz",
-          "web_name": "Mu\u00f1oz",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Crystal Palace",
-          "team_short": "CRY",
-          "team_code": 31,
-          "photo_code": "247348",
+          "name": "David Raya Mart\u00edn",
+          "web_name": "Mart\u00edn",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Arsenal",
+          "team_short": "ARS",
+          "team_code": 3,
+          "photo_code": null,
           "opponents": [
             {
-              "team": "Bournemouth",
-              "team_short": "BOU",
-              "team_code": 91,
-              "was_home": true
+              "team": "Ipswich",
+              "team_short": "IPS",
+              "team_code": 40,
+              "was_home": false
             },
             {
-              "team": "Arsenal",
-              "team_short": "ARS",
-              "team_code": 3,
-              "was_home": false
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": true
             }
           ],
-          "cost": 5.3,
-          "pred_points": 5.86,
-          "actual_points": 6,
+          "cost": 5.6,
+          "pred_points": 8.9,
+          "actual_points": 7,
           "actual_minutes": 180,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 1,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -15000,42 +18647,6 @@
           "cost": 4.6,
           "pred_points": 6.28,
           "actual_points": 10,
-          "actual_minutes": 180,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 1,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Emiliano Mart\u00ednez Romero",
-          "web_name": "Martinez",
-          "position": "GKP",
-          "position_short": "GK",
-          "team": "Aston Villa",
-          "team_short": "AVL",
-          "team_code": 7,
-          "photo_code": "98980",
-          "opponents": [
-            {
-              "team": "Newcastle",
-              "team_short": "NEW",
-              "team_code": 4,
-              "was_home": true
-            },
-            {
-              "team": "Man City",
-              "team_short": "MCI",
-              "team_code": 43,
-              "was_home": false
-            }
-          ],
-          "cost": 5.0,
-          "pred_points": 6.56,
-          "actual_points": 4,
           "actual_minutes": 180,
           "is_starter": true,
           "is_captain": false,
@@ -15073,6 +18684,42 @@
           "pred_points": 7.1,
           "actual_points": 3,
           "actual_minutes": 117,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Jean-Philippe Mateta",
+          "web_name": "Mateta",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Crystal Palace",
+          "team_short": "CRY",
+          "team_code": 31,
+          "photo_code": "231747",
+          "opponents": [
+            {
+              "team": "Bournemouth",
+              "team_short": "BOU",
+              "team_code": 91,
+              "was_home": true
+            },
+            {
+              "team": "Arsenal",
+              "team_short": "ARS",
+              "team_code": 3,
+              "was_home": false
+            }
+          ],
+          "cost": 7.8,
+          "pred_points": 6.98,
+          "actual_points": 10,
+          "actual_minutes": 84,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -15147,42 +18794,6 @@
           "actual_minutes": 177,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Leandro Trossard",
-          "web_name": "Trossard",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "116216",
-          "opponents": [
-            {
-              "team": "Ipswich",
-              "team_short": "IPS",
-              "team_code": 40,
-              "was_home": false
-            },
-            {
-              "team": "Crystal Palace",
-              "team_short": "CRY",
-              "team_code": 31,
-              "was_home": true
-            }
-          ],
-          "cost": 6.7,
-          "pred_points": 9.6,
-          "actual_points": 24,
-          "actual_minutes": 173,
-          "is_starter": true,
-          "is_captain": false,
           "is_vice_captain": true,
           "sub_priority": null,
           "was_subbed_in": false,
@@ -15211,10 +18822,10 @@
           "pred_points": 3.56,
           "actual_points": 1,
           "actual_minutes": 90,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 4,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -15352,7 +18963,7 @@
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -15385,36 +18996,42 @@
           "pred_points": 9.58,
           "actual_points": 7,
           "actual_minutes": 180,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
         },
         {
-          "name": "Yoane Wissa",
-          "web_name": "Wissa",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Brentford",
-          "team_short": "BRE",
-          "team_code": 94,
-          "photo_code": "216646",
+          "name": "Youri Tielemans",
+          "web_name": "Tielemans",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Aston Villa",
+          "team_short": "AVL",
+          "team_code": 7,
+          "photo_code": "166989",
           "opponents": [
             {
-              "team": "Brighton",
-              "team_short": "BHA",
-              "team_code": 36,
+              "team": "Newcastle",
+              "team_short": "NEW",
+              "team_code": 4,
               "was_home": true
+            },
+            {
+              "team": "Man City",
+              "team_short": "MCI",
+              "team_code": 43,
+              "was_home": false
             }
           ],
-          "cost": 6.5,
-          "pred_points": 4.04,
-          "actual_points": 11,
-          "actual_minutes": 90,
+          "cost": 5.5,
+          "pred_points": 6.94,
+          "actual_points": 9,
+          "actual_minutes": 180,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -15424,12 +19041,147 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": "bench_boost",
+      "match_results": [
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 4,
+          "away_score": 2,
+          "kickoff": "2025-04-19 14:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2025-04-19 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-04-19 14:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-04-19 14:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 4,
+          "away_score": 1,
+          "kickoff": "2025-04-19 16:30"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-04-20 13:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 0,
+          "away_score": 4,
+          "kickoff": "2025-04-20 13:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-04-20 13:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-04-20 15:30"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-04-21 19:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2025-04-22 19:00"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-04-23 19:00"
+        }
       ]
     },
     "34": {
       "round": 34,
       "status": "Optimal",
-      "solve_seconds": 0.21,
+      "solve_seconds": 0.19,
       "candidate_pool_size": 629,
       "formation": "3-4-3",
       "total_cost": 99.9,
@@ -15886,12 +19638,103 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-04-26 11:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2025-04-26 14:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2025-04-26 14:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-04-26 14:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2025-04-26 14:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-04-27 13:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 5,
+          "away_score": 1,
+          "kickoff": "2025-04-27 15:30"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-05-01 18:30"
+        }
       ]
     },
     "35": {
       "round": 35,
       "status": "Optimal",
-      "solve_seconds": 0.22,
+      "solve_seconds": 0.19,
       "candidate_pool_size": 781,
       "formation": "3-4-3",
       "total_cost": 99.8,
@@ -16348,12 +20191,125 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-05-02 19:00"
+        },
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-05-03 11:30"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-05-03 14:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-05-03 14:00"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-05-03 16:30"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 4,
+          "away_score": 3,
+          "kickoff": "2025-05-04 13:00"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-05-04 13:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-05-04 13:00"
+        },
+        {
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2025-05-04 15:30"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-05-05 19:00"
+        }
       ]
     },
     "36": {
       "round": 36,
       "status": "Optimal",
-      "solve_seconds": 0.19,
+      "solve_seconds": 0.17,
       "candidate_pool_size": 781,
       "formation": "3-4-3",
       "total_cost": 100.0,
@@ -16810,17 +20766,130 @@
           "sub_label": null,
           "points_multiplier": 1
         }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2025-05-10 14:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-05-10 14:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2025-05-10 14:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-05-10 14:00"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-05-10 16:30"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-05-11 11:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-05-11 13:15"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-05-11 13:15"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-05-11 13:15"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 2,
+          "away_score": 2,
+          "kickoff": "2025-05-11 15:30"
+        }
       ]
     },
     "37": {
       "round": 37,
       "status": "Optimal",
-      "solve_seconds": 0.37,
+      "solve_seconds": 0.29,
       "candidate_pool_size": 781,
-      "formation": "3-4-3",
-      "total_cost": 100.0,
+      "formation": "3-5-2",
+      "total_cost": 99.7,
       "forecasted_points": 59,
-      "actual_points": 65,
+      "actual_points": 61,
       "players": [
         {
           "name": "Bryan Mbeumo",
@@ -16913,60 +20982,30 @@
           "points_multiplier": 1
         },
         {
-          "name": "Emiliano Mart\u00ednez Romero",
-          "web_name": "Martinez",
-          "position": "GKP",
-          "position_short": "GK",
-          "team": "Aston Villa",
-          "team_short": "AVL",
-          "team_code": 7,
-          "photo_code": "98980",
-          "opponents": [
-            {
-              "team": "Spurs",
-              "team_short": "TOT",
-              "team_code": 6,
-              "was_home": true
-            }
-          ],
-          "cost": 5.0,
-          "pred_points": 3.84,
-          "actual_points": 6,
-          "actual_minutes": 90,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 1,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Enzo Fern\u00e1ndez",
-          "web_name": "Enzo",
+          "name": "Eberechi Eze",
+          "web_name": "Eze",
           "position": "MID",
           "position_short": "MF",
-          "team": "Chelsea",
-          "team_short": "CHE",
-          "team_code": 8,
-          "photo_code": "448047",
+          "team": "Crystal Palace",
+          "team_short": "CRY",
+          "team_code": 31,
+          "photo_code": "232413",
           "opponents": [
             {
-              "team": "Man Utd",
-              "team_short": "MUN",
-              "team_code": 1,
+              "team": "Wolves",
+              "team_short": "WOL",
+              "team_code": 39,
               "was_home": true
             }
           ],
-          "cost": 4.7,
-          "pred_points": 4.24,
-          "actual_points": 3,
-          "actual_minutes": 90,
-          "is_starter": false,
+          "cost": 7.0,
+          "pred_points": 4.74,
+          "actual_points": 6,
+          "actual_minutes": 9,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -16997,6 +21036,36 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Ezri Konsa Ngoyo",
+          "web_name": "Konsa",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Aston Villa",
+          "team_short": "AVL",
+          "team_code": 7,
+          "photo_code": "199798",
+          "opponents": [
+            {
+              "team": "Spurs",
+              "team_short": "TOT",
+              "team_code": 6,
+              "was_home": true
+            }
+          ],
+          "cost": 4.4,
+          "pred_points": 3.42,
+          "actual_points": 15,
+          "actual_minutes": 90,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -17123,6 +21192,36 @@
           "points_multiplier": 1
         },
         {
+          "name": "Mark Flekken",
+          "web_name": "Flekken",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Brentford",
+          "team_short": "BRE",
+          "team_code": 94,
+          "photo_code": "118342",
+          "opponents": [
+            {
+              "team": "Fulham",
+              "team_short": "FUL",
+              "team_code": 54,
+              "was_home": true
+            }
+          ],
+          "cost": 4.5,
+          "pred_points": 3.6,
+          "actual_points": 2,
+          "actual_minutes": 90,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 1,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
           "name": "Morgan Rogers",
           "web_name": "Rogers",
           "position": "MID",
@@ -17153,30 +21252,30 @@
           "points_multiplier": 1
         },
         {
-          "name": "Neco Williams",
-          "web_name": "N.Williams",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Nott'm Forest",
-          "team_short": "NFO",
-          "team_code": 17,
-          "photo_code": "215136",
+          "name": "Norberto Bercique Gomes Betuncal",
+          "web_name": "Beto",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Everton",
+          "team_short": "EVE",
+          "team_code": 11,
+          "photo_code": "486385",
           "opponents": [
             {
-              "team": "West Ham",
-              "team_short": "WHU",
-              "team_code": 21,
-              "was_home": false
+              "team": "Southampton",
+              "team_short": "SOU",
+              "team_code": 20,
+              "was_home": true
             }
           ],
-          "cost": 4.5,
-          "pred_points": 3.33,
-          "actual_points": 4,
+          "cost": 4.8,
+          "pred_points": 4.29,
+          "actual_points": 2,
           "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 3,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -17241,43 +21340,126 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Aston Villa",
+          "home_short": "AVL",
+          "home_code": 7,
+          "away": "Spurs",
+          "away_short": "TOT",
+          "away_code": 6,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-05-16 18:30"
         },
         {
-          "name": "Yoane Wissa",
-          "web_name": "Wissa",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Brentford",
-          "team_short": "BRE",
-          "team_code": 94,
-          "photo_code": "216646",
-          "opponents": [
-            {
-              "team": "Fulham",
-              "team_short": "FUL",
-              "team_code": 54,
-              "was_home": true
-            }
-          ],
-          "cost": 6.8,
-          "pred_points": 4.74,
-          "actual_points": 10,
-          "actual_minutes": 90,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
+          "home": "Chelsea",
+          "home_short": "CHE",
+          "home_code": 8,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-05-16 19:15"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Southampton",
+          "away_short": "SOU",
+          "away_code": 20,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-05-18 11:00"
+        },
+        {
+          "home": "West Ham",
+          "home_short": "WHU",
+          "home_code": 21,
+          "away": "Nott'm Forest",
+          "away_short": "NFO",
+          "away_code": 17,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-05-18 13:15"
+        },
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Fulham",
+          "away_short": "FUL",
+          "away_code": 54,
+          "home_score": 2,
+          "away_score": 3,
+          "kickoff": "2025-05-18 14:00"
+        },
+        {
+          "home": "Leicester",
+          "home_short": "LEI",
+          "home_code": 13,
+          "away": "Ipswich",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-05-18 14:00"
+        },
+        {
+          "home": "Arsenal",
+          "home_short": "ARS",
+          "home_code": 3,
+          "away": "Newcastle",
+          "away_short": "NEW",
+          "away_code": 4,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2025-05-18 15:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 3,
+          "away_score": 2,
+          "kickoff": "2025-05-19 19:00"
+        },
+        {
+          "home": "Crystal Palace",
+          "home_short": "CRY",
+          "home_code": 31,
+          "away": "Wolves",
+          "away_short": "WOL",
+          "away_code": 39,
+          "home_score": 4,
+          "away_score": 2,
+          "kickoff": "2025-05-20 19:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Bournemouth",
+          "away_short": "BOU",
+          "away_code": 91,
+          "home_score": 3,
+          "away_score": 1,
+          "kickoff": "2025-05-20 19:00"
         }
       ]
     },
     "38": {
       "round": 38,
       "status": "Optimal",
-      "solve_seconds": 0.39,
+      "solve_seconds": 0.33,
       "candidate_pool_size": 784,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -17733,6 +21915,119 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        }
+      ],
+      "chip_used": null,
+      "match_results": [
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Leicester",
+          "away_short": "LEI",
+          "away_code": 13,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Man City",
+          "away_short": "MCI",
+          "away_code": 43,
+          "home_score": 0,
+          "away_score": 2,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Ipswich",
+          "home_short": "IPS",
+          "home_code": 40,
+          "away": "West Ham",
+          "away_short": "WHU",
+          "away_code": 21,
+          "home_score": 1,
+          "away_score": 3,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Liverpool",
+          "home_short": "LIV",
+          "home_code": 14,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Man Utd",
+          "home_short": "MUN",
+          "home_code": 1,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 0,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Everton",
+          "away_short": "EVE",
+          "away_code": 11,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Southampton",
+          "home_short": "SOU",
+          "home_code": 20,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 1,
+          "away_score": 2,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Brighton",
+          "away_short": "BHA",
+          "away_code": 36,
+          "home_score": 1,
+          "away_score": 4,
+          "kickoff": "2025-05-25 15:00"
+        },
+        {
+          "home": "Wolves",
+          "home_short": "WOL",
+          "home_code": 39,
+          "away": "Brentford",
+          "away_short": "BRE",
+          "away_code": 94,
+          "home_score": 1,
+          "away_score": 1,
+          "kickoff": "2025-05-25 15:00"
         }
       ]
     }

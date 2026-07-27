@@ -25,6 +25,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      # git.html is the deployed page (see Program/team_recommender/build_root_index.py).
+      # GitHub Pages serves index.html from the root, so it is materialised here at
+      # deploy time rather than being committed alongside git.html as a duplicate.
+      - name: Publish git.html as the site root
+        run: cp git.html index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

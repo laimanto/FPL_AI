@@ -11,9 +11,24 @@ __pycache__/
 *.pyc
 .claude/
 
-# model-performance dashboard stays local only, not published
-/Dashboard/fpl_model_dashboard.html
-/Dashboard/fpl_model_dashboard_v2.html
-/Dashboard/fpl_model_dashboard_v3.html
-/Dashboard/fpl_model_combined_v2.html
-/Dashboard/fpl_model_combined_v2.json
+# The model-performance / methodology dashboard stays local only, never published.
+# Globbed rather than listed file-by-file (2026-07-27): dashboard objects now live in
+# per-version folders (Dashboard/fpl_v4/fpl_model_combined_v4.html), so the old
+# explicit paths silently stopped matching and would have published it on the next push.
+Dashboard/**/fpl_model_combined_*.html
+Dashboard/**/fpl_model_combined_*.json
+Dashboard/**/fpl_model_dashboard*.html
+# The version history page is internal engineering detail -- leaks, bugs, negative
+# results, per-experiment deltas -- not public-facing content for an FPL audience,
+# so it follows the model dashboard and stays local. Delete these two lines if you
+# want it published.
+Dashboard/versions.html
+Dashboard/versions.json
+index.html
+
+# Superseded dashboard versions and the pre-v2 archive stay local -- only the
+# CURRENT version is published. They are large, and the version history page that
+# indexes them is itself local-only (see above).
+Dashboard/fpl_v2/
+Dashboard/fpl_v3/
+Dashboard/Archive/
