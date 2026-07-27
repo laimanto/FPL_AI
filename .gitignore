@@ -32,3 +32,9 @@ index.html
 Dashboard/fpl_v2/
 Dashboard/fpl_v3/
 Dashboard/Archive/
+
+# Only the deployed page (git.html at the repo root) and the data it fetches are
+# published. The version folder's own HTML copies -- both combined dashboards and
+# its record of the served git.html -- are local build inputs and references, not
+# things the live site serves.
+Dashboard/fpl_v4/*.html
