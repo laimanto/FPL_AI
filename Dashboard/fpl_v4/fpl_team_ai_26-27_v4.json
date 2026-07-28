@@ -463,7 +463,13 @@
           "points_multiplier": 1
         }
       ],
-      "match_results": []
+      "match_results": [],
+      "bank": 1.0,
+      "transfers": [],
+      "hits": 0,
+      "hit_points": 0,
+      "free_transfers_available": 0,
+      "chip_used": null
     }
   }
 }
