@@ -79,32 +79,16 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
 .tab { padding: 8px 16px; font-size: 13px; font-weight: 700; color: #ddc2e8; background: rgba(255,255,255,0.08); border: none; border-radius: 8px 8px 0 0; cursor: pointer; }
 .tab.active { background: #fdf7ff; color: var(--fpl-purple); }
 
-.gw-bar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 14px 20px; display: flex; align-items: center; justify-content: center; gap: 18px; }
+.gw-bar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 14px 20px; display: flex; align-items: center; justify-content: center; gap: 8px; }
 .gw-arrow { background: none; border: 1px solid var(--border); color: var(--text-primary); width: 34px; height: 34px; border-radius: 50%; font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background .12s ease; }
 .gw-arrow:hover:not(:disabled) { background: color-mix(in srgb, var(--fpl-purple) 10%, transparent); }
 .gw-arrow:disabled { opacity: 0.3; cursor: default; }
-.gw-label { font-size: 16px; font-weight: 800; min-width: 160px; text-align: center; }
+.gw-label { font-size: 16px; font-weight: 800; min-width: 116px; text-align: center; }
 .gw-label .sub { display: block; font-size: 11px; font-weight: 500; color: var(--text-muted); margin-top: 1px; }
 
 /* ---- 3-column layout (desktop); collapses to stacked rows on mobile ---- */
 .layout-grid { display: grid; grid-template-columns: 172px 1fr 150px; gap: 14px; padding: 14px; align-items: stretch; }
-@media (max-width: 820px) {
-  .layout-grid { grid-template-columns: 1fr; }
-  .transfers-panel { grid-column: 1; }
-  .stats-sidebar { flex-direction: row !important; flex-wrap: wrap; height: auto !important; min-height: 0 !important; }
-  .stat-row { flex: 1 1 30%; }
-  .bench-heading { text-align: center; white-space: nowrap; }
-  .bench-container {
-    flex-direction: row !important; flex-wrap: nowrap !important; height: auto !important; min-height: 0 !important;
-    justify-content: center !important; gap: 6px; overflow-x: auto; padding: 12px 6px !important;
-  }
-  .bench-container .player-card { width: 72px; flex: none; }
-  .bench-container .jersey-wrap { width: 46px; height: 46px; }
-  .pitch { min-height: 380px; }
-  .transfers-grid { grid-template-columns: 1fr; }
-  .results-panel { grid-column: 1; }
-  .results-grid { grid-template-columns: repeat(2, 1fr); }
-}
+
 
 /* ---- left sidebar: compact stat rows, shared by BOTH apps for visual
    consistency (2026-07-25, per the user) -- Best Team just renders fewer
@@ -313,6 +297,104 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
    gameweek with no fixtures reads as an explained state rather than a rendering bug. */
 .chip-active-badge.rescheduled { background: linear-gradient(135deg, #b8b6ad, #8a8880); color: #fff; }
 
+
+/* Gameweek arrows are inline SVG (2026-08-02): the two-headed arrow characters
+   they replaced rendered from a fallback font on Windows/Android -- visibly
+   smaller than the single arrows and off their baseline. */
+.gw-arrow svg { width: 16px; height: 16px; display: block; }
+
+@media (max-width: 820px) {
+  /* ==================== MOBILE LAYOUT (2026-08-02, per the user) =========
+     Single column at the squad's width, replacing the earlier partial
+     stacking that left a 3-column grid squeezed onto a phone.
+     Order:
+       squad -> substitutes -> transfers -> points & chips -> results -> disclaimer
+     Set with grid `order`, so no JS or DOM change is needed.
+     ================================================================= */
+
+  /* the five season tabs overrun a 360px screen by a couple of pixels at the
+     desktop padding -- tighten the strip so they always fit */
+  .tabs { padding: 10px 8px 0; gap: 3px; }
+  .tab { padding: 8px 11px; font-size: 12px; }
+
+  /* one column, every panel at the squad's width */
+  .layout-grid { grid-template-columns: 1fr; gap: 10px; padding: 10px; }
+  .transfers-panel, .results-panel { grid-column: 1; }
+  .results-panel { margin-top: 0; }
+
+  /* visual order on mobile (DOM order is unchanged) */
+  .layout-grid > main    { order: 1; }   /* squad          */
+  .bench-sidebar         { order: 2; }   /* substitutes    */
+  .transfers-panel       { order: 3; }   /* transfers      */
+  .stats-sidebar         { order: 4; }   /* points & chips */
+  .results-panel         { order: 5; }   /* match results  */
+
+  /* ---- points & chips: the old left sidebar, now a strip of small cells ---- */
+  .stats-sidebar {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px; height: auto; min-height: 0;
+  }
+  .stat-row {
+    flex-direction: column; align-items: stretch; justify-content: center;
+    gap: 1px; padding: 5px 7px; min-width: 0;
+  }
+  .stat-row.headline { padding: 6px 8px; }
+  .stat-row.headline > div { flex-direction: column; align-items: stretch; gap: 0; }
+  .stat-row .label { font-size: 8px; line-height: 1.3; }
+  .stat-row .value { font-size: 12px; text-align: left; }
+  .stat-row.headline .value { font-size: 13.5px; }
+  .sidebar-divider { grid-column: 1 / -1; margin: 4px 0 -2px 2px; }
+
+  /* ---- squad: one card width, sized so five fit across the pitch on one row.
+     --pcw = (screen - grid padding 20 - pitch padding 12 - 4 gaps of 4) / 5,
+     capped at the desktop 86px so a portrait tablet doesn't inflate them. ---- */
+  .layout-grid { --pcw: min(86px, calc((100vw - 48px) / 5)); }
+  .pitch { min-height: 0; padding: 14px 6px; gap: 8px; }
+  .pitch-row { flex-wrap: wrap; gap: 8px 4px; }
+  .player-card { width: var(--pcw); }
+
+  /* photo and text scale with the card so nothing spills out of the name plate */
+  .jersey-wrap { width: 66%; max-width: 54px; height: auto; aspect-ratio: 1 / 1; margin: 0 auto 3px; }
+  .player-name-plate { font-size: 9px; padding: 2px 3px 3px; }
+  .player-name-plate .pmeta { font-size: 7.5px; gap: 2px; }
+  .badge-chip { font-size: 8px; padding: 1px 4px; box-shadow: 0 0 0 1.5px #fff; }
+  .crest { width: 16px; height: 16px; }
+  .opp-chip img { width: 13px; height: 13px; }
+  .opp-chip .venue { font-size: 7px; }
+  .pfixture { font-size: 0.5rem; }
+
+  /* ---- substitutes: all four across the full squad width, same card size as
+     the pitch, no side-scrolling ---- */
+  .bench-heading { text-align: center; margin: 0 2px 8px; }
+  .bench-container {
+    flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly;
+    align-items: flex-start; gap: 6px; height: auto; min-height: 0;
+    padding: 12px 8px; overflow: visible;
+  }
+  .bench-container .player-card { width: var(--pcw); flex: 0 0 auto; }
+
+  /* ---- transfers: two per row, so a 2-transfer gameweek is one line ---- */
+  .transfers-panel { padding: 12px 10px; }
+  .transfers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .transfer-card { gap: 4px; padding: 7px 3px; }
+  .transfer-card .t-player { width: 38px; }
+  .transfer-card .t-jersey { width: 26px; height: 26px; border-width: 1.5px; }
+  .transfer-card .t-name { font-size: 7.5px; max-width: 38px; }
+  .transfer-card .t-mid { min-width: 26px; }
+  .transfer-card .t-cost-badge { font-size: 7px; padding: 1px 4px; }
+  .transfer-card .t-arrow { font-size: 12px; }
+  .transfer-card .t-gain { font-size: 7px; }
+  .transfers-note { font-size: 9.5px; }
+
+  /* ---- match results: minmax(0,1fr) + clipping stops the cards overflowing
+     their cell and running into the neighbouring match ---- */
+  .results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .mr-row { min-width: 0; gap: 4px; padding: 6px 5px; font-size: 10.5px; }
+  .mr-team { overflow: hidden; white-space: nowrap; }
+  .mr-score { padding: 0 2px; }
+
+  /* ---- disclaimer sits last, unchanged ---- */
+}
 </style>
 </head>
 <body>
@@ -335,14 +417,14 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
   <div class="app-panel active" id="panel-bt">
     <div class="tabs" id="bt-tabs"></div>
     <div class="gw-bar">
-      <button class="gw-arrow" id="bt-first-gw" aria-label="Jump to first gameweek">&#8606;</button>
-      <button class="gw-arrow" id="bt-prev-gw" aria-label="Previous gameweek">&#8592;</button>
+      <button class="gw-arrow" id="bt-first-gw" aria-label="Jump to first gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 6l-6 6 6 6"/><path d="M11 6l-6 6 6 6"/></svg></button>
+      <button class="gw-arrow" id="bt-prev-gw" aria-label="Previous gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
       <div class="gw-label">
         Gameweek <span id="bt-gw-num">–</span>
         <span class="sub" id="bt-gw-season">–</span>
       </div>
-      <button class="gw-arrow" id="bt-next-gw" aria-label="Next gameweek">&#8594;</button>
-      <button class="gw-arrow" id="bt-last-gw" aria-label="Jump to last gameweek">&#8608;</button>
+      <button class="gw-arrow" id="bt-next-gw" aria-label="Next gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+      <button class="gw-arrow" id="bt-last-gw" aria-label="Jump to last gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 6l6 6-6 6"/><path d="M13 6l6 6-6 6"/></svg></button>
     </div>
     <div id="bt-content">
       <div class="loading">Loading squad…</div>
@@ -352,14 +434,14 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
   <div class="app-panel" id="panel-ta">
     <div class="tabs" id="ta-tabs"></div>
     <div class="gw-bar">
-      <button class="gw-arrow" id="ta-first-gw" aria-label="Jump to first gameweek">&#8606;</button>
-      <button class="gw-arrow" id="ta-prev-gw" aria-label="Previous gameweek">&#8592;</button>
+      <button class="gw-arrow" id="ta-first-gw" aria-label="Jump to first gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 6l-6 6 6 6"/><path d="M11 6l-6 6 6 6"/></svg></button>
+      <button class="gw-arrow" id="ta-prev-gw" aria-label="Previous gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
       <div class="gw-label">
         Gameweek <span id="ta-gw-num">–</span>
         <span class="sub" id="ta-gw-season">–</span>
       </div>
-      <button class="gw-arrow" id="ta-next-gw" aria-label="Next gameweek">&#8594;</button>
-      <button class="gw-arrow" id="ta-last-gw" aria-label="Jump to last gameweek">&#8608;</button>
+      <button class="gw-arrow" id="ta-next-gw" aria-label="Next gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+      <button class="gw-arrow" id="ta-last-gw" aria-label="Jump to last gameweek"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 6l6 6-6 6"/><path d="M13 6l6 6-6 6"/></svg></button>
     </div>
     <div id="ta-content">
       <div class="loading">Loading squad…</div>
@@ -380,6 +462,12 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
 <script>
 const PHOTO_BASE = 'https://resources.premierleague.com/premierleague/photos/players/110x140/p';
 const CREST_BASE = 'Dashboard/assets/badges/t';
+// Remote fallback for the club badges. The local files under Dashboard/assets
+// are the fast path; if one cannot be loaded (missing file, page opened from a
+// folder without the assets beside it), the badge came out as a plain disc with
+// the club's short name on it. Falling back to the Premier League CDN keeps it a
+// badge (2026-08-02, per the user).
+const CDN_CREST_BASE = 'https://resources.premierleague.com/premierleague/badges/70/t';
 const POS_CLASS = { GKP: 'pos-gk', DEF: 'pos-def', MID: 'pos-mid', FWD: 'pos-fwd' };
 
 const apps = {};
@@ -430,7 +518,7 @@ function transferIcon(p) {
   if (!p) return `<div class="t-jersey"></div>`;
   const crestUrl = p.team_code ? `${CREST_BASE}${p.team_code}.png` : '';
   const photo = p.photo_code
-    ? `<img src="${PHOTO_BASE}${p.photo_code}.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='${crestUrl}';">`
+    ? `<img src="${PHOTO_BASE}${p.photo_code}.png" alt="" loading="lazy" data-cdn-crest="${p.team_code ? `${CDN_CREST_BASE}${p.team_code}.png` : ''}" onerror="this.onerror=null; this.src='${crestUrl}'; this.addEventListener('error', () => crestFallback(this, 'hidden'), { once: true });">`
     : (crestUrl ? `<img src="${crestUrl}" alt="">` : '');
   const tip = `${p.team} · £${p.cost.toFixed(1)}m`;
   return `<div class="t-jersey" data-tip="${tip}">${photo}</div>`;
@@ -441,11 +529,18 @@ function transferIcon(p) {
 // disc. Each step disarms itself so a failing badge cannot loop (2026-07-27).
 function photoFallback(img) {
   const crest = img.dataset.crest;
+  const cdnCrest = img.dataset.cdnCrest;
   const short = img.dataset.short || '?';
   if (crest && !img.classList.contains('is-crest-fallback')) {
     img.classList.add('is-crest-fallback');
     img.dataset.crest = '';
     img.src = crest;
+    return;
+  }
+  if (cdnCrest) {
+    img.classList.add('is-crest-fallback');
+    img.dataset.cdnCrest = '';
+    img.src = cdnCrest;
     return;
   }
   const span = document.createElement('span');
@@ -454,8 +549,19 @@ function photoFallback(img) {
   img.replaceWith(span);
 }
 
+// A badge that fails to load locally retries on the Premier League CDN once,
+// and only then gives up the way it used to (hide, or hide its chip).
+function crestFallback(img, mode) {
+  const cdn = img.dataset.cdnCrest;
+  if (cdn) { img.dataset.cdnCrest = ''; img.src = cdn; return; }
+  if (mode === 'chip') img.parentElement.style.display = 'none';
+  else if (mode === 'hidden') img.style.visibility = 'hidden';
+  else img.style.display = 'none';
+}
+
 function playerCard(p) {
   const crestUrl = p.team_code ? `${CREST_BASE}${p.team_code}.png` : '';
+  const cdnCrestUrl = p.team_code ? `${CDN_CREST_BASE}${p.team_code}.png` : '';
   // Three-step fallback (2026-07-27). The Premier League photo CDN returns 403 for
   // some players outright -- verified for Truffert (p494521) and Kroupi Jr (p560262)
   // at every size bucket -- so a card must degrade rather than render empty:
@@ -463,11 +569,11 @@ function playerCard(p) {
   // The old version stopped at the badge, which left a blank circle whenever the
   // badge file was missing too.
   const photo = p.photo_code
-    ? `<img src="${PHOTO_BASE}${p.photo_code}.png" alt="" loading="lazy" data-crest="${crestUrl}" data-short="${p.team_short || ''}" onerror="photoFallback(this)">`
+    ? `<img src="${PHOTO_BASE}${p.photo_code}.png" alt="" loading="lazy" data-crest="${crestUrl}" data-cdn-crest="${cdnCrestUrl}" data-short="${p.team_short || ''}" onerror="photoFallback(this)">`
     : (crestUrl
-        ? `<img class="is-crest-fallback" src="${crestUrl}" alt="" data-short="${p.team_short || ''}" onerror="photoFallback(this)">`
+        ? `<img class="is-crest-fallback" src="${crestUrl}" alt="" data-cdn-crest="${cdnCrestUrl}" data-short="${p.team_short || ''}" onerror="photoFallback(this)">`
         : `<span class="is-name-fallback">${p.team_short || '?'}</span>`);
-  const crest = p.team_code ? `<img class="crest" src="${crestUrl}" alt="${p.team_short}" loading="lazy" onerror="this.style.display='none'">` : '';
+  const crest = p.team_code ? `<img class="crest" src="${crestUrl}" alt="${p.team_short}" loading="lazy" data-cdn-crest="${cdnCrestUrl}" onerror="crestFallback(this)">` : '';
 
   let cornerBadge = '';
   if (p.is_captain) cornerBadge = `<span class="badge-chip captain" title="Captain">C</span>`;
@@ -482,7 +588,8 @@ function playerCard(p) {
 
   const oppBadges = (p.opponents || []).map(o => {
     const url = o.team_code ? `${CREST_BASE}${o.team_code}.png` : '';
-    return url ? `<span class="opp-chip" data-team="${o.team}"><img src="${url}" alt="${o.team_short}" loading="lazy" onerror="this.parentElement.style.display='none'"><span class="venue">${o.was_home ? 'H' : 'A'}</span></span>` : '';
+    const cdnUrl = o.team_code ? `${CDN_CREST_BASE}${o.team_code}.png` : '';
+    return url ? `<span class="opp-chip" data-team="${o.team}"><img src="${url}" alt="${o.team_short}" loading="lazy" data-cdn-crest="${cdnUrl}" onerror="crestFallback(this, 'chip')"><span class="venue">${o.was_home ? 'H' : 'A'}</span></span>` : '';
   }).join('');
   const oppBadgeWrap = oppBadges ? `<div class="opp-badges">${oppBadges}</div>` : '';
 
@@ -723,7 +830,7 @@ function createApp(cfg) {
       chipActiveBadge = `<div class="chip-active-badge rescheduled">GW rescheduled</div>`;
     }
     const crest = (code, short) => code
-      ? `<img class="mr-crest" src="${CREST_BASE}${code}.png" alt="${short}" loading="lazy" onerror="this.style.visibility='hidden'">`
+      ? `<img class="mr-crest" src="${CREST_BASE}${code}.png" alt="${short}" loading="lazy" data-cdn-crest="${CDN_CREST_BASE}${code}.png" onerror="crestFallback(this, 'hidden')">`
       : '';
     const resultsPanel = `
       <section class="results-panel">
@@ -860,13 +967,13 @@ const SEASON_FILES = ['26-27', '25-26', '24-25', '23-24', '22-23'];
 // project holds), so players gone from the league by then fall back to the club
 // badge and then the club's short name -- crests themselves are complete.
 apps.bt = createApp({
-  prefix: 'bt', dataUrls: SEASON_FILES.map(s => ({season: `20${s}`, url: `Dashboard/fpl_v4/fpl_best_team_${s}_v4.json`})),
+  prefix: 'bt', dataUrls: SEASON_FILES.map(s => ({season: `20${s}`, url: `Dashboard/fpl_v5/fpl_best_team_${s}_v5.json`})),
   embeddedId: 'bt-embedded-data-holder',
   placeholderName: 'BEST_TEAM_DATA', hasChips: true, notApplicableChips: ['wildcard', 'free_hit'],
   hasTransfers: false, hasBankFT: false, hasJumpButtons: true,
 });
 apps.ta = createApp({
-  prefix: 'ta', dataUrls: SEASON_FILES.map(s => ({season: `20${s}`, url: `Dashboard/fpl_v4/fpl_team_ai_${s}_v4.json`})),
+  prefix: 'ta', dataUrls: SEASON_FILES.map(s => ({season: `20${s}`, url: `Dashboard/fpl_v5/fpl_team_ai_${s}_v5.json`})),
   embeddedId: 'ta-embedded-data-holder',
   placeholderName: 'TEAM_AI_DATA', hasChips: true, hasTransfers: true, hasBankFT: true, hasJumpButtons: true,
   hideUntilDeadline: true, defaultSeason: '2025-26',
