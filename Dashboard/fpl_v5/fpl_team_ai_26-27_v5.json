@@ -1,13 +1,13 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-07-26T00:58:36.648040+00:00",
+  "generated_at_utc": "2026-08-20T15:58:42.116554+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.24,
-      "candidate_pool_size": 558,
-      "formation": "3-4-3",
+      "solve_seconds": 0.28,
+      "candidate_pool_size": 599,
+      "formation": "3-5-2",
       "total_cost": 99.0,
       "forecasted_points": 54,
       "actual_points": null,
@@ -30,7 +30,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.24,
+          "pred_points": 3.26,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -60,7 +60,7 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 6.18,
+          "pred_points": 6.2,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -71,6 +71,66 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 2
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "web_name": "Mbeumo",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Man Utd",
+          "team_short": "MUN",
+          "team_code": 1,
+          "photo_code": "446008",
+          "opponents": [
+            {
+              "team": "Hull City",
+              "team_short": "HUL",
+              "team_code": 88,
+              "was_home": false
+            }
+          ],
+          "cost": 8.0,
+          "pred_points": 4.3,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Darnell Furlong",
+          "web_name": "Furlong",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Ipswich Town",
+          "team_short": "IPS",
+          "team_code": 40,
+          "photo_code": "176420",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": true
+            }
+          ],
+          "cost": 4.0,
+          "pred_points": 1.99,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
         },
         {
           "name": "David Raya Mart\u00edn",
@@ -90,7 +150,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 3.64,
+          "pred_points": 3.75,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -120,7 +180,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.11,
+          "pred_points": 4.43,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -163,6 +223,36 @@
           "points_multiplier": 1
         },
         {
+          "name": "Enzo Le F\u00e9e",
+          "web_name": "E.Le F\u00e9e",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Sunderland",
+          "team_short": "SUN",
+          "team_code": 56,
+          "photo_code": "484420",
+          "opponents": [
+            {
+              "team": "Ipswich Town",
+              "team_short": "IPS",
+              "team_code": 40,
+              "was_home": false
+            }
+          ],
+          "cost": 6.0,
+          "pred_points": 4.22,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
           "name": "Gabriel dos Santos Magalh\u00e3es",
           "web_name": "Gabriel",
           "position": "DEF",
@@ -180,13 +270,43 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.32,
+          "pred_points": 4.35,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "George Hirst",
+          "web_name": "Hirst",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Ipswich Town",
+          "team_short": "IPS",
+          "team_code": 40,
+          "photo_code": "222625",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": true
+            }
+          ],
+          "cost": 5.0,
+          "pred_points": 1.84,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -240,127 +360,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 3.96,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Kasey McAteer",
-          "web_name": "McAteer",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Ipswich Town",
-          "team_short": "IPS",
-          "team_code": 40,
-          "photo_code": "461587",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": true
-            }
-          ],
-          "cost": 4.5,
-          "pred_points": 2.16,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 2,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Leif Davis",
-          "web_name": "Davis",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Ipswich Town",
-          "team_short": "IPS",
-          "team_code": 40,
-          "photo_code": "455084",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": true
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 2.0,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 3,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Luke O'Nien",
-          "web_name": "O'Nien",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Sunderland",
-          "team_short": "SUN",
-          "team_code": 56,
-          "photo_code": "167512",
-          "opponents": [
-            {
-              "team": "Ipswich Town",
-              "team_short": "IPS",
-              "team_code": 40,
-              "was_home": false
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 1.4,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Morgan Gibbs-White",
-          "web_name": "Gibbs-White",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Nott'm Forest",
-          "team_short": "NFO",
-          "team_code": 17,
-          "photo_code": "222531",
-          "opponents": [
-            {
-              "team": "Leeds",
-              "team_short": "LEE",
-              "team_code": 2,
-              "was_home": true
-            }
-          ],
-          "cost": 8.0,
-          "pred_points": 4.24,
+          "pred_points": 3.86,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -390,7 +390,7 @@
             }
           ],
           "cost": 7.5,
-          "pred_points": 4.38,
+          "pred_points": 4.22,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -403,54 +403,54 @@
           "points_multiplier": 1
         },
         {
-          "name": "Ollie Watkins",
-          "web_name": "Watkins",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Aston Villa",
-          "team_short": "AVL",
-          "team_code": 7,
-          "photo_code": "178301",
-          "opponents": [
-            {
-              "team": "Brighton",
-              "team_short": "BHA",
-              "team_code": 36,
-              "was_home": false
-            }
-          ],
-          "cost": 8.0,
-          "pred_points": 4.11,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Pedro Porro Sauceda",
-          "web_name": "Pedro Porro",
+          "name": "Tyrick Mitchell",
+          "web_name": "Mitchell",
           "position": "DEF",
           "position_short": "DF",
-          "team": "Spurs",
-          "team_short": "TOT",
-          "team_code": 6,
-          "photo_code": "441164",
+          "team": "Crystal Palace",
+          "team_short": "CRY",
+          "team_code": 31,
+          "photo_code": "244723",
           "opponents": [
             {
-              "team": "Brentford",
-              "team_short": "BRE",
-              "team_code": 94,
+              "team": "Everton",
+              "team_short": "EVE",
+              "team_code": 11,
               "was_home": false
             }
           ],
-          "cost": 5.5,
-          "pred_points": 3.81,
+          "cost": 4.5,
+          "pred_points": 3.13,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Virgil van Dijk",
+          "web_name": "Virgil",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Liverpool",
+          "team_short": "LIV",
+          "team_code": 14,
+          "photo_code": "97032",
+          "opponents": [
+            {
+              "team": "Newcastle",
+              "team_short": "NEW",
+              "team_code": 4,
+              "was_home": false
+            }
+          ],
+          "cost": 6.5,
+          "pred_points": 4.07,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -463,7 +463,6 @@
           "points_multiplier": 1
         }
       ],
-      "match_results": [],
       "bank": 1.0,
       "transfers": [],
       "hits": 0,
