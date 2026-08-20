@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-08-20T15:58:42.114398+00:00",
+  "generated_at_utc": "2026-08-20T23:28:03.731335+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.33,
+      "solve_seconds": 0.28,
       "candidate_pool_size": 599,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -36,36 +36,6 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": 1,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Brian Brobbey",
-          "web_name": "Brobbey",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Sunderland",
-          "team_short": "SUN",
-          "team_code": 56,
-          "photo_code": "441264",
-          "opponents": [
-            {
-              "team": "Ipswich Town",
-              "team_short": "IPS",
-              "team_code": 40,
-              "was_home": false
-            }
-          ],
-          "cost": 6.0,
-          "pred_points": 3.57,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -126,36 +96,6 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Darnell Furlong",
-          "web_name": "Furlong",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Ipswich Town",
-          "team_short": "IPS",
-          "team_code": 40,
-          "photo_code": "176420",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": true
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 1.99,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -372,6 +312,36 @@
           "points_multiplier": 1
         },
         {
+          "name": "Luke Shaw",
+          "web_name": "Shaw",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Man Utd",
+          "team_short": "MUN",
+          "team_code": 1,
+          "photo_code": "106760",
+          "opponents": [
+            {
+              "team": "Hull City",
+              "team_short": "HUL",
+              "team_code": 88,
+              "was_home": false
+            }
+          ],
+          "cost": 4.5,
+          "pred_points": 3.17,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
           "name": "Morgan Rogers",
           "web_name": "Rogers",
           "position": "MID",
@@ -396,6 +366,36 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Norberto Bercique Gomes Betuncal",
+          "web_name": "Beto",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Everton",
+          "team_short": "EVE",
+          "team_code": 11,
+          "photo_code": "486385",
+          "opponents": [
+            {
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": true
+            }
+          ],
+          "cost": 5.5,
+          "pred_points": 2.77,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
