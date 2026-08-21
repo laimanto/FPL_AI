@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-08-21T16:50:28.721388+00:00",
+  "generated_at_utc": "2026-08-21T17:17:16.623274+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.21,
+      "solve_seconds": 0.22,
       "candidate_pool_size": 561,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -126,36 +126,6 @@
           "is_captain": false,
           "is_vice_captain": true,
           "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Darnell Furlong",
-          "web_name": "Furlong",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Ipswich Town",
-          "team_short": "IPS",
-          "team_code": 40,
-          "photo_code": "176420",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": true
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 1.99,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -336,6 +306,36 @@
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Issa Diop",
+          "web_name": "Diop",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Ipswich Town",
+          "team_short": "IPS",
+          "team_code": 40,
+          "photo_code": "219924",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": true
+            }
+          ],
+          "cost": 4.0,
+          "pred_points": 1.73,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
