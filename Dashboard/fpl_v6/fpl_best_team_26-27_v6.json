@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-21T05:58:48.641733+00:00",
+  "generated_at_utc": "2026-08-21T14:07:58.555036+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
       "solve_seconds": 0.24,
-      "candidate_pool_size": 599,
+      "candidate_pool_size": 600,
       "formation": "4-5-1",
       "total_cost": 100.0,
-      "forecasted_points": 59,
+      "forecasted_points": 60,
       "actual_points": null,
       "players": [
         {
@@ -34,7 +34,7 @@
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": true,
+          "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -59,7 +59,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.47,
+          "pred_points": 3.49,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -119,13 +119,73 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.8,
+          "pred_points": 5.04,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
+          "is_vice_captain": true,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Callum Wilson",
+          "web_name": "Wilson",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Brentford",
+          "team_short": "BRE",
+          "team_code": 94,
+          "photo_code": "75115",
+          "opponents": [
+            {
+              "team": "Spurs",
+              "team_short": "TOT",
+              "team_code": 6,
+              "was_home": true
+            }
+          ],
+          "cost": 5.5,
+          "pred_points": 2.13,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Darnell Furlong",
+          "web_name": "Furlong",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Ipswich Town",
+          "team_short": "IPS",
+          "team_code": 40,
+          "photo_code": "176420",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": true
+            }
+          ],
+          "cost": 4.0,
+          "pred_points": 2.15,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -149,7 +209,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.06,
+          "pred_points": 4.07,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -252,66 +312,6 @@
           "points_multiplier": 1
         },
         {
-          "name": "George Hirst",
-          "web_name": "Hirst",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Ipswich Town",
-          "team_short": "IPS",
-          "team_code": 40,
-          "photo_code": "222625",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": true
-            }
-          ],
-          "cost": 5.0,
-          "pred_points": 1.8,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Luke Shaw",
-          "web_name": "Shaw",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Man Utd",
-          "team_short": "MUN",
-          "team_code": 1,
-          "photo_code": "106760",
-          "opponents": [
-            {
-              "team": "Hull City",
-              "team_short": "HUL",
-              "team_code": 88,
-              "was_home": false
-            }
-          ],
-          "cost": 4.5,
-          "pred_points": 3.31,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 2,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
           "name": "Morgan Rogers",
           "web_name": "Rogers",
           "position": "MID",
@@ -359,13 +359,13 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 2.78,
+          "pred_points": 2.77,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 3,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -419,7 +419,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 4.05,
+          "pred_points": 4.23,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
