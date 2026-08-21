@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-08-21T17:28:28.307031+00:00",
+  "generated_at_utc": "2026-08-21T17:59:31.882375+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.25,
+      "solve_seconds": 0.28,
       "candidate_pool_size": 561,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -461,7 +461,8 @@
           "sub_label": null,
           "points_multiplier": 1
         }
-      ]
+      ],
+      "deadline_utc": "2026-08-21T17:30:00Z"
     }
   }
 }

@@ -1,11 +1,11 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-08-21T17:28:28.308183+00:00",
+  "generated_at_utc": "2026-08-21T17:59:31.883867+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.23,
+      "solve_seconds": 0.27,
       "candidate_pool_size": 561,
       "formation": "3-5-2",
       "total_cost": 99.0,
@@ -468,7 +468,8 @@
       "hits": 0,
       "hit_points": 0,
       "free_transfers_available": 0,
-      "chip_used": null
+      "chip_used": null,
+      "deadline_utc": "2026-08-21T17:30:00Z"
     }
   }
 }
