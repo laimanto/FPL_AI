@@ -685,11 +685,26 @@ function createApp(cfg) {
       } else { showLoadError(); return; }
     }
     const seasons = Object.keys(state.DATA.seasons).sort().reverse();
-    // cfg.defaultSeason (2026-07-26, per the user): Team AI's 2026-27 GW1 hasn't
-    // actually been played yet (deadline 2026-08-21), so defaulting to "latest
-    // season" would land on a squad that hasn't started -- override to a
-    // specific season when set and present, otherwise fall back to latest.
-    state.currentSeason = (cfg.defaultSeason && seasons.includes(cfg.defaultSeason)) ? cfg.defaultSeason : seasons[0];
+    // Land on the newest season whose latest gameweek is actually VIEWABLE, i.e. its
+    // deadline has passed (2026-08-21, per the user). This replaces the static
+    // defaultSeason:'2025-26' pin added 2026-07-26 -- that had to be hand-edited every
+    // time the situation changed, and after the 2026-27 GW1 deadline it was still
+    // parking the page on last season's final gameweek. Now it self-maintains: before a
+    // deadline it falls back to the previous season rather than opening on a locked
+    // squad, and the moment the deadline passes it lands on the new gameweek.
+    state.currentSeason = (function () {
+      for (const s of seasons) {
+        const gws = state.DATA.seasons[s].gameweeks;
+        const last = Object.keys(gws).map(Number).sort((a, b) => a - b).pop();
+        const gw = gws[String(last)];
+        if (!gw) continue;
+        const locked = cfg.hideUntilDeadline && (gw.deadline_utc
+          ? Date.now() < Date.parse(gw.deadline_utc)
+          : gw.actual_points == null);
+        if (!locked) return s;
+      }
+      return seasons[0];
+    })();
     renderTabs();
     const rounds = Object.keys(currentGameweeks()).map(Number).sort((a,b) => a-b);
     state.currentRound = rounds[rounds.length - 1];
@@ -984,7 +999,7 @@ apps.ta = createApp({
   prefix: 'ta', dataUrls: SEASON_FILES.map(s => ({season: `20${s}`, url: `Dashboard/fpl_v5/fpl_team_ai_${s}_v5.json`})),
   embeddedId: 'ta-embedded-data-holder',
   placeholderName: 'TEAM_AI_DATA', hasChips: true, hasTransfers: true, hasBankFT: true, hasJumpButtons: true,
-  hideUntilDeadline: true, defaultSeason: '2025-26',
+  hideUntilDeadline: true,
 });
 
 document.querySelectorAll('.big-tab').forEach(btn => {
