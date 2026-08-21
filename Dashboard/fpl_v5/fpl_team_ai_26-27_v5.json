@@ -1,12 +1,12 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-08-21T16:26:03.829219+00:00",
+  "generated_at_utc": "2026-08-21T16:50:28.722493+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.38,
-      "candidate_pool_size": 600,
+      "solve_seconds": 0.23,
+      "candidate_pool_size": 561,
       "formation": "3-5-2",
       "total_cost": 99.0,
       "forecasted_points": 61,
