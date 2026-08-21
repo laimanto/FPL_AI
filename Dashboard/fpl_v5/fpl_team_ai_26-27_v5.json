@@ -1,11 +1,11 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-08-21T17:22:45.621747+00:00",
+  "generated_at_utc": "2026-08-21T17:28:28.308183+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.24,
+      "solve_seconds": 0.23,
       "candidate_pool_size": 561,
       "formation": "3-5-2",
       "total_cost": 99.0,
@@ -95,7 +95,7 @@
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
+          "is_vice_captain": true,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -245,7 +245,7 @@
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": true,
+          "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
