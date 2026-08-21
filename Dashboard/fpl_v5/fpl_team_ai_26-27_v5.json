@@ -1,15 +1,15 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-08-20T23:28:03.733034+00:00",
+  "generated_at_utc": "2026-08-21T16:26:03.829219+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
       "status": "Optimal",
-      "solve_seconds": 0.3,
-      "candidate_pool_size": 599,
+      "solve_seconds": 0.38,
+      "candidate_pool_size": 600,
       "formation": "3-5-2",
       "total_cost": 99.0,
-      "forecasted_points": 54,
+      "forecasted_points": 61,
       "actual_points": null,
       "players": [
         {
@@ -30,7 +30,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.26,
+          "pred_points": 3.48,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -60,7 +60,7 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 6.2,
+          "pred_points": 7.55,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -90,12 +90,12 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.3,
+          "pred_points": 5.19,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
+          "is_vice_captain": true,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -150,7 +150,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 3.75,
+          "pred_points": 4.43,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -180,7 +180,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.43,
+          "pred_points": 4.36,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -210,12 +210,12 @@
             }
           ],
           "cost": 7.0,
-          "pred_points": 4.59,
+          "pred_points": 4.99,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": true,
+          "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -240,7 +240,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.22,
+          "pred_points": 4.36,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -270,43 +270,13 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.35,
+          "pred_points": 5.11,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "George Hirst",
-          "web_name": "Hirst",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Ipswich Town",
-          "team_short": "IPS",
-          "team_code": 40,
-          "photo_code": "222625",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": true
-            }
-          ],
-          "cost": 5.0,
-          "pred_points": 1.84,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -330,7 +300,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.23,
+          "pred_points": 4.25,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -360,13 +330,43 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 3.86,
+          "pred_points": 4.03,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Leif Davis",
+          "web_name": "Davis",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Ipswich Town",
+          "team_short": "IPS",
+          "team_code": 40,
+          "photo_code": "455084",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": true
+            }
+          ],
+          "cost": 4.0,
+          "pred_points": 1.98,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -390,7 +390,7 @@
             }
           ],
           "cost": 7.5,
-          "pred_points": 4.22,
+          "pred_points": 4.64,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -403,24 +403,24 @@
           "points_multiplier": 1
         },
         {
-          "name": "Tyrick Mitchell",
-          "web_name": "Mitchell",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Crystal Palace",
-          "team_short": "CRY",
-          "team_code": 31,
-          "photo_code": "244723",
+          "name": "Norberto Bercique Gomes Betuncal",
+          "web_name": "Beto",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Everton",
+          "team_short": "EVE",
+          "team_code": 11,
+          "photo_code": "486385",
           "opponents": [
             {
-              "team": "Everton",
-              "team_short": "EVE",
-              "team_code": 11,
-              "was_home": false
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": true
             }
           ],
-          "cost": 4.5,
-          "pred_points": 3.13,
+          "cost": 5.5,
+          "pred_points": 2.79,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -450,7 +450,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.07,
+          "pred_points": 4.42,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
