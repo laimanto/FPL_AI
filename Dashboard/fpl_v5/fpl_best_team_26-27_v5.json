@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T15:16:16.388310+00:00",
+  "generated_at_utc": "2026-08-23T17:43:17.661117+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -238,9 +238,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Enzo Le F\u00e9e",
@@ -502,17 +502,17 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 2,
+          "live_minutes": 90,
+          "live_settled": true
         }
       ],
       "deadline_utc": "2026-08-21T17:30:00Z",
-      "live_points": 31,
-      "live_fixtures_played": 8,
+      "live_points": 41,
+      "live_fixtures_played": 9,
       "live_fixtures_total": 10,
-      "live_all_settled": false,
-      "live_updated_utc": "2026-08-23T15:16:16.385303+00:00",
+      "live_all_settled": true,
+      "live_updated_utc": "2026-08-23T17:43:17.660241+00:00",
       "match_results": [
         {
           "home": "Arsenal",
@@ -609,8 +609,8 @@
           "away": "Liverpool",
           "away_short": "LIV",
           "away_code": 14,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 2,
           "kickoff": "2026-08-23 15:30"
         },
         {
