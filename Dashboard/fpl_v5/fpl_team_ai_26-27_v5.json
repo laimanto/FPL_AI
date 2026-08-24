@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-08-23T17:44:04.721913+00:00",
+  "generated_at_utc": "2026-08-24T16:13:11.828340+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -520,7 +520,7 @@
       "live_fixtures_played": 9,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-08-23T17:44:04.721627+00:00",
+      "live_updated_utc": "2026-08-24T16:13:11.828011+00:00",
       "match_results": [
         {
           "home": "Arsenal",
