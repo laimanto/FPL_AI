@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-24T16:13:11.825516+00:00",
+  "generated_at_utc": "2026-08-25T02:00:11.563034+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -509,10 +509,10 @@
       ],
       "deadline_utc": "2026-08-21T17:30:00Z",
       "live_points": 41,
-      "live_fixtures_played": 9,
+      "live_fixtures_played": 10,
       "live_fixtures_total": 10,
       "live_all_settled": true,
-      "live_updated_utc": "2026-08-24T16:13:11.823189+00:00",
+      "live_updated_utc": "2026-08-25T02:00:11.561509+00:00",
       "match_results": [
         {
           "home": "Arsenal",
@@ -620,8 +620,8 @@
           "away": "Chelsea",
           "away_short": "CHE",
           "away_code": 8,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 3,
           "kickoff": "2026-08-24 19:00"
         }
       ]
