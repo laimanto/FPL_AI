@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-25T15:41:45.084420+00:00",
+  "generated_at_utc": "2026-08-25T16:51:19.742002+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -579,7 +579,7 @@
     "2": {
       "round": 2,
       "status": "Optimal",
-      "solve_seconds": 0.38,
+      "solve_seconds": 0.3,
       "candidate_pool_size": 612,
       "formation": "3-5-2",
       "total_cost": 100.0,
@@ -634,7 +634,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 2.91,
+          "pred_points": 2.92,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -664,7 +664,7 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 5.81,
+          "pred_points": 5.8,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -784,7 +784,7 @@
             }
           ],
           "cost": 15.5,
-          "pred_points": 5.95,
+          "pred_points": 5.94,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -814,7 +814,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 4.3,
+          "pred_points": 4.29,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -844,7 +844,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.9,
+          "pred_points": 3.89,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -904,7 +904,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.28,
+          "pred_points": 4.27,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -994,7 +994,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.82,
+          "pred_points": 4.81,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1024,7 +1024,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.45,
+          "pred_points": 3.39,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
