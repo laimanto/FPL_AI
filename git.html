@@ -673,6 +673,24 @@ function createApp(cfg) {
 
   function currentGameweeks() { return state.DATA.seasons[state.currentSeason].gameweeks; }
 
+  const roundsOf = (gws) => Object.keys(gws).map(Number).sort((a, b) => a - b);
+  const lastRound = (gws) => roundsOf(gws).pop();
+
+  // A gameweek is VIEWABLE once its squad is public: after its deadline, or -- for the
+  // older seasons that predate deadline_utc -- once its actual points have landed. Only
+  // Team AI hides anything (cfg.hideUntilDeadline); every Best Team gameweek is viewable.
+  function gwIsViewable(gw) {
+    if (!gw) return false;
+    if (!cfg.hideUntilDeadline) return true;
+    return gw.deadline_utc ? Date.now() >= Date.parse(gw.deadline_utc) : gw.actual_points != null;
+  }
+
+  // Newest round of this season that is viewable, or null when none of them is.
+  function latestViewableRound(gws) {
+    const viewable = roundsOf(gws).filter(n => gwIsViewable(gws[String(n)]));
+    return viewable.length ? viewable[viewable.length - 1] : null;
+  }
+
   function showLoadError() {
     el('content').innerHTML = `
       <div class="error-box">
@@ -705,29 +723,21 @@ function createApp(cfg) {
       } else { showLoadError(); return; }
     }
     const seasons = Object.keys(state.DATA.seasons).sort().reverse();
-    // Land on the newest season whose latest gameweek is actually VIEWABLE, i.e. its
-    // deadline has passed (2026-08-21, per the user). This replaces the static
-    // defaultSeason:'2025-26' pin added 2026-07-26 -- that had to be hand-edited every
-    // time the situation changed, and after the 2026-27 GW1 deadline it was still
-    // parking the page on last season's final gameweek. Now it self-maintains: before a
-    // deadline it falls back to the previous season rather than opening on a locked
-    // squad, and the moment the deadline passes it lands on the new gameweek.
-    state.currentSeason = (function () {
-      for (const s of seasons) {
-        const gws = state.DATA.seasons[s].gameweeks;
-        const last = Object.keys(gws).map(Number).sort((a, b) => a - b).pop();
-        const gw = gws[String(last)];
-        if (!gw) continue;
-        const locked = cfg.hideUntilDeadline && (gw.deadline_utc
-          ? Date.now() < Date.parse(gw.deadline_utc)
-          : gw.actual_points == null);
-        if (!locked) return s;
-      }
-      return seasons[0];
-    })();
+    // Land on the newest gameweek that is actually VIEWABLE, i.e. whose deadline has
+    // passed (2026-08-21, per the user). This replaces the static defaultSeason:'2025-26'
+    // pin added 2026-07-26, which had to be hand-edited every time the situation changed.
+    //
+    // It used to test only each season's LAST gameweek, so the moment a preview build for
+    // the coming gameweek appeared, the whole current season counted as locked and the
+    // page dropped back to LAST SEASON (2026-08-26, per the user: with GW2 not out yet,
+    // Team AI should open on the GW1 squad, not on 2025-26). Now a season only has to
+    // contain SOME viewable gameweek, and we open on the newest viewable one inside it --
+    // so a still-locked gameweek on the end stays reachable with the arrows without ever
+    // being the page you land on.
+    state.currentSeason =
+      seasons.find(s => latestViewableRound(state.DATA.seasons[s].gameweeks) != null) || seasons[0];
     renderTabs();
-    const rounds = Object.keys(currentGameweeks()).map(Number).sort((a,b) => a-b);
-    state.currentRound = rounds[rounds.length - 1];
+    state.currentRound = latestViewableRound(currentGameweeks()) ?? lastRound(currentGameweeks());
     renderGameweek();
     if (activeApp === cfg.prefix) renderSharedClock();
   }
@@ -744,8 +754,7 @@ function createApp(cfg) {
         if (s === state.currentSeason) return;
         state.currentSeason = s;
         renderTabs();
-        const rounds = Object.keys(currentGameweeks()).map(Number).sort((a,b) => a-b);
-        state.currentRound = rounds[rounds.length - 1];
+        state.currentRound = latestViewableRound(currentGameweeks()) ?? lastRound(currentGameweeks());
         renderGameweek();
       });
     });
