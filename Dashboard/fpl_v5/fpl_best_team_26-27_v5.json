@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-27T16:35:27.563978+00:00",
+  "generated_at_utc": "2026-08-27T17:01:34.767306+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -579,7 +579,7 @@
     "2": {
       "round": 2,
       "status": "Optimal",
-      "solve_seconds": 0.45,
+      "solve_seconds": 0.33,
       "candidate_pool_size": 616,
       "formation": "3-5-2",
       "total_cost": 99.7,
@@ -604,7 +604,7 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 3.75,
+          "pred_points": 3.76,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -634,7 +634,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 2.94,
+          "pred_points": 2.93,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -994,7 +994,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.71,
+          "pred_points": 4.72,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
