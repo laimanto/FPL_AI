@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-25T16:51:19.742002+00:00",
+  "generated_at_utc": "2026-08-27T16:35:27.563978+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -579,11 +579,11 @@
     "2": {
       "round": 2,
       "status": "Optimal",
-      "solve_seconds": 0.3,
-      "candidate_pool_size": 612,
+      "solve_seconds": 0.45,
+      "candidate_pool_size": 616,
       "formation": "3-5-2",
-      "total_cost": 100.0,
-      "forecasted_points": 58,
+      "total_cost": 99.7,
+      "forecasted_points": 57,
       "actual_points": null,
       "players": [
         {
@@ -604,13 +604,13 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 3.65,
+          "pred_points": 3.75,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -634,7 +634,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 2.92,
+          "pred_points": 2.94,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -664,7 +664,7 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 5.8,
+          "pred_points": 5.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -694,7 +694,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.38,
+          "pred_points": 4.36,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -724,7 +724,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.06,
+          "pred_points": 4.02,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -754,7 +754,7 @@
             }
           ],
           "cost": 7.0,
-          "pred_points": 5.06,
+          "pred_points": 4.85,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -784,7 +784,7 @@
             }
           ],
           "cost": 15.5,
-          "pred_points": 5.94,
+          "pred_points": 5.76,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -814,37 +814,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 4.29,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "James Justin",
-          "web_name": "Justin",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Leeds",
-          "team_short": "LEE",
-          "team_code": 2,
-          "photo_code": "220627",
-          "opponents": [
-            {
-              "team": "Brentford",
-              "team_short": "BRE",
-              "team_code": 94,
-              "was_home": true
-            }
-          ],
-          "cost": 4.5,
-          "pred_points": 3.89,
+          "pred_points": 4.24,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -873,8 +843,8 @@
               "was_home": true
             }
           ],
-          "cost": 7.5,
-          "pred_points": 5.0,
+          "cost": 7.6,
+          "pred_points": 4.99,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -904,7 +874,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.27,
+          "pred_points": 4.23,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -934,7 +904,37 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 3.55,
+          "pred_points": 3.52,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Nobel Mendy",
+          "web_name": "Mendy",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Hull City",
+          "team_short": "HUL",
+          "team_code": 88,
+          "photo_code": "606930",
+          "opponents": [
+            {
+              "team": "Coventry City",
+              "team_short": "COV",
+              "team_code": 9,
+              "was_home": false
+            }
+          ],
+          "cost": 4.0,
+          "pred_points": 3.02,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -963,8 +963,8 @@
               "was_home": false
             }
           ],
-          "cost": 5.5,
-          "pred_points": 4.26,
+          "cost": 5.6,
+          "pred_points": 4.27,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -994,7 +994,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.81,
+          "pred_points": 4.71,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,

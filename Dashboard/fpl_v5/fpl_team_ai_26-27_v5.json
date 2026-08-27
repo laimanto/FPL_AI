@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-08-25T16:51:22.753973+00:00",
+  "generated_at_utc": "2026-08-27T16:35:31.514963+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -590,8 +590,8 @@
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
       "formation": "3-4-3",
-      "total_cost": 100.0,
-      "forecasted_points": 53,
+      "total_cost": 99.9,
+      "forecasted_points": 51,
       "actual_points": null,
       "players": [
         {
@@ -612,7 +612,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.07,
+          "pred_points": 2.93,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -642,7 +642,7 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 5.8,
+          "pred_points": 5.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -672,7 +672,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.06,
+          "pred_points": 4.02,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -702,7 +702,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.03,
+          "pred_points": 3.81,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -732,7 +732,7 @@
             }
           ],
           "cost": 7.0,
-          "pred_points": 5.06,
+          "pred_points": 4.85,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -762,7 +762,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.22,
+          "pred_points": 3.98,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -792,7 +792,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.02,
+          "pred_points": 3.99,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -852,13 +852,13 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 1.71,
+          "pred_points": 1.76,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 4,
+          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -882,7 +882,7 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 1.81,
+          "pred_points": 1.79,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -912,13 +912,13 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 1.79,
+          "pred_points": 1.76,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 3,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -942,7 +942,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 3.7,
+          "pred_points": 3.59,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -972,7 +972,7 @@
             }
           ],
           "cost": 7.5,
-          "pred_points": 4.83,
+          "pred_points": 4.63,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1001,8 +1001,8 @@
               "was_home": true
             }
           ],
-          "cost": 8.0,
-          "pred_points": 2.26,
+          "cost": 7.9,
+          "pred_points": 2.33,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1032,7 +1032,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.81,
+          "pred_points": 4.71,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1049,7 +1049,7 @@
         {
           "out": "Pedro Porro Sauceda",
           "in": "Virgil van Dijk",
-          "gain_over_window": 14.49,
+          "gain_over_window": 12.29,
           "paid": false
         }
       ],
@@ -1059,7 +1059,8 @@
       "bank": 0.0,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": true
+      "is_preview": false,
+      "deadline_utc": "2026-08-28T17:30:00Z"
     }
   }
 }
