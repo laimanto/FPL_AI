@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-30T02:00:10.312002+00:00",
+  "generated_at_utc": "2026-08-30T16:26:03.581773+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -681,8 +681,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 9,
+          "live_minutes": 45,
           "live_settled": false
         },
         {
@@ -846,9 +846,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 3,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
@@ -879,9 +879,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 9,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Marcus Tavernier",
@@ -1145,8 +1145,8 @@
           "away": "Brighton",
           "away_short": "BHA",
           "away_code": 36,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 3,
           "kickoff": "2026-08-30 13:00"
         },
         {
@@ -1156,8 +1156,8 @@
           "away": "Brentford",
           "away_short": "BRE",
           "away_code": 94,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "kickoff": "2026-08-30 13:00"
         },
         {
@@ -1167,8 +1167,8 @@
           "away": "Fulham",
           "away_short": "FUL",
           "away_code": 54,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 0,
           "kickoff": "2026-08-30 13:00"
         },
         {
@@ -1178,8 +1178,8 @@
           "away": "Ipswich Town",
           "away_short": "IPS",
           "away_code": 40,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "kickoff": "2026-08-30 15:30"
         },
         {
@@ -1194,11 +1194,11 @@
           "kickoff": "2026-08-31 19:00"
         }
       ],
-      "live_points": 33,
-      "live_fixtures_played": 5,
+      "live_points": 54,
+      "live_fixtures_played": 8,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-08-30T02:00:10.311257+00:00"
+      "live_updated_utc": "2026-08-30T16:26:03.579719+00:00"
     }
   }
 }
