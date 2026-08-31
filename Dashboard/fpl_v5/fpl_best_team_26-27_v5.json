@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-30T16:26:03.581773+00:00",
+  "generated_at_utc": "2026-08-31T02:00:08.484494+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -681,9 +681,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 9,
-          "live_minutes": 45,
-          "live_settled": false
+          "live_points": 23,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Christos Tzolis",
@@ -846,7 +846,7 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 3,
+          "live_points": 6,
           "live_minutes": 90,
           "live_settled": true
         },
@@ -1178,8 +1178,8 @@
           "away": "Ipswich Town",
           "away_short": "IPS",
           "away_code": 40,
-          "home_score": 1,
-          "away_score": 1,
+          "home_score": 5,
+          "away_score": 2,
           "kickoff": "2026-08-30 15:30"
         },
         {
@@ -1194,11 +1194,11 @@
           "kickoff": "2026-08-31 19:00"
         }
       ],
-      "live_points": 54,
-      "live_fixtures_played": 8,
+      "live_points": 71,
+      "live_fixtures_played": 9,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-08-30T16:26:03.579719+00:00"
+      "live_updated_utc": "2026-08-31T02:00:08.482621+00:00"
     }
   }
 }
