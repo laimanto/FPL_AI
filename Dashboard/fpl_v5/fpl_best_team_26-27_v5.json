@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T15:37:46.794142+00:00",
+  "generated_at_utc": "2026-09-01T02:00:08.536982+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -715,8 +715,8 @@
           "sub_label": null,
           "points_multiplier": 1,
           "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_minutes": 45,
+          "live_settled": true
         },
         {
           "name": "David Raya Mart\u00edn",
@@ -747,9 +747,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Dominik Szoboszlai",
@@ -1011,9 +1011,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 11,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Virgil van Dijk",
@@ -1189,16 +1189,16 @@
           "away": "Arsenal",
           "away_short": "ARS",
           "away_code": 3,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 1,
           "kickoff": "2026-08-31 19:00"
         }
       ],
-      "live_points": 71,
-      "live_fixtures_played": 9,
+      "live_points": 88,
+      "live_fixtures_played": 10,
       "live_fixtures_total": 10,
-      "live_all_settled": false,
-      "live_updated_utc": "2026-08-31T15:37:46.763137+00:00"
+      "live_all_settled": true,
+      "live_updated_utc": "2026-09-01T02:00:08.535988+00:00"
     }
   }
 }
