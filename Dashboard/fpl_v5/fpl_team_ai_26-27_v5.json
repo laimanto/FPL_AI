@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-09-01T16:03:05.387811+00:00",
+  "generated_at_utc": "2026-09-03T17:19:35.828758+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -1179,8 +1179,8 @@
       "status": "Optimal",
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
-      "formation": "3-5-2",
-      "total_cost": 99.4,
+      "formation": "4-4-2",
+      "total_cost": 99.5,
       "forecasted_points": 53,
       "actual_points": null,
       "players": [
@@ -1202,7 +1202,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.83,
+          "pred_points": 3.73,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -1232,7 +1232,7 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 6.05,
+          "pred_points": 6.2,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1262,7 +1262,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 3.47,
+          "pred_points": 3.43,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1292,7 +1292,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 3.92,
+          "pred_points": 3.91,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1322,7 +1322,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 3.88,
+          "pred_points": 3.89,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1352,13 +1352,43 @@
             }
           ],
           "cost": 7.0,
-          "pred_points": 4.72,
+          "pred_points": 4.47,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Enzo Le F\u00e9e",
+          "web_name": "E.Le F\u00e9e",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Sunderland",
+          "team_short": "SUN",
+          "team_code": 56,
+          "photo_code": "484420",
+          "opponents": [
+            {
+              "team": "Brentford",
+              "team_short": "BRE",
+              "team_code": 94,
+              "was_home": false
+            }
+          ],
+          "cost": 5.9,
+          "pred_points": 3.02,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1382,7 +1412,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.23,
+          "pred_points": 4.21,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1412,7 +1442,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.75,
+          "pred_points": 4.77,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1442,43 +1472,13 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 1.81,
+          "pred_points": 1.8,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": 4,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Jaka Bijol",
-          "web_name": "Bijol",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Leeds",
-          "team_short": "LEE",
-          "team_code": 2,
-          "photo_code": "434752",
-          "opponents": [
-            {
-              "team": "Brighton",
-              "team_short": "BHA",
-              "team_code": 36,
-              "was_home": false
-            }
-          ],
-          "cost": 5.0,
-          "pred_points": 2.64,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1502,7 +1502,37 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 3.76,
+          "pred_points": 3.72,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "web_name": "De Cuyper",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Brighton",
+          "team_short": "BHA",
+          "team_code": 36,
+          "photo_code": "465730",
+          "opponents": [
+            {
+              "team": "Leeds",
+              "team_short": "LEE",
+              "team_code": 2,
+              "was_home": true
+            }
+          ],
+          "cost": 4.7,
+          "pred_points": 4.0,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1562,43 +1592,13 @@
             }
           ],
           "cost": 5.4,
-          "pred_points": 1.95,
+          "pred_points": 1.99,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": 3,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Pascal Gro\u00df",
-          "web_name": "Gro\u00df",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Brighton",
-          "team_short": "BHA",
-          "team_code": 36,
-          "photo_code": "60307",
-          "opponents": [
-            {
-              "team": "Leeds",
-              "team_short": "LEE",
-              "team_code": 2,
-              "was_home": true
-            }
-          ],
-          "cost": 5.5,
-          "pred_points": 4.37,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1622,7 +1622,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.44,
+          "pred_points": 4.25,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1637,19 +1637,19 @@
       ],
       "transfers": [
         {
-          "out": "Enzo Le F\u00e9e",
-          "in": "Pascal Gro\u00df",
-          "gain_over_window": 5.75,
+          "out": "Jaka Bijol",
+          "in": "Maxim De Cuyper",
+          "gain_over_window": 5.4,
           "paid": false
         }
       ],
       "hits": 0,
       "hit_points": 0,
       "actual_points_before_hits": null,
-      "bank": 0.4,
+      "bank": 0.3,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": true,
+      "is_preview": false,
       "deadline_utc": "2026-09-04T17:30:00Z"
     }
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T16:03:01.709486+00:00",
+  "generated_at_utc": "2026-09-03T17:19:32.121760+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -1153,8 +1153,8 @@
     "3": {
       "round": 3,
       "status": "Optimal",
-      "solve_seconds": 0.24,
-      "candidate_pool_size": 629,
+      "solve_seconds": 0.26,
+      "candidate_pool_size": 652,
       "formation": "3-5-2",
       "total_cost": 99.9,
       "forecasted_points": 59,
@@ -1178,7 +1178,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.83,
+          "pred_points": 3.73,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -1208,12 +1208,72 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 6.05,
+          "pred_points": 6.2,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": true,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Caoimh\u00edn Kelleher",
+          "web_name": "Kelleher",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Brentford",
+          "team_short": "BRE",
+          "team_code": 94,
+          "photo_code": "200720",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": true
+            }
+          ],
+          "cost": 5.0,
+          "pred_points": 4.14,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Cody Gakpo",
+          "web_name": "Gakpo",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Liverpool",
+          "team_short": "LIV",
+          "team_code": 14,
+          "photo_code": "243298",
+          "opponents": [
+            {
+              "team": "Ipswich Town",
+              "team_short": "IPS",
+              "team_code": 40,
+              "was_home": false
+            }
+          ],
+          "cost": 7.0,
+          "pred_points": 4.53,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -1238,7 +1298,7 @@
             }
           ],
           "cost": 7.0,
-          "pred_points": 4.72,
+          "pred_points": 4.47,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1268,7 +1328,7 @@
             }
           ],
           "cost": 15.5,
-          "pred_points": 6.24,
+          "pred_points": 6.36,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1279,36 +1339,6 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 2
-        },
-        {
-          "name": "Gianluigi Donnarumma",
-          "web_name": "Donnarumma",
-          "position": "GKP",
-          "position_short": "GK",
-          "team": "Man City",
-          "team_short": "MCI",
-          "team_code": 43,
-          "photo_code": "204936",
-          "opponents": [
-            {
-              "team": "Coventry City",
-              "team_short": "COV",
-              "team_code": 9,
-              "was_home": true
-            }
-          ],
-          "cost": 5.5,
-          "pred_points": 4.49,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
         },
         {
           "name": "Igor Thiago Nascimento Rodrigues",
@@ -1328,7 +1358,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.75,
+          "pred_points": 4.77,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1371,6 +1401,36 @@
           "points_multiplier": 1
         },
         {
+          "name": "Jo\u0161ko Gvardiol",
+          "web_name": "Gvardiol",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Man City",
+          "team_short": "MCI",
+          "team_code": 43,
+          "photo_code": "477424",
+          "opponents": [
+            {
+              "team": "Coventry City",
+              "team_short": "COV",
+              "team_code": 9,
+              "was_home": true
+            }
+          ],
+          "cost": 5.6,
+          "pred_points": 4.63,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
           "name": "Kristoffer Ajer",
           "web_name": "Ajer",
           "position": "DEF",
@@ -1388,37 +1448,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 4.44,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Mamadou Sangar\u00e9",
-          "web_name": "M.Sangar\u00e9",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Brentford",
-          "team_short": "BRE",
-          "team_code": 94,
-          "photo_code": "513545",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": true
-            }
-          ],
-          "cost": 5.6,
-          "pred_points": 4.34,
+          "pred_points": 4.46,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1448,7 +1478,7 @@
             }
           ],
           "cost": 4.7,
-          "pred_points": 4.11,
+          "pred_points": 4.0,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1478,7 +1508,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 4.37,
+          "pred_points": 4.32,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1508,7 +1538,7 @@
             }
           ],
           "cost": 7.0,
-          "pred_points": 5.06,
+          "pred_points": 5.09,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1568,43 +1598,13 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 3.4,
+          "pred_points": 3.39,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": 2,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Virgil van Dijk",
-          "web_name": "Virgil",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Liverpool",
-          "team_short": "LIV",
-          "team_code": 14,
-          "photo_code": "97032",
-          "opponents": [
-            {
-              "team": "Ipswich Town",
-              "team_short": "IPS",
-              "team_code": 40,
-              "was_home": false
-            }
-          ],
-          "cost": 6.5,
-          "pred_points": 4.44,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
