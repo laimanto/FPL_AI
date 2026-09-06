@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-09-05T14:00:07.765750+00:00",
+  "generated_at_utc": "2026-09-06T02:00:08.189186+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -1213,9 +1213,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 3,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Bruno Borges Fernandes",
@@ -1312,9 +1312,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 1,
+          "live_minutes": 72,
+          "live_settled": true
         },
         {
           "name": "Dominik Szoboszlai",
@@ -1378,9 +1378,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Gabriel dos Santos Magalh\u00e3es",
@@ -1444,9 +1444,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 2,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Issa Diop",
@@ -1576,9 +1576,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 4,
+          "live_minutes": 76,
+          "live_settled": true
         },
         {
           "name": "Morgan Rogers",
@@ -1642,9 +1642,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 1,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Virgil van Dijk",
@@ -1738,8 +1738,8 @@
           "away": "Sunderland",
           "away_short": "SUN",
           "away_code": 56,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "kickoff": "2026-09-05 14:00"
         },
         {
@@ -1749,8 +1749,8 @@
           "away": "Leeds",
           "away_short": "LEE",
           "away_code": 2,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "kickoff": "2026-09-05 14:00"
         },
         {
@@ -1760,8 +1760,8 @@
           "away": "Crystal Palace",
           "away_short": "CRY",
           "away_code": 31,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 3,
           "kickoff": "2026-09-05 14:00"
         },
         {
@@ -1771,8 +1771,8 @@
           "away": "Coventry City",
           "away_short": "COV",
           "away_code": 9,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 0,
           "kickoff": "2026-09-05 14:00"
         },
         {
@@ -1782,8 +1782,8 @@
           "away": "Spurs",
           "away_short": "TOT",
           "away_code": 6,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "kickoff": "2026-09-05 14:00"
         },
         {
@@ -1793,8 +1793,8 @@
           "away": "Aston Villa",
           "away_short": "AVL",
           "away_code": 7,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "kickoff": "2026-09-05 16:30"
         },
         {
@@ -1820,12 +1820,12 @@
           "kickoff": "2026-09-06 15:30"
         }
       ],
-      "live_points": 1,
-      "live_points_before_hits": 9,
-      "live_fixtures_played": 2,
+      "live_points": 9,
+      "live_points_before_hits": 17,
+      "live_fixtures_played": 8,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-09-05T14:00:07.765009+00:00"
+      "live_updated_utc": "2026-09-06T02:00:08.188552+00:00"
     }
   }
 }
