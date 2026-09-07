@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T02:00:23.556433+00:00",
+  "generated_at_utc": "2026-09-07T16:19:31.829042+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -1158,7 +1158,7 @@
       "formation": "3-5-2",
       "total_cost": 99.9,
       "forecasted_points": 59,
-      "actual_points": null,
+      "actual_points": 54,
       "players": [
         {
           "name": "Bart Verbruggen",
@@ -1179,8 +1179,8 @@
           ],
           "cost": 4.5,
           "pred_points": 3.73,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 3,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1188,10 +1188,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 3,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Bruno Borges Fernandes",
@@ -1212,8 +1209,8 @@
           ],
           "cost": 12.0,
           "pred_points": 6.2,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": true,
@@ -1221,10 +1218,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Caoimh\u00edn Kelleher",
@@ -1245,8 +1239,8 @@
           ],
           "cost": 5.0,
           "pred_points": 4.14,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1254,10 +1248,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Cody Gakpo",
@@ -1278,8 +1269,8 @@
           ],
           "cost": 7.0,
           "pred_points": 4.53,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 11,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1287,10 +1278,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 11,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Dominik Szoboszlai",
@@ -1311,8 +1299,8 @@
           ],
           "cost": 7.0,
           "pred_points": 4.47,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 3,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1320,10 +1308,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 3,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Erling Haaland",
@@ -1344,8 +1329,8 @@
           ],
           "cost": 15.5,
           "pred_points": 6.36,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 9,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": true,
           "is_vice_captain": false,
@@ -1353,10 +1338,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 2,
-          "live_points": 9,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 2
         },
         {
           "name": "Igor Thiago Nascimento Rodrigues",
@@ -1377,8 +1359,8 @@
           ],
           "cost": 8.0,
           "pred_points": 4.77,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1386,10 +1368,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "John Egan",
@@ -1410,8 +1389,8 @@
           ],
           "cost": 4.0,
           "pred_points": 2.84,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 6,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1419,10 +1398,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 6,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Jo\u0161ko Gvardiol",
@@ -1443,8 +1419,8 @@
           ],
           "cost": 5.6,
           "pred_points": 4.63,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 8,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1452,10 +1428,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 8,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Kristoffer Ajer",
@@ -1476,8 +1449,8 @@
           ],
           "cost": 4.5,
           "pred_points": 4.46,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1485,10 +1458,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Maxim De Cuyper",
@@ -1509,8 +1479,8 @@
           ],
           "cost": 4.7,
           "pred_points": 4.0,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 4,
+          "actual_minutes": 76,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1518,10 +1488,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 4,
-          "live_minutes": 76,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Pascal Gro\u00df",
@@ -1542,8 +1509,8 @@
           ],
           "cost": 5.5,
           "pred_points": 4.32,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 1,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1551,10 +1518,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 1,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Phil Foden",
@@ -1575,8 +1539,8 @@
           ],
           "cost": 7.0,
           "pred_points": 5.09,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 1,
+          "actual_minutes": 24,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1584,10 +1548,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 1,
-          "live_minutes": 24,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Semi Ajayi",
@@ -1608,8 +1569,8 @@
           ],
           "cost": 4.1,
           "pred_points": 2.81,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 5,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1617,10 +1578,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 5,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Thierno Barry",
@@ -1641,8 +1599,8 @@
           ],
           "cost": 5.5,
           "pred_points": 3.39,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -1650,10 +1608,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         }
       ],
       "match_results": [
@@ -1767,12 +1722,469 @@
           "away_score": 1,
           "kickoff": "2026-09-06 15:30"
         }
-      ],
-      "live_points": 54,
-      "live_fixtures_played": 10,
-      "live_fixtures_total": 10,
-      "live_all_settled": true,
-      "live_updated_utc": "2026-09-07T02:00:23.532984+00:00"
+      ]
+    },
+    "4": {
+      "round": 4,
+      "status": "Optimal",
+      "solve_seconds": 0.25,
+      "candidate_pool_size": 654,
+      "formation": "3-5-2",
+      "total_cost": 100.0,
+      "forecasted_points": 58,
+      "actual_points": null,
+      "players": [
+        {
+          "name": "Bart Verbruggen",
+          "web_name": "Verbruggen",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Brighton",
+          "team_short": "BHA",
+          "team_code": 36,
+          "photo_code": "489639",
+          "opponents": [
+            {
+              "team": "Coventry City",
+              "team_short": "COV",
+              "team_code": 9,
+              "was_home": false
+            }
+          ],
+          "cost": 4.5,
+          "pred_points": 4.09,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Bobby Thomas",
+          "web_name": "Thomas",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Coventry City",
+          "team_short": "COV",
+          "team_code": 9,
+          "photo_code": "461102",
+          "opponents": [
+            {
+              "team": "Brighton",
+              "team_short": "BHA",
+              "team_code": 36,
+              "was_home": true
+            }
+          ],
+          "cost": 4.0,
+          "pred_points": 3.21,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Bukayo Saka",
+          "web_name": "Saka",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Arsenal",
+          "team_short": "ARS",
+          "team_code": 3,
+          "photo_code": "223340",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": false
+            }
+          ],
+          "cost": 9.5,
+          "pred_points": 4.88,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Cody Gakpo",
+          "web_name": "Gakpo",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Liverpool",
+          "team_short": "LIV",
+          "team_code": 14,
+          "photo_code": "243298",
+          "opponents": [
+            {
+              "team": "Fulham",
+              "team_short": "FUL",
+              "team_code": 54,
+              "was_home": true
+            }
+          ],
+          "cost": 7.2,
+          "pred_points": 4.53,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Cole Palmer",
+          "web_name": "Palmer",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Chelsea",
+          "team_short": "CHE",
+          "team_code": 8,
+          "photo_code": "244851",
+          "opponents": [
+            {
+              "team": "Hull City",
+              "team_short": "HUL",
+              "team_code": 88,
+              "was_home": true
+            }
+          ],
+          "cost": 9.6,
+          "pred_points": 4.93,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Emersonn Correia da Silva",
+          "web_name": "Emersonn",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Ipswich Town",
+          "team_short": "IPS",
+          "team_code": 40,
+          "photo_code": "543968",
+          "opponents": [
+            {
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": false
+            }
+          ],
+          "cost": 5.5,
+          "pred_points": 2.91,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Erling Haaland",
+          "web_name": "Haaland",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Man City",
+          "team_short": "MCI",
+          "team_code": 43,
+          "photo_code": "223094",
+          "opponents": [
+            {
+              "team": "Man Utd",
+              "team_short": "MUN",
+              "team_code": 1,
+              "was_home": false
+            }
+          ],
+          "cost": 15.5,
+          "pred_points": 5.71,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 2
+        },
+        {
+          "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+          "web_name": "Jo\u00e3o Pedro",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Chelsea",
+          "team_short": "CHE",
+          "team_code": 8,
+          "photo_code": "475168",
+          "opponents": [
+            {
+              "team": "Hull City",
+              "team_short": "HUL",
+              "team_code": 88,
+              "was_home": true
+            }
+          ],
+          "cost": 7.7,
+          "pred_points": 4.69,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "web_name": "De Cuyper",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Brighton",
+          "team_short": "BHA",
+          "team_code": 36,
+          "photo_code": "465730",
+          "opponents": [
+            {
+              "team": "Coventry City",
+              "team_short": "COV",
+              "team_code": 9,
+              "was_home": false
+            }
+          ],
+          "cost": 4.7,
+          "pred_points": 4.33,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Milan van Ewijk",
+          "web_name": "van Ewijk",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Coventry City",
+          "team_short": "COV",
+          "team_code": 9,
+          "photo_code": "451284",
+          "opponents": [
+            {
+              "team": "Brighton",
+              "team_short": "BHA",
+              "team_code": 36,
+              "was_home": true
+            }
+          ],
+          "cost": 4.0,
+          "pred_points": 2.98,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Morgan Rogers",
+          "web_name": "Rogers",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Chelsea",
+          "team_short": "CHE",
+          "team_code": 8,
+          "photo_code": "244850",
+          "opponents": [
+            {
+              "team": "Hull City",
+              "team_short": "HUL",
+              "team_code": 88,
+              "was_home": true
+            }
+          ],
+          "cost": 7.6,
+          "pred_points": 5.06,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Pascal Gro\u00df",
+          "web_name": "Gro\u00df",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Brighton",
+          "team_short": "BHA",
+          "team_code": 36,
+          "photo_code": "60307",
+          "opponents": [
+            {
+              "team": "Coventry City",
+              "team_short": "COV",
+              "team_code": 9,
+              "was_home": false
+            }
+          ],
+          "cost": 5.5,
+          "pred_points": 4.77,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Riccardo Calafiori",
+          "web_name": "Calafiori",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Arsenal",
+          "team_short": "ARS",
+          "team_code": 3,
+          "photo_code": "466075",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": false
+            }
+          ],
+          "cost": 5.7,
+          "pred_points": 4.16,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Tyrick Mitchell",
+          "web_name": "Mitchell",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Crystal Palace",
+          "team_short": "CRY",
+          "team_code": 31,
+          "photo_code": "244723",
+          "opponents": [
+            {
+              "team": "Ipswich Town",
+              "team_short": "IPS",
+              "team_code": 40,
+              "was_home": true
+            }
+          ],
+          "cost": 4.5,
+          "pred_points": 4.66,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "\u0110or\u0111e Petrovi\u0107",
+          "web_name": "Petrovi\u0107",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Bournemouth",
+          "team_short": "BOU",
+          "team_code": 91,
+          "photo_code": "457569",
+          "opponents": [
+            {
+              "team": "Brentford",
+              "team_short": "BRE",
+              "team_code": 94,
+              "was_home": true
+            }
+          ],
+          "cost": 4.5,
+          "pred_points": 3.32,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 1,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        }
+      ]
     }
   }
 }
