@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T16:19:31.829042+00:00",
+  "generated_at_utc": "2026-09-10T16:23:48.827771+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -1727,8 +1727,8 @@
     "4": {
       "round": 4,
       "status": "Optimal",
-      "solve_seconds": 0.25,
-      "candidate_pool_size": 654,
+      "solve_seconds": 0.36,
+      "candidate_pool_size": 655,
       "formation": "3-5-2",
       "total_cost": 100.0,
       "forecasted_points": 58,
@@ -1752,7 +1752,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 4.09,
+          "pred_points": 3.97,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1782,13 +1782,13 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 3.21,
+          "pred_points": 3.24,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1812,7 +1812,7 @@
             }
           ],
           "cost": 9.5,
-          "pred_points": 4.88,
+          "pred_points": 4.89,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1842,7 +1842,7 @@
             }
           ],
           "cost": 7.2,
-          "pred_points": 4.53,
+          "pred_points": 4.5,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1872,43 +1872,13 @@
             }
           ],
           "cost": 9.6,
-          "pred_points": 4.93,
+          "pred_points": 5.08,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Emersonn Correia da Silva",
-          "web_name": "Emersonn",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Ipswich Town",
-          "team_short": "IPS",
-          "team_code": 40,
-          "photo_code": "543968",
-          "opponents": [
-            {
-              "team": "Crystal Palace",
-              "team_short": "CRY",
-              "team_code": 31,
-              "was_home": false
-            }
-          ],
-          "cost": 5.5,
-          "pred_points": 2.91,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -1932,7 +1902,7 @@
             }
           ],
           "cost": 15.5,
-          "pred_points": 5.71,
+          "pred_points": 5.84,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1943,6 +1913,36 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 2
+        },
+        {
+          "name": "Ezri Konsa Ngoyo",
+          "web_name": "Konsa",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Arsenal",
+          "team_short": "ARS",
+          "team_code": 3,
+          "photo_code": "199798",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": false
+            }
+          ],
+          "cost": 4.4,
+          "pred_points": 3.44,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 3,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
         },
         {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
@@ -1962,7 +1962,7 @@
             }
           ],
           "cost": 7.7,
-          "pred_points": 4.69,
+          "pred_points": 4.7,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -1991,44 +1991,14 @@
               "was_home": false
             }
           ],
-          "cost": 4.7,
-          "pred_points": 4.33,
+          "cost": 4.8,
+          "pred_points": 4.32,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Milan van Ewijk",
-          "web_name": "van Ewijk",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Coventry City",
-          "team_short": "COV",
-          "team_code": 9,
-          "photo_code": "451284",
-          "opponents": [
-            {
-              "team": "Brighton",
-              "team_short": "BHA",
-              "team_code": 36,
-              "was_home": true
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 2.98,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -2052,7 +2022,7 @@
             }
           ],
           "cost": 7.6,
-          "pred_points": 5.06,
+          "pred_points": 5.12,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2081,8 +2051,8 @@
               "was_home": false
             }
           ],
-          "cost": 5.5,
-          "pred_points": 4.77,
+          "cost": 5.6,
+          "pred_points": 4.84,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2095,30 +2065,60 @@
           "points_multiplier": 1
         },
         {
-          "name": "Riccardo Calafiori",
-          "web_name": "Calafiori",
+          "name": "Tarik Muharemovi\u0107",
+          "web_name": "Muharemovi\u0107",
           "position": "DEF",
           "position_short": "DF",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "466075",
+          "team": "Leeds",
+          "team_short": "LEE",
+          "team_code": 2,
+          "photo_code": "522047",
           "opponents": [
             {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": false
+              "team": "Newcastle",
+              "team_short": "NEW",
+              "team_code": 4,
+              "was_home": true
             }
           ],
-          "cost": 5.7,
-          "pred_points": 4.16,
+          "cost": 5.0,
+          "pred_points": 4.22,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Thierno Barry",
+          "web_name": "Barry",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Everton",
+          "team_short": "EVE",
+          "team_code": 11,
+          "photo_code": "586309",
+          "opponents": [
+            {
+              "team": "Spurs",
+              "team_short": "TOT",
+              "team_code": 6,
+              "was_home": false
+            }
+          ],
+          "cost": 5.6,
+          "pred_points": 3.6,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -2142,7 +2142,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 4.66,
+          "pred_points": 4.76,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
