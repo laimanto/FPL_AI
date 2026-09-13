@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T19:16:32.867687+00:00",
+  "generated_at_utc": "2026-09-13T02:00:08.749012+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -1829,9 +1829,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 1,
-          "live_minutes": 13,
-          "live_settled": false
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Cody Gakpo",
@@ -1961,9 +1961,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 1,
-          "live_minutes": 13,
-          "live_settled": false
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
@@ -2305,7 +2305,7 @@
           "away_short": "ARS",
           "away_code": 3,
           "home_score": 0,
-          "away_score": 0,
+          "away_score": 2,
           "kickoff": "2026-09-12 19:00"
         },
         {
@@ -2342,11 +2342,11 @@
           "kickoff": "2026-09-14 19:00"
         }
       ],
-      "live_points": 28,
-      "live_fixtures_played": 6,
+      "live_points": 35,
+      "live_fixtures_played": 7,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-09-12T19:16:32.866722+00:00"
+      "live_updated_utc": "2026-09-13T02:00:08.747444+00:00"
     }
   }
 }
