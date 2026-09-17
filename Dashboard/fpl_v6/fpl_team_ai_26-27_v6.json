@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-09-15T17:15:25.043322+00:00",
+  "generated_at_utc": "2026-09-17T17:11:38.847188+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -2372,7 +2372,7 @@
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
       "formation": "3-4-3",
-      "total_cost": 99.9,
+      "total_cost": 100.1,
       "forecasted_points": 54,
       "actual_points": null,
       "players": [
@@ -2394,7 +2394,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 2.81,
+          "pred_points": 2.75,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -2424,7 +2424,7 @@
             }
           ],
           "cost": 12.0,
-          "pred_points": 5.58,
+          "pred_points": 5.66,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2454,7 +2454,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.04,
+          "pred_points": 3.99,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2484,7 +2484,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.67,
+          "pred_points": 4.72,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2514,7 +2514,7 @@
             }
           ],
           "cost": 7.0,
-          "pred_points": 4.18,
+          "pred_points": 4.03,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2574,7 +2574,7 @@
             }
           ],
           "cost": 7.9,
-          "pred_points": 3.43,
+          "pred_points": 3.88,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2604,7 +2604,7 @@
             }
           ],
           "cost": 6.1,
-          "pred_points": 4.67,
+          "pred_points": 4.68,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2634,7 +2634,7 @@
             }
           ],
           "cost": 7.8,
-          "pred_points": 4.71,
+          "pred_points": 4.43,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2664,7 +2664,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 3.61,
+          "pred_points": 3.62,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2693,8 +2693,8 @@
               "was_home": true
             }
           ],
-          "cost": 4.8,
-          "pred_points": 3.09,
+          "cost": 4.9,
+          "pred_points": 3.06,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -2724,7 +2724,7 @@
             }
           ],
           "cost": 7.7,
-          "pred_points": 4.99,
+          "pred_points": 4.95,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2753,8 +2753,8 @@
               "was_home": true
             }
           ],
-          "cost": 5.6,
-          "pred_points": 3.37,
+          "cost": 5.7,
+          "pred_points": 3.34,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -2814,7 +2814,7 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 4.13,
+          "pred_points": 4.15,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -2831,7 +2831,7 @@
         {
           "out": "Enzo Le F\u00e9e",
           "in": "Kobbie Mainoo",
-          "gain_over_window": 4.54,
+          "gain_over_window": 3.61,
           "paid": false
         }
       ],
@@ -2841,7 +2841,7 @@
       "bank": 0.3,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": true,
+      "is_preview": false,
       "deadline_utc": "2026-09-18T17:30:00Z"
     }
   }
