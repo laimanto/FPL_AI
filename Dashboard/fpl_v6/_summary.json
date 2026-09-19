@@ -1,0 +1,540 @@
+{
+  "2025-26": {
+    "Best Team": {
+      "season": "2025-26",
+      "total_points": 2524,
+      "paid_transfers": 0,
+      "hit_cost_points": 0,
+      "total_transfers": 0,
+      "swap_reversals": 0,
+      "swap_reversal_detail": [],
+      "weeks_short_of_11_real_starters": 10,
+      "worst_week_real_starters": 8,
+      "distinct_players_ever_owned": 143,
+      "squad_turnover_ratio": 9.53,
+      "best_week_points": 151,
+      "worst_week_points": 36,
+      "mean_forecast_bias": 2.11,
+      "chips_used": {
+        "bench_boost": 33,
+        "triple_captain": 36
+      },
+      "chip_plays": [
+        [
+          8,
+          "bench_boost"
+        ],
+        [
+          9,
+          "triple_captain"
+        ],
+        [
+          33,
+          "bench_boost"
+        ],
+        [
+          36,
+          "triple_captain"
+        ]
+      ]
+    },
+    "Team AI (hc8)": {
+      "season": "2025-26",
+      "total_points": 2443,
+      "paid_transfers": 6,
+      "hit_cost_points": 24,
+      "total_transfers": 61,
+      "swap_reversals": 8,
+      "swap_reversal_detail": [
+        {
+          "name": "Jarrod Bowen",
+          "sold_round": 27,
+          "rebought_round": 29
+        },
+        {
+          "name": "Jarrod Bowen",
+          "sold_round": 32,
+          "rebought_round": 37
+        },
+        {
+          "name": "Erling Haaland",
+          "sold_round": 25,
+          "rebought_round": 32
+        },
+        {
+          "name": "Enzo Fern\u00e1ndez",
+          "sold_round": 9,
+          "rebought_round": 10
+        },
+        {
+          "name": "Enzo Fern\u00e1ndez",
+          "sold_round": 32,
+          "rebought_round": 35
+        },
+        {
+          "name": "Igor Thiago Nascimento Rodrigues",
+          "sold_round": 24,
+          "rebought_round": 27
+        },
+        {
+          "name": "Gabriel dos Santos Magalh\u00e3es",
+          "sold_round": 32,
+          "rebought_round": 35
+        },
+        {
+          "name": "Neco Williams",
+          "sold_round": 32,
+          "rebought_round": 33
+        }
+      ],
+      "weeks_short_of_11_real_starters": 6,
+      "worst_week_real_starters": 10,
+      "distinct_players_ever_owned": 75,
+      "squad_turnover_ratio": 5.0,
+      "best_week_points": 104,
+      "worst_week_points": 30,
+      "mean_forecast_bias": 4.26,
+      "chips_used": {
+        "wildcard": 32,
+        "bench_boost": 33,
+        "triple_captain": 36,
+        "free_hit": 34
+      },
+      "chip_plays": [
+        [
+          6,
+          "wildcard"
+        ],
+        [
+          7,
+          "bench_boost"
+        ],
+        [
+          11,
+          "triple_captain"
+        ],
+        [
+          19,
+          "free_hit"
+        ],
+        [
+          32,
+          "wildcard"
+        ],
+        [
+          33,
+          "bench_boost"
+        ],
+        [
+          34,
+          "free_hit"
+        ],
+        [
+          36,
+          "triple_captain"
+        ]
+      ]
+    }
+  },
+  "2024-25": {
+    "Best Team": {
+      "season": "2024-25",
+      "total_points": 2660,
+      "paid_transfers": 0,
+      "hit_cost_points": 0,
+      "total_transfers": 0,
+      "swap_reversals": 0,
+      "swap_reversal_detail": [],
+      "weeks_short_of_11_real_starters": 8,
+      "worst_week_real_starters": 8,
+      "distinct_players_ever_owned": 148,
+      "squad_turnover_ratio": 9.87,
+      "best_week_points": 147,
+      "worst_week_points": 34,
+      "mean_forecast_bias": 3.92,
+      "chips_used": {
+        "bench_boost": 33,
+        "triple_captain": 24
+      },
+      "chip_plays": [
+        [
+          4,
+          "bench_boost"
+        ],
+        [
+          9,
+          "triple_captain"
+        ],
+        [
+          24,
+          "triple_captain"
+        ],
+        [
+          33,
+          "bench_boost"
+        ]
+      ]
+    },
+    "Team AI (hc8)": {
+      "season": "2024-25",
+      "total_points": 2328,
+      "paid_transfers": 3,
+      "hit_cost_points": 12,
+      "total_transfers": 53,
+      "swap_reversals": 9,
+      "swap_reversal_detail": [
+        {
+          "name": "Alejandro Garnacho",
+          "sold_round": 4,
+          "rebought_round": 9
+        },
+        {
+          "name": "Mitoma Kaoru",
+          "sold_round": 6,
+          "rebought_round": 12
+        },
+        {
+          "name": "Nicolas Jackson",
+          "sold_round": 6,
+          "rebought_round": 10
+        },
+        {
+          "name": "Mark Flekken",
+          "sold_round": 6,
+          "rebought_round": 7
+        },
+        {
+          "name": "David Raya Mart\u00edn",
+          "sold_round": 35,
+          "rebought_round": 37
+        },
+        {
+          "name": "Cole Palmer",
+          "sold_round": 30,
+          "rebought_round": 35
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "sold_round": 13,
+          "rebought_round": 18
+        },
+        {
+          "name": "William Saliba",
+          "sold_round": 21,
+          "rebought_round": 29
+        },
+        {
+          "name": "Yoane Wissa",
+          "sold_round": 31,
+          "rebought_round": 35
+        }
+      ],
+      "weeks_short_of_11_real_starters": 7,
+      "worst_week_real_starters": 7,
+      "distinct_players_ever_owned": 62,
+      "squad_turnover_ratio": 4.13,
+      "best_week_points": 126,
+      "worst_week_points": 30,
+      "mean_forecast_bias": 1.82,
+      "chips_used": {
+        "wildcard": 31,
+        "bench_boost": 33,
+        "triple_captain": 30,
+        "free_hit": 34
+      },
+      "chip_plays": [
+        [
+          6,
+          "wildcard"
+        ],
+        [
+          7,
+          "bench_boost"
+        ],
+        [
+          16,
+          "triple_captain"
+        ],
+        [
+          19,
+          "free_hit"
+        ],
+        [
+          30,
+          "triple_captain"
+        ],
+        [
+          31,
+          "wildcard"
+        ],
+        [
+          33,
+          "bench_boost"
+        ],
+        [
+          34,
+          "free_hit"
+        ]
+      ]
+    }
+  },
+  "2023-24": {
+    "Best Team": {
+      "season": "2023-24",
+      "total_points": 2558,
+      "paid_transfers": 0,
+      "hit_cost_points": 0,
+      "total_transfers": 0,
+      "swap_reversals": 0,
+      "swap_reversal_detail": [],
+      "weeks_short_of_11_real_starters": 9,
+      "worst_week_real_starters": 9,
+      "distinct_players_ever_owned": 167,
+      "squad_turnover_ratio": 11.13,
+      "best_week_points": 174,
+      "worst_week_points": 25,
+      "mean_forecast_bias": -0.32,
+      "chips_used": {
+        "triple_captain": 25,
+        "bench_boost": 34
+      },
+      "chip_plays": [
+        [
+          1,
+          "triple_captain"
+        ],
+        [
+          7,
+          "bench_boost"
+        ],
+        [
+          25,
+          "triple_captain"
+        ],
+        [
+          34,
+          "bench_boost"
+        ]
+      ]
+    },
+    "Team AI (hc8)": {
+      "season": "2023-24",
+      "total_points": 2573,
+      "paid_transfers": 7,
+      "hit_cost_points": 28,
+      "total_transfers": 59,
+      "swap_reversals": 7,
+      "swap_reversal_detail": [
+        {
+          "name": "William Saliba",
+          "sold_round": 6,
+          "rebought_round": 12
+        },
+        {
+          "name": "Emiliano Mart\u00ednez Romero",
+          "sold_round": 21,
+          "rebought_round": 26
+        },
+        {
+          "name": "Fabian Sch\u00e4r",
+          "sold_round": 18,
+          "rebought_round": 23
+        },
+        {
+          "name": "Jarrod Bowen",
+          "sold_round": 14,
+          "rebought_round": 17
+        },
+        {
+          "name": "Jarrod Bowen",
+          "sold_round": 24,
+          "rebought_round": 28
+        },
+        {
+          "name": "Bukayo Saka",
+          "sold_round": 7,
+          "rebought_round": 8
+        },
+        {
+          "name": "Cole Palmer",
+          "sold_round": 24,
+          "rebought_round": 31
+        }
+      ],
+      "weeks_short_of_11_real_starters": 11,
+      "worst_week_real_starters": 9,
+      "distinct_players_ever_owned": 73,
+      "squad_turnover_ratio": 4.87,
+      "best_week_points": 121,
+      "worst_week_points": 25,
+      "mean_forecast_bias": 6.0,
+      "chips_used": {
+        "wildcard": 24,
+        "bench_boost": 34,
+        "triple_captain": 30,
+        "free_hit": 29
+      },
+      "chip_plays": [
+        [
+          6,
+          "wildcard"
+        ],
+        [
+          7,
+          "bench_boost"
+        ],
+        [
+          10,
+          "triple_captain"
+        ],
+        [
+          19,
+          "free_hit"
+        ],
+        [
+          24,
+          "wildcard"
+        ],
+        [
+          29,
+          "free_hit"
+        ],
+        [
+          30,
+          "triple_captain"
+        ],
+        [
+          34,
+          "bench_boost"
+        ]
+      ]
+    }
+  },
+  "2022-23": {
+    "Best Team": {
+      "season": "2022-23",
+      "total_points": 2687,
+      "paid_transfers": 0,
+      "hit_cost_points": 0,
+      "total_transfers": 0,
+      "swap_reversals": 0,
+      "swap_reversal_detail": [],
+      "weeks_short_of_11_real_starters": 8,
+      "worst_week_real_starters": 0,
+      "distinct_players_ever_owned": 162,
+      "squad_turnover_ratio": 10.8,
+      "best_week_points": 130,
+      "worst_week_points": 0,
+      "mean_forecast_bias": 4.03,
+      "chips_used": {
+        "bench_boost": 29,
+        "triple_captain": 22
+      },
+      "chip_plays": [
+        [
+          3,
+          "bench_boost"
+        ],
+        [
+          19,
+          "triple_captain"
+        ],
+        [
+          22,
+          "triple_captain"
+        ],
+        [
+          29,
+          "bench_boost"
+        ]
+      ]
+    },
+    "Team AI (hc8)": {
+      "season": "2022-23",
+      "total_points": 2519,
+      "paid_transfers": 6,
+      "hit_cost_points": 24,
+      "total_transfers": 58,
+      "swap_reversals": 6,
+      "swap_reversal_detail": [
+        {
+          "name": "Trent Alexander-Arnold",
+          "sold_round": 12,
+          "rebought_round": 13
+        },
+        {
+          "name": "Ederson Santana de Moraes",
+          "sold_round": 24,
+          "rebought_round": 30
+        },
+        {
+          "name": "Andrew Robertson",
+          "sold_round": 13,
+          "rebought_round": 18
+        },
+        {
+          "name": "Erling Haaland",
+          "sold_round": 26,
+          "rebought_round": 34
+        },
+        {
+          "name": "Benjamin White",
+          "sold_round": 26,
+          "rebought_round": 31
+        },
+        {
+          "name": "Alisson Ramses Becker",
+          "sold_round": 16,
+          "rebought_round": 22
+        }
+      ],
+      "weeks_short_of_11_real_starters": 9,
+      "worst_week_real_starters": 0,
+      "distinct_players_ever_owned": 77,
+      "squad_turnover_ratio": 5.13,
+      "best_week_points": 140,
+      "worst_week_points": 0,
+      "mean_forecast_bias": 5.82,
+      "chips_used": {
+        "free_hit": 28,
+        "wildcard": 26,
+        "triple_captain": 20,
+        "bench_boost": 29
+      },
+      "chip_plays": [
+        [
+          8,
+          "free_hit"
+        ],
+        [
+          13,
+          "wildcard"
+        ],
+        [
+          14,
+          "triple_captain"
+        ],
+        [
+          19,
+          "bench_boost"
+        ],
+        [
+          20,
+          "triple_captain"
+        ],
+        [
+          26,
+          "wildcard"
+        ],
+        [
+          28,
+          "free_hit"
+        ],
+        [
+          29,
+          "bench_boost"
+        ]
+      ]
+    }
+  }
+}
