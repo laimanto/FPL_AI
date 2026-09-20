@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-09-17T17:11:38.847188+00:00",
+  "generated_at_utc": "2026-09-20T15:47:32.217269+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -2404,7 +2404,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Bruno Borges Fernandes",
@@ -2434,7 +2437,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 2
+          "points_multiplier": 2,
+          "live_points": 1,
+          "live_minutes": 15,
+          "live_settled": false
         },
         {
           "name": "David Raya Mart\u00edn",
@@ -2464,7 +2470,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 1,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Dominic Calvert-Lewin",
@@ -2494,7 +2503,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 2,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Dominik Szoboszlai",
@@ -2524,7 +2536,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 2,
+          "live_minutes": 80,
+          "live_settled": true
         },
         {
           "name": "Gabriel dos Santos Magalh\u00e3es",
@@ -2554,7 +2569,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 1,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Igor Thiago Nascimento Rodrigues",
@@ -2584,7 +2602,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 5,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "James Tarkowski",
@@ -2614,7 +2635,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 14,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
@@ -2644,7 +2668,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 0,
+          "live_minutes": 0,
+          "live_settled": true
         },
         {
           "name": "Kobbie Mainoo",
@@ -2674,7 +2701,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 1,
+          "live_minutes": 15,
+          "live_settled": false
         },
         {
           "name": "Maxim De Cuyper",
@@ -2704,7 +2734,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Morgan Rogers",
@@ -2734,7 +2767,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 2,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Pascal Gro\u00df",
@@ -2764,7 +2800,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 14,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Tyrick Mitchell",
@@ -2794,7 +2833,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Virgil van Dijk",
@@ -2824,7 +2866,10 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1
+          "points_multiplier": 1,
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         }
       ],
       "transfers": [
@@ -2842,7 +2887,125 @@
       "free_transfers_available": 1,
       "chip_used": null,
       "is_preview": false,
-      "deadline_utc": "2026-09-18T17:30:00Z"
+      "deadline_utc": "2026-09-18T17:30:00Z",
+      "match_results": [
+        {
+          "home": "Brentford",
+          "home_short": "BRE",
+          "home_code": 94,
+          "away": "Chelsea",
+          "away_short": "CHE",
+          "away_code": 8,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2026-09-18 19:00"
+        },
+        {
+          "home": "Spurs",
+          "home_short": "TOT",
+          "home_code": 6,
+          "away": "Aston Villa",
+          "away_short": "AVL",
+          "away_code": 7,
+          "home_score": 2,
+          "away_score": 3,
+          "kickoff": "2026-09-19 11:30"
+        },
+        {
+          "home": "Brighton",
+          "home_short": "BHA",
+          "home_code": 36,
+          "away": "Arsenal",
+          "away_short": "ARS",
+          "away_code": 3,
+          "home_score": 3,
+          "away_score": 0,
+          "kickoff": "2026-09-19 14:00"
+        },
+        {
+          "home": "Everton",
+          "home_short": "EVE",
+          "home_code": 11,
+          "away": "Ipswich Town",
+          "away_short": "IPS",
+          "away_code": 40,
+          "home_score": 1,
+          "away_score": 0,
+          "kickoff": "2026-09-19 14:00"
+        },
+        {
+          "home": "Newcastle",
+          "home_short": "NEW",
+          "home_code": 4,
+          "away": "Hull City",
+          "away_short": "HUL",
+          "away_code": 88,
+          "home_score": 2,
+          "away_score": 1,
+          "kickoff": "2026-09-19 14:00"
+        },
+        {
+          "home": "Nott'm Forest",
+          "home_short": "NFO",
+          "home_code": 17,
+          "away": "Coventry City",
+          "away_short": "COV",
+          "away_code": 9,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2026-09-19 16:30"
+        },
+        {
+          "home": "Bournemouth",
+          "home_short": "BOU",
+          "home_code": 91,
+          "away": "Liverpool",
+          "away_short": "LIV",
+          "away_code": 14,
+          "home_score": 0,
+          "away_score": 1,
+          "kickoff": "2026-09-20 13:00"
+        },
+        {
+          "home": "Leeds",
+          "home_short": "LEE",
+          "home_code": 2,
+          "away": "Crystal Palace",
+          "away_short": "CRY",
+          "away_code": 31,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2026-09-20 13:00"
+        },
+        {
+          "home": "Man City",
+          "home_short": "MCI",
+          "home_code": 43,
+          "away": "Sunderland",
+          "away_short": "SUN",
+          "away_code": 56,
+          "home_score": 5,
+          "away_score": 3,
+          "kickoff": "2026-09-20 13:00"
+        },
+        {
+          "home": "Fulham",
+          "home_short": "FUL",
+          "home_code": 54,
+          "away": "Man Utd",
+          "away_short": "MUN",
+          "away_code": 1,
+          "home_score": 0,
+          "away_score": 0,
+          "kickoff": "2026-09-20 15:30"
+        }
+      ],
+      "live_points": 38,
+      "live_points_before_hits": 38,
+      "live_fixtures_played": 9,
+      "live_fixtures_total": 10,
+      "live_all_settled": false,
+      "live_updated_utc": "2026-09-20T15:47:32.215903+00:00"
     }
   }
 }
