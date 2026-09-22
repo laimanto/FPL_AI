@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21T02:00:08.116826+00:00",
+  "generated_at_utc": "2026-09-22T14:33:52.017793+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -2306,7 +2306,7 @@
       "formation": "3-4-3",
       "total_cost": 99.9,
       "forecasted_points": 61,
-      "actual_points": null,
+      "actual_points": 53,
       "players": [
         {
           "name": "Anton\u00edn Kinsk\u00fd",
@@ -2327,8 +2327,8 @@
           ],
           "cost": 4.5,
           "pred_points": 3.23,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2336,10 +2336,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Bruno Borges Fernandes",
@@ -2360,8 +2357,8 @@
           ],
           "cost": 12.0,
           "pred_points": 5.66,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2369,10 +2366,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Dominic Calvert-Lewin",
@@ -2393,8 +2387,8 @@
           ],
           "cost": 6.0,
           "pred_points": 4.72,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2402,10 +2396,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Erling Haaland",
@@ -2426,8 +2417,8 @@
           ],
           "cost": 15.5,
           "pred_points": 6.29,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 6,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": true,
           "is_vice_captain": false,
@@ -2435,10 +2426,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 2,
-          "live_points": 6,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 2
         },
         {
           "name": "James Tarkowski",
@@ -2459,8 +2447,8 @@
           ],
           "cost": 6.1,
           "pred_points": 4.68,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 14,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2468,10 +2456,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 14,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Jayden Bogle",
@@ -2492,8 +2477,8 @@
           ],
           "cost": 4.5,
           "pred_points": 4.06,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 5,
+          "actual_minutes": 66,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2501,10 +2486,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 5,
-          "live_minutes": 66,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Kiernan Dewsbury-Hall",
@@ -2525,8 +2507,8 @@
           ],
           "cost": 6.5,
           "pred_points": 4.91,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 3,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2534,10 +2516,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 3,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Leif Davis",
@@ -2558,8 +2537,8 @@
           ],
           "cost": 4.0,
           "pred_points": 2.74,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2567,10 +2546,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Matz Sels",
@@ -2591,8 +2567,8 @@
           ],
           "cost": 5.0,
           "pred_points": 3.94,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2600,10 +2576,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Morgan Gibbs-White",
@@ -2624,8 +2597,8 @@
           ],
           "cost": 8.0,
           "pred_points": 6.05,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": true,
@@ -2633,10 +2606,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Morgan Rogers",
@@ -2657,8 +2627,8 @@
           ],
           "cost": 7.7,
           "pred_points": 4.95,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2666,10 +2636,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Neco Williams",
@@ -2690,8 +2657,8 @@
           ],
           "cost": 5.0,
           "pred_points": 4.64,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2699,10 +2666,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Regan Slater",
@@ -2723,8 +2687,8 @@
           ],
           "cost": 4.5,
           "pred_points": 2.58,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 77,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2732,10 +2696,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 77,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Tarik Muharemovi\u0107",
@@ -2756,8 +2717,8 @@
           ],
           "cost": 5.0,
           "pred_points": 4.46,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 6,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2765,10 +2726,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 6,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Thierno Barry",
@@ -2789,8 +2747,8 @@
           ],
           "cost": 5.6,
           "pred_points": 4.59,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 6,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2798,10 +2756,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 6,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         }
       ],
       "match_results": [
@@ -2915,12 +2870,7 @@
           "away_score": 1,
           "kickoff": "2026-09-20 15:30"
         }
-      ],
-      "live_points": 53,
-      "live_fixtures_played": 10,
-      "live_fixtures_total": 10,
-      "live_all_settled": true,
-      "live_updated_utc": "2026-09-21T02:00:08.114727+00:00"
+      ]
     }
   }
 }

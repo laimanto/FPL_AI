@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-09-21T02:00:08.124378+00:00",
+  "generated_at_utc": "2026-09-22T14:33:52.024073+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -2374,7 +2374,7 @@
       "formation": "3-4-3",
       "total_cost": 100.1,
       "forecasted_points": 54,
-      "actual_points": null,
+      "actual_points": 57,
       "players": [
         {
           "name": "Bart Verbruggen",
@@ -2395,8 +2395,8 @@
           ],
           "cost": 4.5,
           "pred_points": 2.75,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 6,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2404,10 +2404,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 6,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Bruno Borges Fernandes",
@@ -2428,8 +2425,8 @@
           ],
           "cost": 12.0,
           "pred_points": 5.66,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": true,
           "is_vice_captain": false,
@@ -2437,10 +2434,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 2,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 2
         },
         {
           "name": "David Raya Mart\u00edn",
@@ -2461,8 +2455,8 @@
           ],
           "cost": 6.0,
           "pred_points": 3.99,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 1,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2470,10 +2464,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 1,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Dominic Calvert-Lewin",
@@ -2494,8 +2485,8 @@
           ],
           "cost": 6.0,
           "pred_points": 4.72,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2503,10 +2494,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Dominik Szoboszlai",
@@ -2527,8 +2515,8 @@
           ],
           "cost": 7.0,
           "pred_points": 4.03,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 80,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2536,10 +2524,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 80,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Gabriel dos Santos Magalh\u00e3es",
@@ -2560,8 +2545,8 @@
           ],
           "cost": 8.0,
           "pred_points": 4.12,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 1,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2569,10 +2554,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 1,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Igor Thiago Nascimento Rodrigues",
@@ -2593,8 +2575,8 @@
           ],
           "cost": 7.9,
           "pred_points": 3.88,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 5,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2602,10 +2584,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 5,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "James Tarkowski",
@@ -2626,8 +2605,8 @@
           ],
           "cost": 6.1,
           "pred_points": 4.68,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 14,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2635,10 +2614,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 14,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
@@ -2659,19 +2635,16 @@
           ],
           "cost": 7.8,
           "pred_points": 4.43,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 0,
+          "actual_minutes": 0,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": true
+          "was_subbed_out": true,
+          "sub_label": "Sub1",
+          "points_multiplier": 1
         },
         {
           "name": "Kobbie Mainoo",
@@ -2692,8 +2665,8 @@
           ],
           "cost": 5.5,
           "pred_points": 3.62,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 4,
+          "actual_minutes": 79,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2701,10 +2674,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 4,
-          "live_minutes": 79,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Maxim De Cuyper",
@@ -2725,8 +2695,8 @@
           ],
           "cost": 4.9,
           "pred_points": 3.06,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 6,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2734,10 +2704,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 6,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Morgan Rogers",
@@ -2758,8 +2725,8 @@
           ],
           "cost": 7.7,
           "pred_points": 4.95,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 2,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": true,
@@ -2767,10 +2734,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 2,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Pascal Gro\u00df",
@@ -2791,19 +2755,16 @@
           ],
           "cost": 5.7,
           "pred_points": 3.34,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 14,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": 2,
-          "was_subbed_in": false,
+          "was_subbed_in": true,
           "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 14,
-          "live_minutes": 90,
-          "live_settled": true
+          "sub_label": "Sub1",
+          "points_multiplier": 1
         },
         {
           "name": "Tyrick Mitchell",
@@ -2824,8 +2785,8 @@
           ],
           "cost": 4.5,
           "pred_points": 2.99,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 7,
+          "actual_minutes": 90,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2833,10 +2794,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 7,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         },
         {
           "name": "Virgil van Dijk",
@@ -2857,8 +2815,8 @@
           ],
           "cost": 6.5,
           "pred_points": 4.15,
-          "actual_points": null,
-          "actual_minutes": null,
+          "actual_points": 8,
+          "actual_minutes": 90,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
@@ -2866,10 +2824,7 @@
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 8,
-          "live_minutes": 90,
-          "live_settled": true
+          "points_multiplier": 1
         }
       ],
       "transfers": [
@@ -2882,7 +2837,7 @@
       ],
       "hits": 0,
       "hit_points": 0,
-      "actual_points_before_hits": null,
+      "actual_points_before_hits": 57,
       "bank": 0.3,
       "free_transfers_available": 1,
       "chip_used": null,
@@ -2999,13 +2954,7 @@
           "away_score": 1,
           "kickoff": "2026-09-20 15:30"
         }
-      ],
-      "live_points": 57,
-      "live_points_before_hits": 57,
-      "live_fixtures_played": 10,
-      "live_fixtures_total": 10,
-      "live_all_settled": true,
-      "live_updated_utc": "2026-09-21T02:00:08.123613+00:00"
+      ]
     }
   }
 }
