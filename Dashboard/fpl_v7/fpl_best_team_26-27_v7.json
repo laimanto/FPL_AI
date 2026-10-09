@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-22T14:39:17.074946+00:00",
+  "generated_at_utc": "2026-10-09T00:38:13.433315+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -2875,32 +2875,32 @@
     "6": {
       "round": 6,
       "status": "Optimal",
-      "solve_seconds": 0.28,
+      "solve_seconds": 0.37,
       "candidate_pool_size": 15,
       "formation": "3-5-2",
-      "total_cost": 99.9,
-      "forecasted_points": 58,
+      "total_cost": 99.7,
+      "forecasted_points": 59,
       "actual_points": null,
       "players": [
         {
-          "name": "Bart Verbruggen",
-          "web_name": "Verbruggen",
+          "name": "Bernd Leno",
+          "web_name": "Leno",
           "position": "GKP",
           "position_short": "GK",
-          "team": "Brighton",
-          "team_short": "BHA",
-          "team_code": 36,
-          "photo_code": "489639",
+          "team": "Fulham",
+          "team_short": "FUL",
+          "team_code": 54,
+          "photo_code": "80201",
           "opponents": [
             {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
+              "team": "Ipswich Town",
+              "team_short": "IPS",
+              "team_code": 40,
               "was_home": false
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.48,
+          "pred_points": 3.62,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -2930,7 +2930,7 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 3.43,
+          "pred_points": 3.38,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -2960,7 +2960,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 2.94,
+          "pred_points": 2.96,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -2990,7 +2990,7 @@
             }
           ],
           "cost": 11.9,
-          "pred_points": 6.16,
+          "pred_points": 6.44,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3019,8 +3019,8 @@
               "was_home": true
             }
           ],
-          "cost": 9.5,
-          "pred_points": 5.17,
+          "cost": 9.6,
+          "pred_points": 5.27,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3050,7 +3050,7 @@
             }
           ],
           "cost": 9.7,
-          "pred_points": 4.93,
+          "pred_points": 4.68,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3080,7 +3080,37 @@
             }
           ],
           "cost": 6.1,
-          "pred_points": 4.32,
+          "pred_points": 4.3,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Gonzalo Garc\u00eda",
+          "web_name": "Gonzalo",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Fulham",
+          "team_short": "FUL",
+          "team_code": 54,
+          "photo_code": "551466",
+          "opponents": [
+            {
+              "team": "Ipswich Town",
+              "team_short": "IPS",
+              "team_code": 40,
+              "was_home": false
+            }
+          ],
+          "cost": 6.0,
+          "pred_points": 4.22,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3110,7 +3140,7 @@
             }
           ],
           "cost": 7.8,
-          "pred_points": 4.21,
+          "pred_points": 4.16,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3139,38 +3169,8 @@
               "was_home": false
             }
           ],
-          "cost": 6.1,
-          "pred_points": 4.44,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Kai Havertz",
-          "web_name": "Havertz",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "219847",
-          "opponents": [
-            {
-              "team": "Leeds",
-              "team_short": "LEE",
-              "team_code": 2,
-              "was_home": true
-            }
-          ],
-          "cost": 7.6,
-          "pred_points": 4.24,
+          "cost": 6.2,
+          "pred_points": 4.46,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3200,7 +3200,7 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 3.44,
+          "pred_points": 3.39,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -3243,36 +3243,6 @@
           "points_multiplier": 1
         },
         {
-          "name": "Maxim De Cuyper",
-          "web_name": "De Cuyper",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Brighton",
-          "team_short": "BHA",
-          "team_code": 36,
-          "photo_code": "465730",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": false
-            }
-          ],
-          "cost": 4.9,
-          "pred_points": 3.91,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
           "name": "Morgan Rogers",
           "web_name": "Rogers",
           "position": "MID",
@@ -3289,8 +3259,8 @@
               "was_home": true
             }
           ],
-          "cost": 7.7,
-          "pred_points": 5.35,
+          "cost": 7.8,
+          "pred_points": 5.5,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3319,8 +3289,38 @@
               "was_home": false
             }
           ],
-          "cost": 5.8,
-          "pred_points": 4.83,
+          "cost": 5.9,
+          "pred_points": 4.9,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Riccardo Calafiori",
+          "web_name": "Calafiori",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Arsenal",
+          "team_short": "ARS",
+          "team_code": 3,
+          "photo_code": "466075",
+          "opponents": [
+            {
+              "team": "Leeds",
+              "team_short": "LEE",
+              "team_code": 2,
+              "was_home": true
+            }
+          ],
+          "cost": 5.9,
+          "pred_points": 4.24,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
