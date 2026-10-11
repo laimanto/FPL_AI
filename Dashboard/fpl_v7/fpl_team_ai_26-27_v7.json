@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-11T02:36:25.374701+00:00",
+  "generated_at_utc": "2026-10-11T14:00:10.353634+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3226,8 +3226,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 4,
+          "live_minutes": 45,
           "live_settled": false
         },
         {
@@ -3457,8 +3457,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 1,
+          "live_minutes": 45,
           "live_settled": false
         }
       ],
@@ -3552,8 +3552,8 @@
           "away": "Nott'm Forest",
           "away_short": "NFO",
           "away_code": 17,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 1,
           "kickoff": "2026-10-11 13:00"
         },
         {
@@ -3563,8 +3563,8 @@
           "away": "Everton",
           "away_short": "EVE",
           "away_code": 11,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "kickoff": "2026-10-11 13:00"
         },
         {
@@ -3590,12 +3590,12 @@
           "kickoff": "2026-10-12 19:00"
         }
       ],
-      "live_points": 70,
-      "live_points_before_hits": 70,
+      "live_points": 74,
+      "live_points_before_hits": 74,
       "live_fixtures_played": 6,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-11T02:36:25.373882+00:00"
+      "live_updated_utc": "2026-10-11T14:00:10.352523+00:00"
     }
   }
 }
