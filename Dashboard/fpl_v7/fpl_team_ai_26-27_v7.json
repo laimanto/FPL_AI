@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-10T14:00:17.772324+00:00",
+  "generated_at_utc": "2026-10-11T02:36:25.374701+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -2995,9 +2995,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 9,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Bruno Borges Fernandes",
@@ -3028,9 +3028,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 1,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "David Raya Mart\u00edn",
@@ -3193,9 +3193,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 4,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "James Tarkowski",
@@ -3259,9 +3259,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 12,
+          "live_minutes": 71,
+          "live_settled": true
         },
         {
           "name": "Kobbie Mainoo",
@@ -3292,9 +3292,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 4,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Maxim De Cuyper",
@@ -3325,9 +3325,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 15,
+          "live_minutes": 67,
+          "live_settled": true
         },
         {
           "name": "Morgan Rogers",
@@ -3358,9 +3358,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 2,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 9,
+          "live_minutes": 83,
+          "live_settled": true
         },
         {
           "name": "Pascal Gro\u00df",
@@ -3391,9 +3391,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Riccardo Calafiori",
@@ -3497,8 +3497,8 @@
           "away": "Brentford",
           "away_short": "BRE",
           "away_code": 94,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 2,
           "kickoff": "2026-10-10 14:00"
         },
         {
@@ -3508,8 +3508,8 @@
           "away": "Bournemouth",
           "away_short": "BOU",
           "away_code": 91,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 5,
+          "away_score": 1,
           "kickoff": "2026-10-10 14:00"
         },
         {
@@ -3519,8 +3519,8 @@
           "away": "Fulham",
           "away_short": "FUL",
           "away_code": 54,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 1,
           "kickoff": "2026-10-10 14:00"
         },
         {
@@ -3530,8 +3530,8 @@
           "away": "Brighton",
           "away_short": "BHA",
           "away_code": 36,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 2,
           "kickoff": "2026-10-10 14:00"
         },
         {
@@ -3541,8 +3541,8 @@
           "away": "Spurs",
           "away_short": "TOT",
           "away_code": 6,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "kickoff": "2026-10-10 16:30"
         },
         {
@@ -3590,12 +3590,12 @@
           "kickoff": "2026-10-12 19:00"
         }
       ],
-      "live_points": 14,
-      "live_points_before_hits": 14,
-      "live_fixtures_played": 1,
+      "live_points": 70,
+      "live_points_before_hits": 70,
+      "live_fixtures_played": 6,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-10T14:00:17.771696+00:00"
+      "live_updated_utc": "2026-10-11T02:36:25.373882+00:00"
     }
   }
 }
