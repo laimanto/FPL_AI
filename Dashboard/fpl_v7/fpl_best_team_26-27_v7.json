@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T14:00:10.346843+00:00",
+  "generated_at_utc": "2026-10-12T00:40:59.979164+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3208,9 +3208,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 4,
-          "live_minutes": 45,
-          "live_settled": false
+          "live_points": 3,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Leif Davis",
@@ -3452,7 +3452,7 @@
           "away": "Nott'm Forest",
           "away_short": "NFO",
           "away_code": 17,
-          "home_score": 2,
+          "home_score": 3,
           "away_score": 1,
           "kickoff": "2026-10-11 13:00"
         },
@@ -3463,8 +3463,8 @@
           "away": "Everton",
           "away_short": "EVE",
           "away_code": 11,
-          "home_score": 0,
-          "away_score": 0,
+          "home_score": 2,
+          "away_score": 2,
           "kickoff": "2026-10-11 13:00"
         },
         {
@@ -3474,8 +3474,8 @@
           "away": "Man City",
           "away_short": "MCI",
           "away_code": 43,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 3,
           "kickoff": "2026-10-11 15:30"
         },
         {
@@ -3490,11 +3490,11 @@
           "kickoff": "2026-10-12 19:00"
         }
       ],
-      "live_points": 49,
-      "live_fixtures_played": 6,
+      "live_points": 48,
+      "live_fixtures_played": 9,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-11T14:00:10.343783+00:00"
+      "live_updated_utc": "2026-10-12T00:40:59.976586+00:00"
     }
   }
 }
