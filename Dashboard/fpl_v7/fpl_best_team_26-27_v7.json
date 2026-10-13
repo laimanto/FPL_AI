@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T02:00:17.016758+00:00",
+  "generated_at_utc": "2026-10-13T14:00:09.980084+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3494,7 +3494,7 @@
       "live_fixtures_played": 10,
       "live_fixtures_total": 10,
       "live_all_settled": true,
-      "live_updated_utc": "2026-10-13T02:00:17.015788+00:00"
+      "live_updated_utc": "2026-10-13T14:00:09.978696+00:00"
     }
   }
 }
