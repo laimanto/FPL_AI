@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-14T02:01:02.012856+00:00",
+  "generated_at_utc": "2026-10-14T14:58:27.822869+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3647,36 +3647,6 @@
           "points_multiplier": 1
         },
         {
-          "name": "Bobby Thomas",
-          "web_name": "Thomas",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Coventry City",
-          "team_short": "COV",
-          "team_code": 9,
-          "photo_code": "461102",
-          "opponents": [
-            {
-              "team": "Spurs",
-              "team_short": "TOT",
-              "team_code": 6,
-              "was_home": false
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 2.83,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 2,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
           "name": "Brandon Thomas-Asante",
           "web_name": "Thomas-Asante",
           "position": "FWD",
@@ -3707,24 +3677,24 @@
           "points_multiplier": 1
         },
         {
-          "name": "Cole Palmer",
-          "web_name": "Palmer",
+          "name": "Bryan Mbeumo",
+          "web_name": "Mbeumo",
           "position": "MID",
           "position_short": "MF",
-          "team": "Chelsea",
-          "team_short": "CHE",
-          "team_code": 8,
-          "photo_code": "244851",
+          "team": "Man Utd",
+          "team_short": "MUN",
+          "team_code": 1,
+          "photo_code": "446008",
           "opponents": [
             {
-              "team": "Everton",
-              "team_short": "EVE",
-              "team_code": 11,
+              "team": "Leeds",
+              "team_short": "LEE",
+              "team_code": 2,
               "was_home": false
             }
           ],
-          "cost": 9.7,
-          "pred_points": 4.75,
+          "cost": 7.9,
+          "pred_points": 4.23,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3797,36 +3767,6 @@
           "points_multiplier": 1
         },
         {
-          "name": "Jay Dasilva",
-          "web_name": "Dasilva",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Coventry City",
-          "team_short": "COV",
-          "team_code": 9,
-          "photo_code": "173878",
-          "opponents": [
-            {
-              "team": "Spurs",
-              "team_short": "TOT",
-              "team_code": 6,
-              "was_home": false
-            }
-          ],
-          "cost": 4.0,
-          "pred_points": 2.18,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 4,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
           "web_name": "Jo\u00e3o Pedro",
           "position": "FWD",
@@ -3857,30 +3797,90 @@
           "points_multiplier": 1
         },
         {
-          "name": "Kristoffer Ajer",
-          "web_name": "Ajer",
+          "name": "Lewis Hall",
+          "web_name": "Hall",
           "position": "DEF",
           "position_short": "DF",
-          "team": "Brentford",
-          "team_short": "BRE",
-          "team_code": 94,
-          "photo_code": "191866",
+          "team": "Newcastle",
+          "team_short": "NEW",
+          "team_code": 4,
+          "photo_code": "487838",
           "opponents": [
             {
-              "team": "Liverpool",
-              "team_short": "LIV",
-              "team_code": 14,
+              "team": "Aston Villa",
+              "team_short": "AVL",
+              "team_code": 7,
               "was_home": true
             }
           ],
-          "cost": 4.5,
-          "pred_points": 3.47,
+          "cost": 5.3,
+          "pred_points": 3.64,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 2,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Maxim De Cuyper",
+          "web_name": "De Cuyper",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Brighton",
+          "team_short": "BHA",
+          "team_code": 36,
+          "photo_code": "465730",
+          "opponents": [
+            {
+              "team": "Crystal Palace",
+              "team_short": "CRY",
+              "team_code": 31,
+              "was_home": true
+            }
+          ],
+          "cost": 5.1,
+          "pred_points": 4.14,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Milan van Ewijk",
+          "web_name": "van Ewijk",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Coventry City",
+          "team_short": "COV",
+          "team_code": 9,
+          "photo_code": "451284",
+          "opponents": [
+            {
+              "team": "Spurs",
+              "team_short": "TOT",
+              "team_code": 6,
+              "was_home": false
+            }
+          ],
+          "cost": 3.9,
+          "pred_points": 2.12,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": false,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -4009,45 +4009,9 @@
       ],
       "transfers": [
         {
-          "out": "Igor Thiago Nascimento Rodrigues",
-          "in": "Erling Haaland",
-          "gain_over_window": 11.5,
-          "paid": false
-        },
-        {
-          "out": "Dominik Szoboszlai",
-          "in": "Rayan Cherki",
-          "gain_over_window": 11.36,
-          "paid": false
-        },
-        {
-          "out": "Kobbie Mainoo",
-          "in": "Antoine Semenyo",
-          "gain_over_window": 9.25,
-          "paid": false
-        },
-        {
           "out": "Bruno Borges Fernandes",
-          "in": "Cole Palmer",
-          "gain_over_window": 1.87,
-          "paid": false
-        },
-        {
-          "out": "Maxim De Cuyper",
-          "in": "Bobby Thomas",
-          "gain_over_window": 0.42,
-          "paid": false
-        },
-        {
-          "out": "Gabriel dos Santos Magalh\u00e3es",
-          "in": "Jan Paul van Hecke",
-          "gain_over_window": -0.33,
-          "paid": false
-        },
-        {
-          "out": "James Tarkowski",
-          "in": "Kristoffer Ajer",
-          "gain_over_window": -0.51,
+          "in": "Antoine Semenyo",
+          "gain_over_window": 1.04,
           "paid": false
         },
         {
@@ -4057,26 +4021,57 @@
           "paid": false
         },
         {
-          "out": "Tyrick Mitchell",
-          "in": "Jay Dasilva",
-          "gain_over_window": -2.86,
+          "out": "Dominic Calvert-Lewin",
+          "in": "Erling Haaland",
+          "gain_over_window": 12.59,
           "paid": false
         },
         {
-          "out": "Dominic Calvert-Lewin",
+          "out": "Dominik Szoboszlai",
+          "in": "Rayan Cherki",
+          "gain_over_window": 11.36,
+          "paid": false
+        },
+        {
+          "out": "Gabriel dos Santos Magalh\u00e3es",
+          "in": "Jan Paul van Hecke",
+          "gain_over_window": -0.33,
+          "paid": false
+        },
+        {
+          "out": "Igor Thiago Nascimento Rodrigues",
           "in": "Brandon Thomas-Asante",
-          "gain_over_window": -5.73,
+          "gain_over_window": -6.82,
+          "paid": false
+        },
+        {
+          "out": "James Tarkowski",
+          "in": "Lewis Hall",
+          "gain_over_window": -0.32,
+          "paid": false
+        },
+        {
+          "out": "Tyrick Mitchell",
+          "in": "Milan van Ewijk",
+          "gain_over_window": -3.61,
+          "paid": false
+        },
+        {
+          "out": "Kobbie Mainoo",
+          "in": "Bryan Mbeumo",
+          "gain_over_window": 7.14,
           "paid": false
         }
       ],
       "hits": 0,
       "hit_points": 0,
-      "actual_points_before_hits": null,
       "bank": 0.0,
       "free_transfers_available": 2,
       "chip_used": "wildcard",
-      "is_preview": true,
-      "deadline_utc": "2026-10-17T10:00:00Z"
+      "manual_commit": true,
+      "deadline_utc": "2026-10-17T10:00:00Z",
+      "actual_points_before_hits": null,
+      "is_preview": false
     }
   }
 }
