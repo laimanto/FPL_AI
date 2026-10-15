@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-14T00:32:53.596508+00:00",
+  "generated_at_utc": "2026-10-15T11:20:14.927441+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3449,7 +3449,7 @@
     "7": {
       "round": 7,
       "status": "Optimal",
-      "solve_seconds": 0.28,
+      "solve_seconds": 0.31,
       "candidate_pool_size": 15,
       "formation": "3-5-2",
       "total_cost": 99.9,
@@ -3474,7 +3474,7 @@
             }
           ],
           "cost": 8.3,
-          "pred_points": 5.45,
+          "pred_points": 5.42,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3504,7 +3504,7 @@
             }
           ],
           "cost": 4.6,
-          "pred_points": 3.72,
+          "pred_points": 3.77,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3534,7 +3534,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.63,
+          "pred_points": 3.71,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -3564,7 +3564,7 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 2.83,
+          "pred_points": 2.86,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -3594,7 +3594,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 2.56,
+          "pred_points": 2.61,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -3624,7 +3624,7 @@
             }
           ],
           "cost": 9.7,
-          "pred_points": 4.75,
+          "pred_points": 4.77,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3654,7 +3654,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 4.28,
+          "pred_points": 4.29,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3714,7 +3714,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.74,
+          "pred_points": 3.72,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -3744,7 +3744,7 @@
             }
           ],
           "cost": 4.9,
-          "pred_points": 4.4,
+          "pred_points": 4.54,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3774,7 +3774,7 @@
             }
           ],
           "cost": 5.1,
-          "pred_points": 4.14,
+          "pred_points": 4.19,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3804,7 +3804,7 @@
             }
           ],
           "cost": 7.9,
-          "pred_points": 4.81,
+          "pred_points": 4.75,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3834,7 +3834,7 @@
             }
           ],
           "cost": 6.0,
-          "pred_points": 5.61,
+          "pred_points": 5.62,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3864,7 +3864,7 @@
             }
           ],
           "cost": 7.9,
-          "pred_points": 5.28,
+          "pred_points": 5.29,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -3894,7 +3894,7 @@
             }
           ],
           "cost": 5.9,
-          "pred_points": 4.52,
+          "pred_points": 4.41,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
