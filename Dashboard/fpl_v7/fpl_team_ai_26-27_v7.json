@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-18T11:54:03.969807+00:00",
+  "generated_at_utc": "2026-10-18T15:40:48.562539+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3618,9 +3618,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Bernd Leno",
@@ -3717,9 +3717,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Erling Haaland",
@@ -3882,9 +3882,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Milan van Ewijk",
@@ -3981,9 +3981,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 5,
+          "live_minutes": 70,
+          "live_settled": true
         },
         {
           "name": "Rayan Cherki",
@@ -4047,8 +4047,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 1,
+          "live_minutes": 7,
           "live_settled": false
         }
       ],
@@ -4180,8 +4180,8 @@
           "away": "Sunderland",
           "away_short": "SUN",
           "away_code": 56,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 0,
           "kickoff": "2026-10-18 13:00"
         },
         {
@@ -4191,8 +4191,8 @@
           "away": "Crystal Palace",
           "away_short": "CRY",
           "away_code": 31,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 5,
+          "away_score": 0,
           "kickoff": "2026-10-18 13:00"
         },
         {
@@ -4202,8 +4202,8 @@
           "away": "Man Utd",
           "away_short": "MUN",
           "away_code": 1,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "kickoff": "2026-10-18 13:00"
         },
         {
@@ -4213,8 +4213,8 @@
           "away": "Arsenal",
           "away_short": "ARS",
           "away_code": 3,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "kickoff": "2026-10-18 15:30"
         },
         {
@@ -4229,12 +4229,12 @@
           "kickoff": "2026-10-19 19:00"
         }
       ],
-      "live_points": 31,
-      "live_points_before_hits": 31,
-      "live_fixtures_played": 5,
+      "live_points": 57,
+      "live_points_before_hits": 57,
+      "live_fixtures_played": 8,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-18T11:54:03.967632+00:00"
+      "live_updated_utc": "2026-10-18T15:40:48.561238+00:00"
     }
   }
 }
