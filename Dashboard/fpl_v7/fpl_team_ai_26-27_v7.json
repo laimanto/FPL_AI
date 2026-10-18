@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-17T15:40:18.540805+00:00",
+  "generated_at_utc": "2026-10-18T11:54:03.969807+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3585,9 +3585,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 1,
+          "live_minutes": 13,
+          "live_settled": true
         },
         {
           "name": "Bart Verbruggen",
@@ -3652,8 +3652,8 @@
           "sub_label": null,
           "points_multiplier": 1,
           "live_points": 6,
-          "live_minutes": 80,
-          "live_settled": false
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Brandon Thomas-Asante",
@@ -3751,8 +3751,8 @@
           "sub_label": null,
           "points_multiplier": 2,
           "live_points": 13,
-          "live_minutes": 77,
-          "live_settled": false
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Jan Paul van Hecke",
@@ -3849,9 +3849,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 4,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Maxim De Cuyper",
@@ -4016,7 +4016,7 @@
           "points_multiplier": 1,
           "live_points": 0,
           "live_minutes": 0,
-          "live_settled": false
+          "live_settled": true
         },
         {
           "name": "Riccardo Calafiori",
@@ -4159,7 +4159,7 @@
           "away_short": "IPS",
           "away_code": 40,
           "home_score": 3,
-          "away_score": 1,
+          "away_score": 2,
           "kickoff": "2026-10-17 14:00"
         },
         {
@@ -4169,8 +4169,8 @@
           "away": "Aston Villa",
           "away_short": "AVL",
           "away_code": 7,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 1,
           "kickoff": "2026-10-17 16:30"
         },
         {
@@ -4229,12 +4229,12 @@
           "kickoff": "2026-10-19 19:00"
         }
       ],
-      "live_points": 30,
-      "live_points_before_hits": 30,
-      "live_fixtures_played": 1,
+      "live_points": 31,
+      "live_points_before_hits": 31,
+      "live_fixtures_played": 5,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-17T15:40:18.540083+00:00"
+      "live_updated_utc": "2026-10-18T11:54:03.967632+00:00"
     }
   }
 }
