@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-18T15:40:48.553956+00:00",
+  "generated_at_utc": "2026-10-19T02:54:05.286574+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -3947,9 +3947,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 1,
-          "live_minutes": 7,
-          "live_settled": false
+          "live_points": 6,
+          "live_minutes": 90,
+          "live_settled": true
         }
       ],
       "match_results": [
@@ -4049,7 +4049,7 @@
           "away_short": "ARS",
           "away_code": 3,
           "home_score": 0,
-          "away_score": 0,
+          "away_score": 1,
           "kickoff": "2026-10-18 15:30"
         },
         {
@@ -4064,11 +4064,11 @@
           "kickoff": "2026-10-19 19:00"
         }
       ],
-      "live_points": 58,
-      "live_fixtures_played": 8,
+      "live_points": 63,
+      "live_fixtures_played": 9,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-18T15:40:48.552380+00:00"
+      "live_updated_utc": "2026-10-19T02:54:05.268454+00:00"
     }
   }
 }
