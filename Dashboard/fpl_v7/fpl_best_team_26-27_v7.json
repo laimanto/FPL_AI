@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-21T00:29:28.863765+00:00",
+  "generated_at_utc": "2026-10-22T00:12:26.017226+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -4023,13 +4023,43 @@
     "8": {
       "round": 8,
       "status": "Optimal",
-      "solve_seconds": 0.57,
+      "solve_seconds": 0.56,
       "candidate_pool_size": 15,
       "formation": "3-4-3",
       "total_cost": 100.0,
-      "forecasted_points": 60,
+      "forecasted_points": 61,
       "actual_points": null,
       "players": [
+        {
+          "name": "Alex Iwobi",
+          "web_name": "Iwobi",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Fulham",
+          "team_short": "FUL",
+          "team_code": 54,
+          "photo_code": "153133",
+          "opponents": [
+            {
+              "team": "Coventry City",
+              "team_short": "COV",
+              "team_code": 9,
+              "was_home": false
+            }
+          ],
+          "cost": 5.4,
+          "pred_points": 4.12,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
         {
           "name": "Bernd Leno",
           "web_name": "Leno",
@@ -4048,7 +4078,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.66,
+          "pred_points": 3.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4078,7 +4108,7 @@
             }
           ],
           "cost": 4.0,
-          "pred_points": 3.68,
+          "pred_points": 3.66,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4091,24 +4121,24 @@
           "points_multiplier": 1
         },
         {
-          "name": "Bryan Mbeumo",
-          "web_name": "Mbeumo",
+          "name": "Bukayo Saka",
+          "web_name": "Saka",
           "position": "MID",
           "position_short": "MF",
-          "team": "Man Utd",
-          "team_short": "MUN",
-          "team_code": 1,
-          "photo_code": "446008",
+          "team": "Arsenal",
+          "team_short": "ARS",
+          "team_code": 3,
+          "photo_code": "223340",
           "opponents": [
             {
-              "team": "Bournemouth",
-              "team_short": "BOU",
-              "team_code": 91,
+              "team": "Everton",
+              "team_short": "EVE",
+              "team_code": 11,
               "was_home": true
             }
           ],
-          "cost": 7.8,
-          "pred_points": 4.82,
+          "cost": 9.6,
+          "pred_points": 5.09,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4138,7 +4168,7 @@
             }
           ],
           "cost": 9.7,
-          "pred_points": 5.47,
+          "pred_points": 5.48,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4168,37 +4198,7 @@
             }
           ],
           "cost": 6.1,
-          "pred_points": 4.17,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Declan Rice",
-          "web_name": "Rice",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "204480",
-          "opponents": [
-            {
-              "team": "Everton",
-              "team_short": "EVE",
-              "team_code": 11,
-              "was_home": true
-            }
-          ],
-          "cost": 7.3,
-          "pred_points": 4.61,
+          "pred_points": 4.37,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4227,8 +4227,8 @@
               "was_home": false
             }
           ],
-          "cost": 6.0,
-          "pred_points": 4.58,
+          "cost": 6.1,
+          "pred_points": 4.59,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4258,7 +4258,7 @@
             }
           ],
           "cost": 15.7,
-          "pred_points": 6.31,
+          "pred_points": 6.39,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4288,7 +4288,7 @@
             }
           ],
           "cost": 4.9,
-          "pred_points": 3.74,
+          "pred_points": 3.73,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4318,7 +4318,7 @@
             }
           ],
           "cost": 4.7,
-          "pred_points": 4.29,
+          "pred_points": 4.3,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4348,7 +4348,7 @@
             }
           ],
           "cost": 7.9,
-          "pred_points": 5.42,
+          "pred_points": 5.43,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4378,7 +4378,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 4.36,
+          "pred_points": 4.35,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4408,7 +4408,7 @@
             }
           ],
           "cost": 3.9,
-          "pred_points": 2.71,
+          "pred_points": 2.73,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4438,7 +4438,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 5.65,
+          "pred_points": 5.63,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4468,7 +4468,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 4.44,
+          "pred_points": 4.47,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,

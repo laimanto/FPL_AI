@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-21T00:29:33.614313+00:00",
+  "generated_at_utc": "2026-10-22T00:12:30.695658+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -4213,7 +4213,7 @@
             }
           ],
           "cost": 4.6,
-          "pred_points": 3.06,
+          "pred_points": 3.04,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4243,7 +4243,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.66,
+          "pred_points": 3.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4273,7 +4273,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 3.0,
+          "pred_points": 3.05,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4303,7 +4303,7 @@
             }
           ],
           "cost": 7.8,
-          "pred_points": 4.82,
+          "pred_points": 4.6,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4333,7 +4333,7 @@
             }
           ],
           "cost": 7.3,
-          "pred_points": 4.61,
+          "pred_points": 4.59,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4363,7 +4363,7 @@
             }
           ],
           "cost": 15.7,
-          "pred_points": 6.31,
+          "pred_points": 6.39,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4393,7 +4393,7 @@
             }
           ],
           "cost": 7.9,
-          "pred_points": 5.42,
+          "pred_points": 5.43,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4453,7 +4453,7 @@
             }
           ],
           "cost": 5.3,
-          "pred_points": 2.97,
+          "pred_points": 2.96,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4483,7 +4483,7 @@
             }
           ],
           "cost": 3.9,
-          "pred_points": 2.71,
+          "pred_points": 2.73,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4513,7 +4513,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 5.65,
+          "pred_points": 5.63,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4573,7 +4573,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.25,
+          "pred_points": 4.29,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4633,7 +4633,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 4.44,
+          "pred_points": 4.47,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4650,13 +4650,13 @@
         {
           "out": "Antoine Semenyo",
           "in": "Declan Rice",
-          "gain_over_window": 22.08,
+          "gain_over_window": 22.02,
           "paid": false
         },
         {
           "out": "Jan Paul van Hecke",
           "in": "Tarik Muharemovi\u0107",
-          "gain_over_window": 3.39,
+          "gain_over_window": 3.17,
           "paid": false
         }
       ],
@@ -4666,7 +4666,7 @@
       "bank": 0.9,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": true,
+      "is_preview": false,
       "deadline_utc": "2026-10-23T17:30:00Z"
     }
   }
