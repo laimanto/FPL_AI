@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-22T00:12:30.695658+00:00",
+  "generated_at_utc": "2026-10-23T14:49:28.981794+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -4191,8 +4191,8 @@
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
       "formation": "3-5-2",
-      "total_cost": 100.5,
-      "forecasted_points": 57,
+      "total_cost": 100.4,
+      "forecasted_points": 56,
       "actual_points": null,
       "players": [
         {
@@ -4374,6 +4374,36 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 2
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "web_name": "Van Hecke",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Spurs",
+          "team_short": "TOT",
+          "team_code": 6,
+          "photo_code": "469142",
+          "opponents": [
+            {
+              "team": "Chelsea",
+              "team_short": "CHE",
+              "team_code": 8,
+              "was_home": false
+            }
+          ],
+          "cost": 4.9,
+          "pred_points": 2.98,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
         },
         {
           "name": "Jo\u00e3o Pedro Junqueira de Jesus",
@@ -4614,36 +4644,6 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
-        },
-        {
-          "name": "Tarik Muharemovi\u0107",
-          "web_name": "Muharemovi\u0107",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Leeds",
-          "team_short": "LEE",
-          "team_code": 2,
-          "photo_code": "522047",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": false
-            }
-          ],
-          "cost": 5.0,
-          "pred_points": 4.47,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
         }
       ],
       "transfers": [
@@ -4652,22 +4652,17 @@
           "in": "Declan Rice",
           "gain_over_window": 22.02,
           "paid": false
-        },
-        {
-          "out": "Jan Paul van Hecke",
-          "in": "Tarik Muharemovi\u0107",
-          "gain_over_window": 3.17,
-          "paid": false
         }
       ],
       "hits": 0,
       "hit_points": 0,
-      "actual_points_before_hits": null,
-      "bank": 0.9,
+      "bank": 1.0,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": false,
-      "deadline_utc": "2026-10-23T17:30:00Z"
+      "manual_commit": true,
+      "deadline_utc": "2026-10-23T17:30:00Z",
+      "actual_points_before_hits": null,
+      "is_preview": false
     }
   }
 }
