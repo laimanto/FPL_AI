@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-24T02:27:39.086126+00:00",
+  "generated_at_utc": "2026-10-24T15:40:45.504570+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -4257,8 +4257,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 8,
+          "live_minutes": 79,
           "live_settled": false
         },
         {
@@ -4290,8 +4290,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 2,
+          "live_minutes": 66,
           "live_settled": false
         },
         {
@@ -4356,8 +4356,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 3,
+          "live_minutes": 79,
           "live_settled": false
         },
         {
@@ -4389,9 +4389,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 2,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Jan Paul van Hecke",
@@ -4554,8 +4554,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 6,
+          "live_minutes": 79,
           "live_settled": false
         },
         {
@@ -4654,8 +4654,8 @@
           "sub_label": null,
           "points_multiplier": 1,
           "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_minutes": 45,
+          "live_settled": true
         },
         {
           "name": "Riccardo Calafiori",
@@ -4686,8 +4686,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 1,
+          "live_minutes": 12,
           "live_settled": false
         }
       ],
@@ -4727,8 +4727,8 @@
           "away": "Man City",
           "away_short": "MCI",
           "away_code": 43,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 1,
           "kickoff": "2026-10-24 11:30"
         },
         {
@@ -4738,8 +4738,8 @@
           "away": "Everton",
           "away_short": "EVE",
           "away_code": 11,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 0,
           "kickoff": "2026-10-24 14:00"
         },
         {
@@ -4749,8 +4749,8 @@
           "away": "Fulham",
           "away_short": "FUL",
           "away_code": 54,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 1,
           "kickoff": "2026-10-24 14:00"
         },
         {
@@ -4820,12 +4820,12 @@
           "kickoff": "2026-10-25 16:30"
         }
       ],
-      "live_points": 0,
-      "live_points_before_hits": 0,
-      "live_fixtures_played": 1,
+      "live_points": 28,
+      "live_points_before_hits": 28,
+      "live_fixtures_played": 2,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-24T02:27:39.085424+00:00"
+      "live_updated_utc": "2026-10-24T15:40:45.503266+00:00"
     }
   }
 }
