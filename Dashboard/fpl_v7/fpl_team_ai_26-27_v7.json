@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-25T03:47:18.371299+00:00",
+  "generated_at_utc": "2026-10-25T15:40:22.625223+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -4224,8 +4224,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 2,
+          "live_minutes": 78,
           "live_settled": false
         },
         {
@@ -4323,8 +4323,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 2,
+          "live_minutes": 78,
           "live_settled": false
         },
         {
@@ -4488,8 +4488,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 5,
+          "live_minutes": 81,
           "live_settled": false
         },
         {
@@ -4521,8 +4521,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 1,
+          "live_minutes": 78,
           "live_settled": false
         },
         {
@@ -4621,7 +4621,7 @@
           "sub_label": null,
           "points_multiplier": 1,
           "live_points": 0,
-          "live_minutes": 0,
+          "live_minutes": 78,
           "live_settled": false
         },
         {
@@ -4771,8 +4771,8 @@
           "away": "Newcastle",
           "away_short": "NEW",
           "away_code": 4,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 2,
           "kickoff": "2026-10-25 14:00"
         },
         {
@@ -4782,8 +4782,8 @@
           "away": "Brentford",
           "away_short": "BRE",
           "away_code": 94,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 1,
           "kickoff": "2026-10-25 14:00"
         },
         {
@@ -4793,8 +4793,8 @@
           "away": "Brighton",
           "away_short": "BHA",
           "away_code": 36,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 0,
           "kickoff": "2026-10-25 14:00"
         },
         {
@@ -4804,8 +4804,8 @@
           "away": "Bournemouth",
           "away_short": "BOU",
           "away_code": 91,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 3,
           "kickoff": "2026-10-25 14:00"
         },
         {
@@ -4820,12 +4820,12 @@
           "kickoff": "2026-10-25 16:30"
         }
       ],
-      "live_points": 36,
-      "live_points_before_hits": 36,
+      "live_points": 43,
+      "live_points_before_hits": 43,
       "live_fixtures_played": 5,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-10-25T03:47:18.370627+00:00"
+      "live_updated_utc": "2026-10-25T15:40:22.624123+00:00"
     }
   }
 }
