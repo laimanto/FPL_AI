@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-10-27T00:12:44.160209+00:00",
+  "generated_at_utc": "2026-10-30T00:13:21.861025+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -4782,8 +4782,8 @@
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
       "formation": "3-5-2",
-      "total_cost": 100.5,
-      "forecasted_points": 53,
+      "total_cost": 99.0,
+      "forecasted_points": 54,
       "actual_points": null,
       "players": [
         {
@@ -4804,7 +4804,7 @@
             }
           ],
           "cost": 4.6,
-          "pred_points": 2.61,
+          "pred_points": 2.59,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4834,7 +4834,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.31,
+          "pred_points": 3.34,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4864,7 +4864,7 @@
             }
           ],
           "cost": 5.0,
-          "pred_points": 2.7,
+          "pred_points": 2.86,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -4894,7 +4894,7 @@
             }
           ],
           "cost": 7.9,
-          "pred_points": 3.92,
+          "pred_points": 3.93,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4924,7 +4924,7 @@
             }
           ],
           "cost": 7.4,
-          "pred_points": 4.08,
+          "pred_points": 4.06,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4953,8 +4953,8 @@
               "was_home": true
             }
           ],
-          "cost": 15.7,
-          "pred_points": 6.71,
+          "cost": 15.8,
+          "pred_points": 7.08,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -4967,24 +4967,24 @@
           "points_multiplier": 2
         },
         {
-          "name": "Igor Thiago Nascimento Rodrigues",
-          "web_name": "Thiago",
+          "name": "Francisco Evanilson de Lima Barbosa",
+          "web_name": "Evanilson",
           "position": "FWD",
           "position_short": "FW",
-          "team": "Brentford",
-          "team_short": "BRE",
-          "team_code": 94,
-          "photo_code": "502500",
+          "team": "Bournemouth",
+          "team_short": "BOU",
+          "team_code": 91,
+          "photo_code": "444102",
           "opponents": [
             {
-              "team": "Nott'm Forest",
-              "team_short": "NFO",
-              "team_code": 17,
+              "team": "Leeds",
+              "team_short": "LEE",
+              "team_code": 2,
               "was_home": true
             }
           ],
-          "cost": 7.8,
-          "pred_points": 4.55,
+          "cost": 6.3,
+          "pred_points": 4.54,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5014,7 +5014,7 @@
             }
           ],
           "cost": 4.9,
-          "pred_points": 4.27,
+          "pred_points": 4.34,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5044,7 +5044,7 @@
             }
           ],
           "cost": 5.3,
-          "pred_points": 3.62,
+          "pred_points": 3.61,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5074,13 +5074,13 @@
             }
           ],
           "cost": 5.3,
-          "pred_points": 2.63,
+          "pred_points": 2.65,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 4,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5104,7 +5104,7 @@
             }
           ],
           "cost": 3.9,
-          "pred_points": 2.64,
+          "pred_points": 2.62,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -5134,7 +5134,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 5.29,
+          "pred_points": 5.12,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5164,7 +5164,7 @@
             }
           ],
           "cost": 6.2,
-          "pred_points": 3.34,
+          "pred_points": 3.31,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5194,7 +5194,7 @@
             }
           ],
           "cost": 8.0,
-          "pred_points": 4.64,
+          "pred_points": 4.56,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5223,14 +5223,14 @@
               "was_home": false
             }
           ],
-          "cost": 6.0,
-          "pred_points": 2.78,
+          "cost": 5.9,
+          "pred_points": 2.61,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5240,18 +5240,18 @@
       "transfers": [
         {
           "out": "Jo\u00e3o Pedro Junqueira de Jesus",
-          "in": "Igor Thiago Nascimento Rodrigues",
-          "gain_over_window": 7.37,
+          "in": "Francisco Evanilson de Lima Barbosa",
+          "gain_over_window": 21.39,
           "paid": false
         }
       ],
       "hits": 0,
       "hit_points": 0,
       "actual_points_before_hits": null,
-      "bank": 1.0,
+      "bank": 2.4,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": true,
+      "is_preview": false,
       "deadline_utc": "2026-10-31T11:00:00Z"
     }
   }
