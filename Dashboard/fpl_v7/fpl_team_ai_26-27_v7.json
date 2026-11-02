@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-11-01T15:40:13.806238+00:00",
+  "generated_at_utc": "2026-11-02T00:23:26.179055+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -4947,9 +4947,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Erling Haaland",
@@ -5277,9 +5277,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 8,
+          "live_minutes": 90,
+          "live_settled": true
         }
       ],
       "transfers": [
@@ -5394,8 +5394,8 @@
           "away": "Arsenal",
           "away_short": "ARS",
           "away_code": 3,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 1,
           "kickoff": "2026-11-01 16:30"
         },
         {
@@ -5410,12 +5410,12 @@
           "kickoff": "2026-11-02 20:00"
         }
       ],
-      "live_points": 52,
-      "live_points_before_hits": 52,
-      "live_fixtures_played": 8,
+      "live_points": 60,
+      "live_points_before_hits": 60,
+      "live_fixtures_played": 9,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-11-01T15:40:13.804224+00:00"
+      "live_updated_utc": "2026-11-02T00:23:26.177577+00:00"
     }
   }
 }
