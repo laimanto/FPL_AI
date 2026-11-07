@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-11-07T02:46:06.630021+00:00",
+  "generated_at_utc": "2026-11-07T04:07:23.279625+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -5372,8 +5372,8 @@
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
       "formation": "3-5-2",
-      "total_cost": 101.3,
-      "forecasted_points": 60,
+      "total_cost": 99.4,
+      "forecasted_points": 53,
       "actual_points": null,
       "players": [
         {
@@ -5397,10 +5397,10 @@
           "pred_points": 3.71,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 1,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5430,10 +5430,10 @@
           "pred_points": 3.39,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 1,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5466,7 +5466,7 @@
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 4,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5494,39 +5494,6 @@
           ],
           "cost": 7.9,
           "pred_points": 4.13,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
-        },
-        {
-          "name": "Cole Palmer",
-          "web_name": "Palmer",
-          "position": "MID",
-          "position_short": "MF",
-          "team": "Chelsea",
-          "team_short": "CHE",
-          "team_code": 8,
-          "photo_code": "244851",
-          "opponents": [
-            {
-              "team": "Sunderland",
-              "team_short": "SUN",
-              "team_code": 56,
-              "was_home": false
-            }
-          ],
-          "cost": 9.8,
-          "pred_points": 5.17,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5596,13 +5563,13 @@
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": true,
+          "is_captain": true,
+          "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 1,
+          "points_multiplier": 2,
           "live_points": 0,
           "live_minutes": 0,
           "live_settled": false
@@ -5694,10 +5661,10 @@
           "pred_points": 3.05,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": false,
+          "is_starter": true,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5795,7 +5762,7 @@
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
+          "is_vice_captain": true,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -5827,13 +5794,46 @@
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
-          "is_captain": true,
+          "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 3,
+          "points_multiplier": 1,
+          "live_points": 0,
+          "live_minutes": 0,
+          "live_settled": false
+        },
+        {
+          "name": "Rayan Cherki",
+          "web_name": "Cherki",
+          "position": "MID",
+          "position_short": "MF",
+          "team": "Man City",
+          "team_short": "MCI",
+          "team_code": 43,
+          "photo_code": "466052",
+          "opponents": [
+            {
+              "team": "Nott'm Forest",
+              "team_short": "NFO",
+              "team_code": 17,
+              "was_home": false
+            }
+          ],
+          "cost": 7.9,
+          "pred_points": 3.24,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1,
           "live_points": 0,
           "live_minutes": 0,
           "live_settled": false
@@ -5859,10 +5859,10 @@
           "pred_points": 3.94,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5872,23 +5872,29 @@
           "live_settled": false
         }
       ],
-      "transfers": [
-        {
-          "out": "Rayan Cherki",
-          "in": "Cole Palmer",
-          "gain_over_window": 9.62,
-          "paid": false
-        }
-      ],
+      "transfers": [],
       "hits": 0,
       "hit_points": 0,
       "actual_points_before_hits": null,
-      "bank": 0.5,
-      "free_transfers_available": 1,
-      "chip_used": "triple_captain",
-      "chip_reason": "Pascal Gro\u00df: a top-3 scorer at his own forecast peak",
+      "bank": 2.4,
+      "free_transfers_available": 2,
+      "chip_used": null,
       "is_preview": false,
       "deadline_utc": "2026-11-06T18:30:00Z",
+      "reverted_to_previous": {
+        "at_utc": "2026-11-07T03:55:50+00:00",
+        "carried_from_round": 9,
+        "discarded_transfers": [
+          {
+            "out": "Rayan Cherki",
+            "in": "Cole Palmer",
+            "gain_over_window": 9.62,
+            "paid": false
+          }
+        ],
+        "discarded_chip": "triple_captain",
+        "reason": "the built squad was never entered in FPL before the deadline"
+      },
       "match_results": [
         {
           "home": "Everton",
@@ -6006,7 +6012,7 @@
       "live_fixtures_played": 1,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-11-07T02:46:06.628915+00:00"
+      "live_updated_utc": "2026-11-07T04:07:23.278538+00:00"
     }
   }
 }
