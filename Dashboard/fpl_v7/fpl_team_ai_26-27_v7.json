@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-11-07T04:07:23.279625+00:00",
+  "generated_at_utc": "2026-11-07T15:40:27.271718+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -5438,8 +5438,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 4,
+          "live_minutes": 36,
           "live_settled": false
         },
         {
@@ -5537,8 +5537,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 1,
+          "live_minutes": 37,
           "live_settled": false
         },
         {
@@ -5636,9 +5636,9 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
-          "live_settled": false
+          "live_points": 4,
+          "live_minutes": 90,
+          "live_settled": true
         },
         {
           "name": "Lewis Hall",
@@ -5669,8 +5669,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 1,
+          "live_minutes": 36,
           "live_settled": false
         },
         {
@@ -5867,8 +5867,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 1,
+          "live_minutes": 37,
           "live_settled": false
         }
       ],
@@ -5914,8 +5914,8 @@
           "away": "Spurs",
           "away_short": "TOT",
           "away_code": 6,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 0,
           "kickoff": "2026-11-07 12:30"
         },
         {
@@ -5925,8 +5925,8 @@
           "away": "Hull City",
           "away_short": "HUL",
           "away_code": 88,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "kickoff": "2026-11-07 15:00"
         },
         {
@@ -5936,8 +5936,8 @@
           "away": "Newcastle",
           "away_short": "NEW",
           "away_code": 4,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "kickoff": "2026-11-07 15:00"
         },
         {
@@ -6007,12 +6007,12 @@
           "kickoff": "2026-11-08 16:30"
         }
       ],
-      "live_points": 0,
-      "live_points_before_hits": 0,
-      "live_fixtures_played": 1,
+      "live_points": 10,
+      "live_points_before_hits": 10,
+      "live_fixtures_played": 2,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-11-07T04:07:23.278538+00:00"
+      "live_updated_utc": "2026-11-07T15:40:27.268734+00:00"
     }
   }
 }
