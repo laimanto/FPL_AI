@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-10T00:20:18.271139+00:00",
+  "generated_at_utc": "2026-11-12T15:52:00.787863+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -5745,11 +5745,11 @@
     "11": {
       "round": 11,
       "status": "Optimal",
-      "solve_seconds": 0.51,
+      "solve_seconds": 0.17,
       "candidate_pool_size": 15,
       "formation": "5-3-2",
-      "total_cost": 88.5,
-      "forecasted_points": 78,
+      "total_cost": 89.0,
+      "forecasted_points": 81,
       "actual_points": null,
       "players": [
         {
@@ -5770,37 +5770,7 @@
             }
           ],
           "cost": 4.4,
-          "pred_points": 4.66,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": false,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": 1,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Ant\u00f3nio Jo\u00e3o Pereira de Albuquerque Tavares da Silva",
-          "web_name": "Silva",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Bournemouth",
-          "team_short": "BOU",
-          "team_code": 91,
-          "photo_code": "483067",
-          "opponents": [
-            {
-              "team": "Nott'm Forest",
-              "team_short": "NFO",
-              "team_code": 17,
-              "was_home": true
-            }
-          ],
-          "cost": 5.1,
-          "pred_points": 5.96,
+          "pred_points": 4.9,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5830,13 +5800,13 @@
             }
           ],
           "cost": 6.2,
-          "pred_points": 4.78,
+          "pred_points": 4.68,
           "actual_points": null,
           "actual_minutes": null,
-          "is_starter": true,
+          "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": null,
+          "sub_priority": 1,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -5860,7 +5830,7 @@
             }
           ],
           "cost": 4.8,
-          "pred_points": 6.56,
+          "pred_points": 6.84,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5890,7 +5860,37 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 6.73,
+          "pred_points": 6.9,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "James Hill",
+          "web_name": "Hill",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Bournemouth",
+          "team_short": "BOU",
+          "team_code": 91,
+          "photo_code": "463981",
+          "opponents": [
+            {
+              "team": "Nott'm Forest",
+              "team_short": "NFO",
+              "team_code": 17,
+              "was_home": true
+            }
+          ],
+          "cost": 5.6,
+          "pred_points": 6.25,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5920,7 +5920,7 @@
             }
           ],
           "cost": 5.1,
-          "pred_points": 7.2,
+          "pred_points": 7.42,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5950,7 +5950,7 @@
             }
           ],
           "cost": 6.2,
-          "pred_points": 5.8,
+          "pred_points": 5.91,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -5980,7 +5980,7 @@
             }
           ],
           "cost": 5.4,
-          "pred_points": 5.31,
+          "pred_points": 5.32,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6010,12 +6010,12 @@
             }
           ],
           "cost": 5.3,
-          "pred_points": 7.18,
+          "pred_points": 7.3,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": true,
+          "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -6040,12 +6040,12 @@
             }
           ],
           "cost": 6.7,
-          "pred_points": 7.08,
+          "pred_points": 7.37,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
+          "is_vice_captain": true,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -6070,7 +6070,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 6.26,
+          "pred_points": 6.36,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6100,7 +6100,7 @@
             }
           ],
           "cost": 8.2,
-          "pred_points": 5.57,
+          "pred_points": 5.6,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6130,7 +6130,7 @@
             }
           ],
           "cost": 7.1,
-          "pred_points": 6.87,
+          "pred_points": 7.32,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6160,7 +6160,7 @@
             }
           ],
           "cost": 6.3,
-          "pred_points": 6.18,
+          "pred_points": 6.71,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6190,7 +6190,7 @@
             }
           ],
           "cost": 5.7,
-          "pred_points": 5.88,
+          "pred_points": 5.98,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
