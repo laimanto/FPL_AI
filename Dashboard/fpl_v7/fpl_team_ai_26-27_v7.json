@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-11-12T15:52:05.818041+00:00",
+  "generated_at_utc": "2026-11-19T14:38:01.059919+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -5968,41 +5968,11 @@
       "status": "Optimal",
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
-      "formation": "3-4-3",
-      "total_cost": 100.4,
-      "forecasted_points": 76,
+      "formation": "4-3-3",
+      "total_cost": 101.4,
+      "forecasted_points": 81,
       "actual_points": null,
       "players": [
-        {
-          "name": "Bart Verbruggen",
-          "web_name": "Verbruggen",
-          "position": "GKP",
-          "position_short": "GK",
-          "team": "Brighton",
-          "team_short": "BHA",
-          "team_code": 36,
-          "photo_code": "489639",
-          "opponents": [
-            {
-              "team": "Hull City",
-              "team_short": "HUL",
-              "team_code": 88,
-              "was_home": false
-            }
-          ],
-          "cost": 4.7,
-          "pred_points": 4.55,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
         {
           "name": "Bernd Leno",
           "web_name": "Leno",
@@ -6021,13 +5991,43 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 2.23,
+          "pred_points": 2.22,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": 1,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "David Raya Mart\u00edn",
+          "web_name": "Raya",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Arsenal",
+          "team_short": "ARS",
+          "team_code": 3,
+          "photo_code": "154561",
+          "opponents": [
+            {
+              "team": "Newcastle",
+              "team_short": "NEW",
+              "team_code": 4,
+              "was_home": false
+            }
+          ],
+          "cost": 6.2,
+          "pred_points": 4.63,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6051,13 +6051,13 @@
             }
           ],
           "cost": 7.5,
-          "pred_points": 4.32,
+          "pred_points": 4.38,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 2,
+          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6081,7 +6081,7 @@
             }
           ],
           "cost": 15.8,
-          "pred_points": 5.64,
+          "pred_points": 5.59,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6110,8 +6110,8 @@
               "was_home": false
             }
           ],
-          "cost": 4.8,
-          "pred_points": 6.84,
+          "cost": 4.9,
+          "pred_points": 6.83,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6141,17 +6141,17 @@
             }
           ],
           "cost": 6.5,
-          "pred_points": 6.9,
+          "pred_points": 6.89,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
-          "is_captain": true,
+          "is_captain": false,
           "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
-          "points_multiplier": 2
+          "points_multiplier": 1
         },
         {
           "name": "Jan Paul van Hecke",
@@ -6171,7 +6171,7 @@
             }
           ],
           "cost": 5.1,
-          "pred_points": 7.42,
+          "pred_points": 7.54,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6182,6 +6182,36 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1
+        },
+        {
+          "name": "Luka Vu\u0161kovi\u0107",
+          "web_name": "Vuskovic",
+          "position": "DEF",
+          "position_short": "DF",
+          "team": "Brighton",
+          "team_short": "BHA",
+          "team_code": 36,
+          "photo_code": "610799",
+          "opponents": [
+            {
+              "team": "Hull City",
+              "team_short": "HUL",
+              "team_code": 88,
+              "was_home": false
+            }
+          ],
+          "cost": 5.3,
+          "pred_points": 7.59,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 2
         },
         {
           "name": "Marcus Tavernier",
@@ -6201,7 +6231,7 @@
             }
           ],
           "cost": 6.7,
-          "pred_points": 7.37,
+          "pred_points": 7.08,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6231,7 +6261,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 6.36,
+          "pred_points": 7.18,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6261,7 +6291,7 @@
             }
           ],
           "cost": 3.9,
-          "pred_points": 3.51,
+          "pred_points": 3.3,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6291,7 +6321,7 @@
             }
           ],
           "cost": 8.2,
-          "pred_points": 5.6,
+          "pred_points": 5.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6321,7 +6351,7 @@
             }
           ],
           "cost": 7.1,
-          "pred_points": 7.32,
+          "pred_points": 7.3,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6351,7 +6381,7 @@
             }
           ],
           "cost": 6.3,
-          "pred_points": 6.71,
+          "pred_points": 6.91,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6381,43 +6411,13 @@
             }
           ],
           "cost": 7.9,
-          "pred_points": 4.44,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Riccardo Calafiori",
-          "web_name": "Calafiori",
-          "position": "DEF",
-          "position_short": "DF",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "466075",
-          "opponents": [
-            {
-              "team": "Newcastle",
-              "team_short": "NEW",
-              "team_code": 4,
-              "was_home": false
-            }
-          ],
-          "cost": 5.9,
-          "pred_points": 4.29,
+          "pred_points": 4.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 3,
+          "sub_priority": 2,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6428,29 +6428,41 @@
         {
           "out": "Brandon Thomas-Asante",
           "in": "Nicolas Jackson",
-          "gain_over_window": 26.52,
+          "gain_over_window": 26.24,
           "paid": false
         },
         {
           "out": "Lewis Hall",
           "in": "Ezri Konsa Ngoyo",
-          "gain_over_window": 22.28,
+          "gain_over_window": 22.25,
           "paid": false
+        },
+        {
+          "out": "Riccardo Calafiori",
+          "in": "Luka Vu\u0161kovi\u0107",
+          "gain_over_window": 16.92,
+          "paid": true
         },
         {
           "out": "Bryan Mbeumo",
           "in": "Marcus Tavernier",
-          "gain_over_window": 15.21,
+          "gain_over_window": 15.12,
+          "paid": true
+        },
+        {
+          "out": "Bart Verbruggen",
+          "in": "David Raya Mart\u00edn",
+          "gain_over_window": 2.02,
           "paid": true
         }
       ],
-      "hits": 1,
-      "hit_points": -4,
+      "hits": 3,
+      "hit_points": -12,
       "actual_points_before_hits": null,
-      "bank": 1.9,
+      "bank": 0.8,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": true,
+      "is_preview": false,
       "deadline_utc": "2026-11-21T11:00:00Z"
     }
   }
