@@ -6460,7 +6460,7 @@
       "hit_points": -12,
       "actual_points_before_hits": null,
       "bank": 0.8,
-      "free_transfers_available": 1,
+      "free_transfers_available": 2,
       "chip_used": null,
       "is_preview": false,
       "deadline_utc": "2026-11-21T11:00:00Z"
