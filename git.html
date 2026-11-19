@@ -282,6 +282,9 @@ body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, system-ui, san
 .pfixture { display: flex; gap: .3em; align-items: baseline; justify-content: center;
   font-size: 0.62rem; line-height: 1.25; opacity: 0.8; white-space: nowrap;
   overflow: hidden; text-overflow: ellipsis; }
+/* 2026-11-19: the name plate is always white, so the fixture line must not inherit the
+   page text colour -- in dark mode that is near-white and the line vanished */
+.player-name-plate .pfixture { color: #6b5a76; }
 .pfixture .pteam { font-weight: 700; letter-spacing: .02em; }
 .pfixture .popp { opacity: 0.85; }
 .pfixture .popp.none { font-style: italic; opacity: 0.6; }
