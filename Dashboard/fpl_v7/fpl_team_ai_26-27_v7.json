@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-11-22T02:10:08.856520+00:00",
+  "generated_at_utc": "2026-11-22T15:40:18.454543+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -6233,8 +6233,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 5,
+          "live_minutes": 76,
           "live_settled": false
         },
         {
@@ -6299,8 +6299,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 8,
+          "live_minutes": 76,
           "live_settled": false
         },
         {
@@ -6431,8 +6431,8 @@
           "was_subbed_out": false,
           "sub_label": null,
           "points_multiplier": 1,
-          "live_points": 0,
-          "live_minutes": 0,
+          "live_points": 3,
+          "live_minutes": 76,
           "live_settled": false
         },
         {
@@ -6596,8 +6596,8 @@
           "away": "Brighton",
           "away_short": "BHA",
           "away_code": 36,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 0,
           "kickoff": "2026-11-22 14:00"
         },
         {
@@ -6623,12 +6623,12 @@
           "kickoff": "2026-11-23 20:00"
         }
       ],
-      "live_points": 21,
-      "live_points_before_hits": 33,
+      "live_points": 37,
+      "live_points_before_hits": 49,
       "live_fixtures_played": 7,
       "live_fixtures_total": 10,
       "live_all_settled": false,
-      "live_updated_utc": "2026-11-22T02:10:08.854756+00:00"
+      "live_updated_utc": "2026-11-22T15:40:18.453008+00:00"
     }
   }
 }
