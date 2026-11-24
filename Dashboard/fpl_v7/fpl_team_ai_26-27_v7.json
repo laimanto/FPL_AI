@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-11-23T00:10:10.893471+00:00",
+  "generated_at_utc": "2026-11-24T00:10:14.984438+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -6618,17 +6618,17 @@
           "away": "Everton",
           "away_short": "EVE",
           "away_code": 11,
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "kickoff": "2026-11-23 20:00"
         }
       ],
       "live_points": 33,
       "live_points_before_hits": 45,
-      "live_fixtures_played": 9,
+      "live_fixtures_played": 10,
       "live_fixtures_total": 10,
       "live_all_settled": true,
-      "live_updated_utc": "2026-11-23T00:10:10.892019+00:00"
+      "live_updated_utc": "2026-11-24T00:10:14.982929+00:00"
     }
   }
 }
