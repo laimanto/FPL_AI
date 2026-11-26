@@ -1,6 +1,6 @@
 {
   "team_name": "Team AI (ILP)",
-  "generated_at_utc": "2026-11-25T00:25:49.849606+00:00",
+  "generated_at_utc": "2026-11-26T12:37:35.240266+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -6585,7 +6585,7 @@
       "solve_seconds": 0.0,
       "candidate_pool_size": 15,
       "formation": "3-4-3",
-      "total_cost": 101.6,
+      "total_cost": 101.5,
       "forecasted_points": 54,
       "actual_points": null,
       "players": [
@@ -6607,7 +6607,7 @@
             }
           ],
           "cost": 4.5,
-          "pred_points": 3.04,
+          "pred_points": 3.07,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6636,8 +6636,8 @@
               "was_home": true
             }
           ],
-          "cost": 6.3,
-          "pred_points": 2.57,
+          "cost": 6.2,
+          "pred_points": 2.5,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6667,7 +6667,7 @@
             }
           ],
           "cost": 7.5,
-          "pred_points": 4.36,
+          "pred_points": 4.38,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6697,7 +6697,7 @@
             }
           ],
           "cost": 15.8,
-          "pred_points": 3.89,
+          "pred_points": 3.87,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6727,7 +6727,7 @@
             }
           ],
           "cost": 4.9,
-          "pred_points": 3.46,
+          "pred_points": 3.42,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6757,7 +6757,7 @@
             }
           ],
           "cost": 7.4,
-          "pred_points": 4.75,
+          "pred_points": 4.87,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6787,7 +6787,7 @@
             }
           ],
           "cost": 6.6,
-          "pred_points": 4.65,
+          "pred_points": 4.64,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6817,7 +6817,7 @@
             }
           ],
           "cost": 5.2,
-          "pred_points": 4.48,
+          "pred_points": 4.49,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6847,7 +6847,7 @@
             }
           ],
           "cost": 5.3,
-          "pred_points": 3.99,
+          "pred_points": 4.02,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6877,12 +6877,12 @@
             }
           ],
           "cost": 6.8,
-          "pred_points": 4.8,
+          "pred_points": 4.79,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": true,
+          "is_vice_captain": false,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -6907,12 +6907,12 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 4.74,
+          "pred_points": 4.88,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
           "is_captain": false,
-          "is_vice_captain": false,
+          "is_vice_captain": true,
           "sub_priority": null,
           "was_subbed_in": false,
           "was_subbed_out": false,
@@ -6937,7 +6937,7 @@
             }
           ],
           "cost": 3.9,
-          "pred_points": 2.14,
+          "pred_points": 2.15,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6967,7 +6967,7 @@
             }
           ],
           "cost": 8.3,
-          "pred_points": 3.72,
+          "pred_points": 3.66,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6997,7 +6997,7 @@
             }
           ],
           "cost": 7.3,
-          "pred_points": 4.7,
+          "pred_points": 4.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -7027,7 +7027,7 @@
             }
           ],
           "cost": 6.3,
-          "pred_points": 5.3,
+          "pred_points": 5.33,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -7044,7 +7044,7 @@
         {
           "out": "Rayan Cherki",
           "in": "Florian Wirtz",
-          "gain_over_window": 10.4,
+          "gain_over_window": 10.14,
           "paid": false
         }
       ],
@@ -7054,7 +7054,7 @@
       "bank": 1.2,
       "free_transfers_available": 1,
       "chip_used": null,
-      "is_preview": true,
+      "is_preview": false,
       "deadline_utc": "2026-11-27T18:30:00Z"
     }
   }

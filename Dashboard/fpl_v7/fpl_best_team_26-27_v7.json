@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-25T00:25:45.613826+00:00",
+  "generated_at_utc": "2026-11-26T12:37:31.126390+00:00",
   "gameweeks": {
     "1": {
       "round": 1,
@@ -6319,32 +6319,62 @@
     "12": {
       "round": 12,
       "status": "Optimal",
-      "solve_seconds": 0.4,
+      "solve_seconds": 0.46,
       "candidate_pool_size": 15,
       "formation": "3-4-3",
-      "total_cost": 99.6,
+      "total_cost": 99.7,
       "forecasted_points": 58,
       "actual_points": null,
       "players": [
         {
-          "name": "Bart Verbruggen",
-          "web_name": "Verbruggen",
-          "position": "GKP",
-          "position_short": "GK",
-          "team": "Brighton",
-          "team_short": "BHA",
-          "team_code": 36,
-          "photo_code": "489639",
+          "name": "Alexander Isak",
+          "web_name": "Isak",
+          "position": "FWD",
+          "position_short": "FW",
+          "team": "Liverpool",
+          "team_short": "LIV",
+          "team_code": 14,
+          "photo_code": "219168",
           "opponents": [
             {
-              "team": "Newcastle",
-              "team_short": "NEW",
-              "team_code": 4,
-              "was_home": true
+              "team": "Everton",
+              "team_short": "EVE",
+              "team_code": 11,
+              "was_home": false
             }
           ],
-          "cost": 4.7,
-          "pred_points": 3.95,
+          "cost": 9.4,
+          "pred_points": 4.8,
+          "actual_points": null,
+          "actual_minutes": null,
+          "is_starter": true,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "sub_priority": null,
+          "was_subbed_in": false,
+          "was_subbed_out": false,
+          "sub_label": null,
+          "points_multiplier": 1
+        },
+        {
+          "name": "Anton\u00edn Kinsk\u00fd",
+          "web_name": "Kinsky",
+          "position": "GKP",
+          "position_short": "GK",
+          "team": "Spurs",
+          "team_short": "TOT",
+          "team_code": 6,
+          "photo_code": "485055",
+          "opponents": [
+            {
+              "team": "Sunderland",
+              "team_short": "SUN",
+              "team_code": 56,
+              "was_home": false
+            }
+          ],
+          "cost": 4.4,
+          "pred_points": 3.55,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6374,7 +6404,7 @@
             }
           ],
           "cost": 11.6,
-          "pred_points": 5.08,
+          "pred_points": 5.22,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6387,30 +6417,30 @@
           "points_multiplier": 1
         },
         {
-          "name": "Declan Rice",
-          "web_name": "Rice",
+          "name": "Diego G\u00f3mez Amarilla",
+          "web_name": "Gomez",
           "position": "MID",
           "position_short": "MF",
-          "team": "Arsenal",
-          "team_short": "ARS",
-          "team_code": 3,
-          "photo_code": "204480",
+          "team": "Brighton",
+          "team_short": "BHA",
+          "team_code": 36,
+          "photo_code": "514254",
           "opponents": [
             {
-              "team": "Man City",
-              "team_short": "MCI",
-              "team_code": 43,
+              "team": "Newcastle",
+              "team_short": "NEW",
+              "team_code": 4,
               "was_home": true
             }
           ],
-          "cost": 7.5,
-          "pred_points": 4.36,
+          "cost": 5.1,
+          "pred_points": 4.09,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 3,
+          "sub_priority": 4,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
@@ -6464,37 +6494,7 @@
             }
           ],
           "cost": 7.4,
-          "pred_points": 4.75,
-          "actual_points": null,
-          "actual_minutes": null,
-          "is_starter": true,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "sub_priority": null,
-          "was_subbed_in": false,
-          "was_subbed_out": false,
-          "sub_label": null,
-          "points_multiplier": 1
-        },
-        {
-          "name": "Francisco Evanilson de Lima Barbosa",
-          "web_name": "Evanilson",
-          "position": "FWD",
-          "position_short": "FW",
-          "team": "Bournemouth",
-          "team_short": "BOU",
-          "team_code": 91,
-          "photo_code": "444102",
-          "opponents": [
-            {
-              "team": "Fulham",
-              "team_short": "FUL",
-              "team_code": 54,
-              "was_home": false
-            }
-          ],
-          "cost": 6.6,
-          "pred_points": 4.65,
+          "pred_points": 4.87,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6524,7 +6524,7 @@
             }
           ],
           "cost": 8.1,
-          "pred_points": 4.53,
+          "pred_points": 4.57,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6554,7 +6554,7 @@
             }
           ],
           "cost": 5.1,
-          "pred_points": 4.28,
+          "pred_points": 4.27,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6584,7 +6584,7 @@
             }
           ],
           "cost": 5.2,
-          "pred_points": 4.48,
+          "pred_points": 4.49,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
@@ -6614,7 +6614,7 @@
             }
           ],
           "cost": 6.8,
-          "pred_points": 4.8,
+          "pred_points": 4.79,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6644,7 +6644,7 @@
             }
           ],
           "cost": 5.5,
-          "pred_points": 4.74,
+          "pred_points": 4.88,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6674,7 +6674,7 @@
             }
           ],
           "cost": 7.3,
-          "pred_points": 4.7,
+          "pred_points": 4.67,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6704,7 +6704,7 @@
             }
           ],
           "cost": 6.3,
-          "pred_points": 5.3,
+          "pred_points": 5.33,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6734,7 +6734,7 @@
             }
           ],
           "cost": 5.1,
-          "pred_points": 4.68,
+          "pred_points": 4.71,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": true,
@@ -6764,13 +6764,13 @@
             }
           ],
           "cost": 6.4,
-          "pred_points": 4.27,
+          "pred_points": 4.39,
           "actual_points": null,
           "actual_minutes": null,
           "is_starter": false,
           "is_captain": false,
           "is_vice_captain": false,
-          "sub_priority": 4,
+          "sub_priority": 3,
           "was_subbed_in": false,
           "was_subbed_out": false,
           "sub_label": null,
