@@ -1,12 +1,12 @@
 {
  "team_name": "Team AI (ILP)",
- "generated_at_utc": "2026-10-23T15:08:02.284363+00:00",
- "cumulative_actual_points": 2629,
+ "generated_at_utc": "2026-11-26T14:52:14.986362+00:00",
+ "cumulative_actual_points": 2621,
  "gameweeks": {
   "1": {
    "round": 1,
    "status": "Optimal",
-   "solve_seconds": 0.32,
+   "solve_seconds": 0.36,
    "candidate_pool_size": 658,
    "formation": "3-5-2",
    "total_cost": 99.0,
@@ -14176,8 +14176,8 @@
    "candidate_pool_size": 15,
    "formation": "3-5-2",
    "total_cost": 102.9,
-   "forecasted_points": 90,
-   "actual_points": 92,
+   "forecasted_points": 102,
+   "actual_points": 102,
    "players": [
     {
      "name": "Alfie Doughty",
@@ -14315,7 +14315,7 @@
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
-     "points_multiplier": 2
+     "points_multiplier": 3
     },
     {
      "name": "Gabriel dos Santos Magalh\u00e3es",
@@ -14681,10 +14681,10 @@
    "transfers": [],
    "hits": 0,
    "hit_points": 0,
-   "actual_points_before_hits": 92,
+   "actual_points_before_hits": 102,
    "bank": 0.3,
    "free_transfers_available": 1,
-   "chip_used": null,
+   "chip_used": "triple_captain",
    "match_results": [
     {
      "home": "Brentford",
@@ -17103,8 +17103,8 @@
    "candidate_pool_size": 15,
    "formation": "3-5-2",
    "total_cost": 103.3,
-   "forecasted_points": 62,
-   "actual_points": 71,
+   "forecasted_points": 56,
+   "actual_points": 53,
    "players": [
     {
      "name": "Alexis Mac Allister",
@@ -17308,13 +17308,13 @@
      "actual_points": 2,
      "actual_minutes": 90,
      "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": true,
+     "is_captain": true,
+     "is_vice_captain": false,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
-     "points_multiplier": 1
+     "points_multiplier": 2
     },
     {
      "name": "Gabriel dos Santos Magalh\u00e3es",
@@ -17518,13 +17518,13 @@
      "actual_points": 10,
      "actual_minutes": 87,
      "is_starter": true,
-     "is_captain": true,
-     "is_vice_captain": false,
+     "is_captain": false,
+     "is_vice_captain": true,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
-     "points_multiplier": 3
+     "points_multiplier": 1
     },
     {
      "name": "Virgil van Dijk",
@@ -17567,10 +17567,10 @@
    ],
    "hits": 0,
    "hit_points": 0,
-   "actual_points_before_hits": 71,
+   "actual_points_before_hits": 53,
    "bank": 1.2,
    "free_transfers_available": 1,
-   "chip_used": "triple_captain",
+   "chip_used": null,
    "match_results": [
     {
      "home": "Newcastle",

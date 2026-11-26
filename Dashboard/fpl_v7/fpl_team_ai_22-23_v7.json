@@ -1,12 +1,12 @@
 {
  "team_name": "Team AI (ILP)",
- "generated_at_utc": "2026-10-23T15:07:33.907705+00:00",
- "cumulative_actual_points": 2614,
+ "generated_at_utc": "2026-11-26T14:52:04.530892+00:00",
+ "cumulative_actual_points": 2610,
  "gameweeks": {
   "1": {
    "round": 1,
    "status": "Optimal",
-   "solve_seconds": 0.3,
+   "solve_seconds": 0.26,
    "candidate_pool_size": 573,
    "formation": "3-5-2",
    "total_cost": 99.0,
@@ -10933,8 +10933,8 @@
    "candidate_pool_size": 15,
    "formation": "3-5-2",
    "total_cost": 101.5,
-   "forecasted_points": 91,
-   "actual_points": 83,
+   "forecasted_points": 94,
+   "actual_points": 79,
    "players": [
     {
      "name": "Aaron Wan-Bissaka",
@@ -11097,7 +11097,7 @@
      "actual_minutes": 179,
      "is_starter": true,
      "is_captain": false,
-     "is_vice_captain": false,
+     "is_vice_captain": true,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
@@ -11132,13 +11132,13 @@
      "actual_points": 7,
      "actual_minutes": 180,
      "is_starter": true,
-     "is_captain": true,
+     "is_captain": false,
      "is_vice_captain": false,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
-     "points_multiplier": 3
+     "points_multiplier": 1
     },
     {
      "name": "Hugo Bueno L\u00f3pez",
@@ -11198,13 +11198,13 @@
      "actual_points": 5,
      "actual_minutes": 90,
      "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": true,
+     "is_captain": true,
+     "is_vice_captain": false,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
-     "points_multiplier": 1
+     "points_multiplier": 3
     },
     {
      "name": "Kieran Trippier",
@@ -11439,7 +11439,7 @@
    ],
    "hits": 0,
    "hit_points": 0,
-   "actual_points_before_hits": 83,
+   "actual_points_before_hits": 79,
    "bank": 0.1,
    "free_transfers_available": 1,
    "chip_used": "triple_captain",

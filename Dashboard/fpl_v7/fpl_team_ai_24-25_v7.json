@@ -1,12 +1,12 @@
 {
  "team_name": "Team AI (ILP)",
- "generated_at_utc": "2026-10-23T15:07:41.842902+00:00",
- "cumulative_actual_points": 2705,
+ "generated_at_utc": "2026-11-26T14:52:08.711010+00:00",
+ "cumulative_actual_points": 2714,
  "gameweeks": {
   "1": {
    "round": 1,
    "status": "Optimal",
-   "solve_seconds": 0.3,
+   "solve_seconds": 0.17,
    "candidate_pool_size": 616,
    "formation": "3-4-3",
    "total_cost": 99.0,
@@ -20083,65 +20083,65 @@
    "solve_seconds": 0.0,
    "candidate_pool_size": 15,
    "formation": "3-5-2",
-   "total_cost": 104.5,
-   "forecasted_points": 52,
-   "actual_points": 64,
+   "total_cost": 103.2,
+   "forecasted_points": 56,
+   "actual_points": 72,
    "players": [
     {
-     "name": "Alexander Isak",
-     "web_name": "Isak",
-     "position": "FWD",
-     "position_short": "FW",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "219168",
+     "name": "Alphonse Areola",
+     "web_name": "Areola",
+     "position": "GKP",
+     "position_short": "GK",
+     "team": "West Ham",
+     "team_short": "WHU",
+     "team_code": 21,
+     "photo_code": "84182",
      "opponents": [
       {
-       "team": "Brighton",
-       "team_short": "BHA",
-       "team_code": 36,
-       "was_home": false
+       "team": "Spurs",
+       "team_short": "TOT",
+       "team_code": 6,
+       "was_home": true
       }
      ],
-     "cost": 9.6,
-     "pred_points": 4.61,
-     "actual_points": 9,
+     "cost": 4.2,
+     "pred_points": 3.33,
+     "actual_points": 2,
      "actual_minutes": 90,
-     "is_starter": true,
+     "is_starter": false,
      "is_captain": false,
      "is_vice_captain": false,
-     "sub_priority": null,
+     "sub_priority": 1,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
      "points_multiplier": 1
     },
     {
-     "name": "Chris Wood",
-     "web_name": "Wood",
-     "position": "FWD",
-     "position_short": "FW",
-     "team": "Nott'm Forest",
-     "team_short": "NFO",
-     "team_code": 17,
-     "photo_code": "60689",
+     "name": "Bryan Mbeumo",
+     "web_name": "Mbeumo",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "446008",
      "opponents": [
       {
-       "team": "Crystal Palace",
-       "team_short": "CRY",
-       "team_code": 31,
-       "was_home": false
+       "team": "Man Utd",
+       "team_short": "MUN",
+       "team_code": 1,
+       "was_home": true
       }
      ],
-     "cost": 7.0,
-     "pred_points": 3.66,
-     "actual_points": 2,
+     "cost": 8.1,
+     "pred_points": 5.53,
+     "actual_points": 5,
      "actual_minutes": 90,
-     "is_starter": false,
+     "is_starter": true,
      "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 2,
+     "is_vice_captain": true,
+     "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
@@ -20178,60 +20178,30 @@
      "points_multiplier": 2
     },
     {
-     "name": "Dean Henderson",
-     "web_name": "Henderson",
-     "position": "GKP",
-     "position_short": "GK",
-     "team": "Crystal Palace",
-     "team_short": "CRY",
-     "team_code": 31,
-     "photo_code": "172649",
+     "name": "Emmanuel Agbadou",
+     "web_name": "Agbadou",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Wolves",
+     "team_short": "WOL",
+     "team_code": 39,
+     "photo_code": "516939",
      "opponents": [
       {
-       "team": "Nott'm Forest",
-       "team_short": "NFO",
-       "team_code": 17,
-       "was_home": true
+       "team": "Man City",
+       "team_short": "MCI",
+       "team_code": 43,
+       "was_home": false
       }
      ],
-     "cost": 4.6,
-     "pred_points": 3.44,
-     "actual_points": 3,
+     "cost": 4.0,
+     "pred_points": 1.6,
+     "actual_points": 2,
      "actual_minutes": 90,
      "is_starter": false,
      "is_captain": false,
      "is_vice_captain": false,
-     "sub_priority": 1,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Declan Rice",
-     "web_name": "Rice",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Arsenal",
-     "team_short": "ARS",
-     "team_code": 3,
-     "photo_code": "204480",
-     "opponents": [
-      {
-       "team": "Bournemouth",
-       "team_short": "BOU",
-       "team_code": 91,
-       "was_home": true
-      }
-     ],
-     "cost": 6.2,
-     "pred_points": 3.81,
-     "actual_points": 9,
-     "actual_minutes": 73,
-     "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": null,
+     "sub_priority": 4,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
@@ -20268,25 +20238,25 @@
      "points_multiplier": 1
     },
     {
-     "name": "Harvey Barnes",
-     "web_name": "Barnes",
+     "name": "Jarrod Bowen",
+     "web_name": "Bowen",
      "position": "MID",
      "position_short": "MF",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "201666",
+     "team": "West Ham",
+     "team_short": "WHU",
+     "team_code": 21,
+     "photo_code": "178186",
      "opponents": [
       {
-       "team": "Brighton",
-       "team_short": "BHA",
-       "team_code": 36,
-       "was_home": false
+       "team": "Spurs",
+       "team_short": "TOT",
+       "team_code": 6,
+       "was_home": true
       }
      ],
-     "cost": 6.0,
-     "pred_points": 3.89,
-     "actual_points": 2,
+     "cost": 7.6,
+     "pred_points": 4.72,
+     "actual_points": 9,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
@@ -20328,26 +20298,26 @@
      "points_multiplier": 1
     },
     {
-     "name": "Marc Cucurella Saseta",
-     "web_name": "Cucurella",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Chelsea",
-     "team_short": "CHE",
-     "team_code": 8,
-     "photo_code": "179268",
+     "name": "Kevin De Bruyne",
+     "web_name": "Bruyne",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Man City",
+     "team_short": "MCI",
+     "team_code": 43,
+     "photo_code": null,
      "opponents": [
       {
-       "team": "Liverpool",
-       "team_short": "LIV",
-       "team_code": 14,
+       "team": "Wolves",
+       "team_short": "WOL",
+       "team_code": 39,
        "was_home": true
       }
      ],
-     "cost": 5.4,
-     "pred_points": 2.87,
-     "actual_points": 2,
-     "actual_minutes": 90,
+     "cost": 9.4,
+     "pred_points": 5.06,
+     "actual_points": 11,
+     "actual_minutes": 83,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
@@ -20358,24 +20328,24 @@
      "points_multiplier": 1
     },
     {
-     "name": "Mark Flekken",
-     "web_name": "Flekken",
+     "name": "Matz Sels",
+     "web_name": "Sels",
      "position": "GKP",
      "position_short": "GK",
-     "team": "Brentford",
-     "team_short": "BRE",
-     "team_code": 94,
-     "photo_code": null,
+     "team": "Nott'm Forest",
+     "team_short": "NFO",
+     "team_code": 17,
+     "photo_code": "85633",
      "opponents": [
       {
-       "team": "Man Utd",
-       "team_short": "MUN",
-       "team_code": 1,
-       "was_home": true
+       "team": "Crystal Palace",
+       "team_short": "CRY",
+       "team_code": 31,
+       "was_home": false
       }
      ],
-     "cost": 4.4,
-     "pred_points": 3.89,
+     "cost": 5.1,
+     "pred_points": 3.34,
      "actual_points": 1,
      "actual_minutes": 90,
      "is_starter": true,
@@ -20418,30 +20388,60 @@
      "points_multiplier": 1
     },
     {
-     "name": "Morgan Rogers",
-     "web_name": "Rogers",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Aston Villa",
-     "team_short": "AVL",
-     "team_code": 7,
-     "photo_code": "244850",
+     "name": "Nathan Collins",
+     "web_name": "Collins",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "432830",
      "opponents": [
       {
-       "team": "Fulham",
-       "team_short": "FUL",
-       "team_code": 54,
+       "team": "Man Utd",
+       "team_short": "MUN",
+       "team_code": 1,
        "was_home": true
       }
      ],
-     "cost": 5.7,
-     "pred_points": 4.5,
-     "actual_points": 3,
+     "cost": 4.5,
+     "pred_points": 3.91,
+     "actual_points": 1,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
      "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Norberto Bercique Gomes Betuncal",
+     "web_name": "Beto",
+     "position": "FWD",
+     "position_short": "FW",
+     "team": "Everton",
+     "team_short": "EVE",
+     "team_code": 11,
+     "photo_code": "486385",
+     "opponents": [
+      {
+       "team": "Ipswich",
+       "team_short": "IPS",
+       "team_code": 40,
+       "was_home": true
+      }
+     ],
+     "cost": 4.8,
+     "pred_points": 3.0,
+     "actual_points": 6,
+     "actual_minutes": 76,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 2,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
@@ -20470,38 +20470,8 @@
      "actual_minutes": 70,
      "is_starter": true,
      "is_captain": false,
-     "is_vice_captain": true,
-     "sub_priority": null,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Virgil van Dijk",
-     "web_name": "Virgil",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Liverpool",
-     "team_short": "LIV",
-     "team_code": 14,
-     "photo_code": "97032",
-     "opponents": [
-      {
-       "team": "Chelsea",
-       "team_short": "CHE",
-       "team_code": 8,
-       "was_home": false
-      }
-     ],
-     "cost": 6.7,
-     "pred_points": 2.63,
-     "actual_points": 6,
-     "actual_minutes": 90,
-     "is_starter": false,
-     "is_captain": false,
      "is_vice_captain": false,
-     "sub_priority": 4,
+     "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
@@ -20536,13 +20506,49 @@
      "was_subbed_out": false,
      "sub_label": null,
      "points_multiplier": 1
+    },
+    {
+     "name": "Yoane Wissa",
+     "web_name": "Wissa",
+     "position": "FWD",
+     "position_short": "FW",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "216646",
+     "opponents": [
+      {
+       "team": "Man Utd",
+       "team_short": "MUN",
+       "team_code": 1,
+       "was_home": true
+      }
+     ],
+     "cost": 6.6,
+     "pred_points": 4.75,
+     "actual_points": 7,
+     "actual_minutes": 90,
+     "is_starter": true,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
     }
    ],
    "transfers": [
     {
      "out": "Isma\u00efla Sarr",
-     "in": "Morgan Rogers",
-     "gain_over_window": 5.1,
+     "in": "Jarrod Bowen",
+     "gain_over_window": 5.86,
+     "paid": false
+    },
+    {
+     "out": "Declan Rice",
+     "in": "Kevin De Bruyne",
+     "gain_over_window": 4.45,
      "paid": false
     },
     {
@@ -20550,14 +20556,56 @@
      "in": "Jo\u0161ko Gvardiol",
      "gain_over_window": 4.15,
      "paid": false
+    },
+    {
+     "out": "Harvey Barnes",
+     "in": "Bryan Mbeumo",
+     "gain_over_window": 3.97,
+     "paid": false
+    },
+    {
+     "out": "Alexander Isak",
+     "in": "Yoane Wissa",
+     "gain_over_window": 0.94,
+     "paid": false
+    },
+    {
+     "out": "Virgil van Dijk",
+     "in": "Nathan Collins",
+     "gain_over_window": 0.71,
+     "paid": false
+    },
+    {
+     "out": "Mark Flekken",
+     "in": "Matz Sels",
+     "gain_over_window": -0.44,
+     "paid": false
+    },
+    {
+     "out": "Dean Henderson",
+     "in": "Alphonse Areola",
+     "gain_over_window": -0.56,
+     "paid": false
+    },
+    {
+     "out": "Marc Cucurella Saseta",
+     "in": "Emmanuel Agbadou",
+     "gain_over_window": -3.18,
+     "paid": false
+    },
+    {
+     "out": "Chris Wood",
+     "in": "Norberto Bercique Gomes Betuncal",
+     "gain_over_window": -6.31,
+     "paid": false
     }
    ],
    "hits": 0,
    "hit_points": 0,
-   "actual_points_before_hits": 64,
+   "actual_points_before_hits": 72,
    "bank": 0.1,
    "free_transfers_available": 2,
-   "chip_used": null,
+   "chip_used": "wildcard",
    "match_results": [
     {
      "home": "Man City",
@@ -20676,10 +20724,10 @@
    "status": "Optimal",
    "solve_seconds": 0.0,
    "candidate_pool_size": 15,
-   "formation": "3-4-3",
-   "total_cost": 102.5,
-   "forecasted_points": 55,
-   "actual_points": 47,
+   "formation": "3-5-2",
+   "total_cost": 103.6,
+   "forecasted_points": 69,
+   "actual_points": 61,
    "players": [
     {
      "name": "Alexander Isak",
@@ -20712,29 +20760,59 @@
      "points_multiplier": 1
     },
     {
-     "name": "Chris Wood",
-     "web_name": "Wood",
-     "position": "FWD",
-     "position_short": "FW",
-     "team": "Nott'm Forest",
-     "team_short": "NFO",
-     "team_code": 17,
-     "photo_code": "60689",
+     "name": "Alphonse Areola",
+     "web_name": "Areola",
+     "position": "GKP",
+     "position_short": "GK",
+     "team": "West Ham",
+     "team_short": "WHU",
+     "team_code": 21,
+     "photo_code": "84182",
      "opponents": [
       {
-       "team": "Leicester",
-       "team_short": "LEI",
-       "team_code": 13,
-       "was_home": true
+       "team": "Man Utd",
+       "team_short": "MUN",
+       "team_code": 1,
+       "was_home": false
       }
      ],
-     "cost": 7.1,
-     "pred_points": 4.73,
+     "cost": 4.2,
+     "pred_points": 2.95,
      "actual_points": 8,
+     "actual_minutes": 90,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 1,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Bryan Mbeumo",
+     "web_name": "Mbeumo",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "446008",
+     "opponents": [
+      {
+       "team": "Ipswich",
+       "team_short": "IPS",
+       "team_code": 40,
+       "was_home": false
+      }
+     ],
+     "cost": 8.2,
+     "pred_points": 5.71,
+     "actual_points": 6,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
-     "is_vice_captain": false,
+     "is_vice_captain": true,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
@@ -20772,56 +20850,26 @@
      "points_multiplier": 1
     },
     {
-     "name": "Dean Henderson",
-     "web_name": "Henderson",
-     "position": "GKP",
-     "position_short": "GK",
-     "team": "Crystal Palace",
-     "team_short": "CRY",
-     "team_code": 31,
-     "photo_code": "172649",
+     "name": "Emmanuel Agbadou",
+     "web_name": "Agbadou",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Wolves",
+     "team_short": "WOL",
+     "team_code": 39,
+     "photo_code": "516939",
      "opponents": [
       {
-       "team": "Spurs",
-       "team_short": "TOT",
-       "team_code": 6,
-       "was_home": false
+       "team": "Brighton",
+       "team_short": "BHA",
+       "team_code": 36,
+       "was_home": true
       }
      ],
-     "cost": 4.6,
-     "pred_points": 3.25,
-     "actual_points": 6,
+     "cost": 4.0,
+     "pred_points": 2.96,
+     "actual_points": 1,
      "actual_minutes": 90,
-     "is_starter": false,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 1,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Declan Rice",
-     "web_name": "Rice",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Arsenal",
-     "team_short": "ARS",
-     "team_code": 3,
-     "photo_code": "204480",
-     "opponents": [
-      {
-       "team": "Liverpool",
-       "team_short": "LIV",
-       "team_code": 14,
-       "was_home": false
-      }
-     ],
-     "cost": 6.2,
-     "pred_points": 2.9,
-     "actual_points": 0,
-     "actual_minutes": 0,
      "is_starter": false,
      "is_captain": false,
      "is_vice_captain": false,
@@ -20832,56 +20880,26 @@
      "points_multiplier": 1
     },
     {
-     "name": "Fabian Sch\u00e4r",
-     "web_name": "Sch\u00e4r",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "119471",
-     "opponents": [
-      {
-       "team": "Chelsea",
-       "team_short": "CHE",
-       "team_code": 8,
-       "was_home": true
-      }
-     ],
-     "cost": 5.6,
-     "pred_points": 3.35,
-     "actual_points": 5,
-     "actual_minutes": 90,
-     "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": null,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Harvey Barnes",
-     "web_name": "Barnes",
+     "name": "Jarrod Bowen",
+     "web_name": "Bowen",
      "position": "MID",
      "position_short": "MF",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "201666",
+     "team": "West Ham",
+     "team_short": "WHU",
+     "team_code": 21,
+     "photo_code": "178186",
      "opponents": [
       {
-       "team": "Chelsea",
-       "team_short": "CHE",
-       "team_code": 8,
-       "was_home": true
+       "team": "Man Utd",
+       "team_short": "MUN",
+       "team_code": 1,
+       "was_home": false
       }
      ],
-     "cost": 6.0,
-     "pred_points": 4.13,
-     "actual_points": 3,
-     "actual_minutes": 90,
+     "cost": 7.7,
+     "pred_points": 3.83,
+     "actual_points": 8,
+     "actual_minutes": 72,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
@@ -20922,55 +20940,55 @@
      "points_multiplier": 1
     },
     {
-     "name": "Marc Cucurella Saseta",
-     "web_name": "Cucurella",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Chelsea",
-     "team_short": "CHE",
-     "team_code": 8,
-     "photo_code": "179268",
+     "name": "Kevin De Bruyne",
+     "web_name": "Bruyne",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Man City",
+     "team_short": "MCI",
+     "team_code": 43,
+     "photo_code": null,
      "opponents": [
       {
-       "team": "Newcastle",
-       "team_short": "NEW",
-       "team_code": 4,
+       "team": "Southampton",
+       "team_short": "SOU",
+       "team_code": 20,
        "was_home": false
       }
      ],
-     "cost": 5.4,
-     "pred_points": 2.54,
-     "actual_points": 1,
+     "cost": 9.6,
+     "pred_points": 5.28,
+     "actual_points": 3,
      "actual_minutes": 90,
-     "is_starter": false,
+     "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
-     "sub_priority": 3,
+     "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
      "points_multiplier": 1
     },
     {
-     "name": "Mark Flekken",
-     "web_name": "Flekken",
+     "name": "Matz Sels",
+     "web_name": "Sels",
      "position": "GKP",
      "position_short": "GK",
-     "team": "Brentford",
-     "team_short": "BRE",
-     "team_code": 94,
-     "photo_code": null,
+     "team": "Nott'm Forest",
+     "team_short": "NFO",
+     "team_code": 17,
+     "photo_code": "85633",
      "opponents": [
       {
-       "team": "Ipswich",
-       "team_short": "IPS",
-       "team_code": 40,
-       "was_home": false
+       "team": "Leicester",
+       "team_short": "LEI",
+       "team_code": 13,
+       "was_home": true
       }
      ],
-     "cost": 4.4,
-     "pred_points": 4.23,
-     "actual_points": 9,
+     "cost": 5.2,
+     "pred_points": 4.22,
+     "actual_points": 2,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
@@ -21012,26 +21030,26 @@
      "points_multiplier": 2
     },
     {
-     "name": "Morgan Rogers",
-     "web_name": "Rogers",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Aston Villa",
-     "team_short": "AVL",
-     "team_code": 7,
-     "photo_code": "244850",
+     "name": "Nathan Collins",
+     "web_name": "Collins",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "432830",
      "opponents": [
       {
-       "team": "Bournemouth",
-       "team_short": "BOU",
-       "team_code": 91,
+       "team": "Ipswich",
+       "team_short": "IPS",
+       "team_code": 40,
        "was_home": false
       }
      ],
-     "cost": 5.7,
-     "pred_points": 3.53,
-     "actual_points": 6,
-     "actual_minutes": 88,
+     "cost": 4.6,
+     "pred_points": 4.42,
+     "actual_points": 8,
+     "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
@@ -21042,30 +21060,60 @@
      "points_multiplier": 1
     },
     {
-     "name": "Virgil van Dijk",
-     "web_name": "Virgil",
+     "name": "Neco Williams",
+     "web_name": "N.Williams",
      "position": "DEF",
      "position_short": "DF",
-     "team": "Liverpool",
-     "team_short": "LIV",
-     "team_code": 14,
-     "photo_code": "97032",
+     "team": "Nott'm Forest",
+     "team_short": "NFO",
+     "team_code": 17,
+     "photo_code": "215136",
      "opponents": [
       {
-       "team": "Arsenal",
-       "team_short": "ARS",
-       "team_code": 3,
+       "team": "Leicester",
+       "team_short": "LEI",
+       "team_code": 13,
        "was_home": true
       }
      ],
-     "cost": 6.7,
-     "pred_points": 3.58,
+     "cost": 4.5,
+     "pred_points": 4.1,
      "actual_points": 1,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
      "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Norberto Bercique Gomes Betuncal",
+     "web_name": "Beto",
+     "position": "FWD",
+     "position_short": "FW",
+     "team": "Everton",
+     "team_short": "EVE",
+     "team_code": 11,
+     "photo_code": "486385",
+     "opponents": [
+      {
+       "team": "Fulham",
+       "team_short": "FUL",
+       "team_code": 54,
+       "was_home": false
+      }
+     ],
+     "cost": 4.8,
+     "pred_points": 2.2,
+     "actual_points": 8,
+     "actual_minutes": 90,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 3,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
@@ -21124,7 +21172,7 @@
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
-     "is_vice_captain": true,
+     "is_vice_captain": false,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
@@ -21135,17 +21183,23 @@
    "transfers": [
     {
      "out": "Ollie Watkins",
-     "in": "Yoane Wissa",
-     "gain_over_window": 2.04,
+     "in": "Alexander Isak",
+     "gain_over_window": 1.85,
+     "paid": false
+    },
+    {
+     "out": "Fabian Sch\u00e4r",
+     "in": "Neco Williams",
+     "gain_over_window": -0.01,
      "paid": false
     }
    ],
    "hits": 0,
    "hit_points": 0,
-   "actual_points_before_hits": 47,
-   "bank": 2.2,
-   "free_transfers_available": 1,
-   "chip_used": null,
+   "actual_points_before_hits": 61,
+   "bank": 0.4,
+   "free_transfers_available": 2,
+   "chip_used": "bench_boost",
    "match_results": [
     {
      "home": "Fulham",
@@ -21264,39 +21318,69 @@
    "status": "Optimal",
    "solve_seconds": 0.0,
    "candidate_pool_size": 15,
-   "formation": "3-4-3",
-   "total_cost": 104.2,
-   "forecasted_points": 53,
-   "actual_points": 57,
+   "formation": "3-5-2",
+   "total_cost": 103.2,
+   "forecasted_points": 56,
+   "actual_points": 47,
    "players": [
     {
-     "name": "Alexander Isak",
-     "web_name": "Isak",
-     "position": "FWD",
-     "position_short": "FW",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "219168",
+     "name": "Alphonse Areola",
+     "web_name": "Areola",
+     "position": "GKP",
+     "position_short": "GK",
+     "team": "West Ham",
+     "team_short": "WHU",
+     "team_code": 21,
+     "photo_code": "84182",
      "opponents": [
       {
-       "team": "Arsenal",
-       "team_short": "ARS",
-       "team_code": 3,
-       "was_home": false
+       "team": "Nott'm Forest",
+       "team_short": "NFO",
+       "team_code": 17,
+       "was_home": true
       }
      ],
-     "cost": 9.5,
-     "pred_points": 3.64,
-     "actual_points": 0,
-     "actual_minutes": 0,
+     "cost": 4.2,
+     "pred_points": 3.14,
+     "actual_points": 2,
+     "actual_minutes": 90,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 1,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Bryan Mbeumo",
+     "web_name": "Mbeumo",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "446008",
+     "opponents": [
+      {
+       "team": "Fulham",
+       "team_short": "FUL",
+       "team_code": 54,
+       "was_home": true
+      }
+     ],
+     "cost": 8.3,
+     "pred_points": 5.4,
+     "actual_points": 5,
+     "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
      "sub_priority": null,
      "was_subbed_in": false,
-     "was_subbed_out": true,
-     "sub_label": "Sub1",
+     "was_subbed_out": false,
+     "sub_label": null,
      "points_multiplier": 1
     },
     {
@@ -21330,55 +21414,25 @@
      "points_multiplier": 2
     },
     {
-     "name": "Dean Henderson",
-     "web_name": "Henderson",
-     "position": "GKP",
-     "position_short": "GK",
-     "team": "Crystal Palace",
-     "team_short": "CRY",
-     "team_code": 31,
-     "photo_code": "172649",
+     "name": "Emmanuel Agbadou",
+     "web_name": "Agbadou",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Wolves",
+     "team_short": "WOL",
+     "team_code": 39,
+     "photo_code": "516939",
      "opponents": [
       {
-       "team": "Wolves",
-       "team_short": "WOL",
-       "team_code": 39,
-       "was_home": true
+       "team": "Crystal Palace",
+       "team_short": "CRY",
+       "team_code": 31,
+       "was_home": false
       }
      ],
-     "cost": 4.6,
-     "pred_points": 3.3,
-     "actual_points": 1,
-     "actual_minutes": 90,
-     "is_starter": false,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 1,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Declan Rice",
-     "web_name": "Rice",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Arsenal",
-     "team_short": "ARS",
-     "team_code": 3,
-     "photo_code": "204480",
-     "opponents": [
-      {
-       "team": "Newcastle",
-       "team_short": "NEW",
-       "team_code": 4,
-       "was_home": true
-      }
-     ],
-     "cost": 6.2,
-     "pred_points": 1.44,
-     "actual_points": 11,
+     "cost": 4.0,
+     "pred_points": 2.43,
+     "actual_points": 5,
      "actual_minutes": 90,
      "is_starter": false,
      "is_captain": false,
@@ -21390,56 +21444,26 @@
      "points_multiplier": 1
     },
     {
-     "name": "Fabian Sch\u00e4r",
-     "web_name": "Sch\u00e4r",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "119471",
-     "opponents": [
-      {
-       "team": "Arsenal",
-       "team_short": "ARS",
-       "team_code": 3,
-       "was_home": false
-      }
-     ],
-     "cost": 5.5,
-     "pred_points": 2.82,
-     "actual_points": 2,
-     "actual_minutes": 90,
-     "is_starter": false,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 3,
-     "was_subbed_in": true,
-     "was_subbed_out": false,
-     "sub_label": "Sub2",
-     "points_multiplier": 1
-    },
-    {
-     "name": "Harvey Barnes",
-     "web_name": "Barnes",
+     "name": "Jarrod Bowen",
+     "web_name": "Bowen",
      "position": "MID",
      "position_short": "MF",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "201666",
+     "team": "West Ham",
+     "team_short": "WHU",
+     "team_code": 21,
+     "photo_code": "178186",
      "opponents": [
       {
-       "team": "Arsenal",
-       "team_short": "ARS",
-       "team_code": 3,
-       "was_home": false
+       "team": "Nott'm Forest",
+       "team_short": "NFO",
+       "team_code": 17,
+       "was_home": true
       }
      ],
-     "cost": 5.9,
-     "pred_points": 3.21,
-     "actual_points": 2,
-     "actual_minutes": 75,
+     "cost": 7.8,
+     "pred_points": 4.36,
+     "actual_points": 8,
+     "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
@@ -21480,26 +21504,26 @@
      "points_multiplier": 1
     },
     {
-     "name": "Marc Cucurella Saseta",
-     "web_name": "Cucurella",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Chelsea",
-     "team_short": "CHE",
-     "team_code": 8,
-     "photo_code": "179268",
+     "name": "Kevin De Bruyne",
+     "web_name": "Bruyne",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Man City",
+     "team_short": "MCI",
+     "team_code": 43,
+     "photo_code": null,
      "opponents": [
       {
-       "team": "Man Utd",
-       "team_short": "MUN",
-       "team_code": 1,
+       "team": "Bournemouth",
+       "team_short": "BOU",
+       "team_code": 91,
        "was_home": true
       }
      ],
-     "cost": 5.4,
-     "pred_points": 3.99,
-     "actual_points": 15,
-     "actual_minutes": 90,
+     "cost": 9.6,
+     "pred_points": 4.56,
+     "actual_points": 3,
+     "actual_minutes": 68,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
@@ -21510,25 +21534,25 @@
      "points_multiplier": 1
     },
     {
-     "name": "Mark Flekken",
-     "web_name": "Flekken",
+     "name": "Matz Sels",
+     "web_name": "Sels",
      "position": "GKP",
      "position_short": "GK",
-     "team": "Brentford",
-     "team_short": "BRE",
-     "team_code": 94,
-     "photo_code": null,
+     "team": "Nott'm Forest",
+     "team_short": "NFO",
+     "team_code": 17,
+     "photo_code": "85633",
      "opponents": [
       {
-       "team": "Fulham",
-       "team_short": "FUL",
-       "team_code": 54,
-       "was_home": true
+       "team": "West Ham",
+       "team_short": "WHU",
+       "team_code": 21,
+       "was_home": false
       }
      ],
-     "cost": 4.5,
-     "pred_points": 3.6,
-     "actual_points": 2,
+     "cost": 5.2,
+     "pred_points": 3.72,
+     "actual_points": 3,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
@@ -21570,30 +21594,90 @@
      "points_multiplier": 1
     },
     {
-     "name": "Morgan Rogers",
-     "web_name": "Rogers",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Aston Villa",
-     "team_short": "AVL",
-     "team_code": 7,
-     "photo_code": "244850",
+     "name": "Nathan Collins",
+     "web_name": "Collins",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "432830",
      "opponents": [
       {
-       "team": "Spurs",
-       "team_short": "TOT",
-       "team_code": 6,
+       "team": "Fulham",
+       "team_short": "FUL",
+       "team_code": 54,
        "was_home": true
       }
      ],
-     "cost": 5.7,
-     "pred_points": 5.02,
-     "actual_points": 6,
+     "cost": 4.6,
+     "pred_points": 3.59,
+     "actual_points": 1,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
      "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Neco Williams",
+     "web_name": "N.Williams",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Nott'm Forest",
+     "team_short": "NFO",
+     "team_code": 17,
+     "photo_code": "215136",
+     "opponents": [
+      {
+       "team": "West Ham",
+       "team_short": "WHU",
+       "team_code": 21,
+       "was_home": false
+      }
+     ],
+     "cost": 4.5,
+     "pred_points": 3.33,
+     "actual_points": 4,
+     "actual_minutes": 90,
+     "is_starter": true,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Norberto Bercique Gomes Betuncal",
+     "web_name": "Beto",
+     "position": "FWD",
+     "position_short": "FW",
+     "team": "Everton",
+     "team_short": "EVE",
+     "team_code": 11,
+     "photo_code": "486385",
+     "opponents": [
+      {
+       "team": "Southampton",
+       "team_short": "SOU",
+       "team_code": 20,
+       "was_home": true
+      }
+     ],
+     "cost": 4.8,
+     "pred_points": 4.29,
+     "actual_points": 2,
+     "actual_minutes": 90,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 2,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
@@ -21630,36 +21714,6 @@
      "points_multiplier": 1
     },
     {
-     "name": "Virgil van Dijk",
-     "web_name": "Virgil",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Liverpool",
-     "team_short": "LIV",
-     "team_code": 14,
-     "photo_code": "97032",
-     "opponents": [
-      {
-       "team": "Brighton",
-       "team_short": "BHA",
-       "team_code": 36,
-       "was_home": false
-      }
-     ],
-     "cost": 6.7,
-     "pred_points": 3.29,
-     "actual_points": 0,
-     "actual_minutes": 0,
-     "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": null,
-     "was_subbed_in": false,
-     "was_subbed_out": true,
-     "sub_label": "Sub2",
-     "points_multiplier": 1
-    },
-    {
      "name": "Wout Faes",
      "web_name": "Faes",
      "position": "DEF",
@@ -21683,10 +21737,10 @@
      "is_starter": false,
      "is_captain": false,
      "is_vice_captain": false,
-     "sub_priority": 2,
-     "was_subbed_in": true,
+     "sub_priority": 3,
+     "was_subbed_in": false,
      "was_subbed_out": false,
-     "sub_label": "Sub1",
+     "sub_label": null,
      "points_multiplier": 1
     },
     {
@@ -21722,16 +21776,16 @@
    ],
    "transfers": [
     {
-     "out": "Chris Wood",
+     "out": "Alexander Isak",
      "in": "Ollie Watkins",
-     "gain_over_window": 2.8,
+     "gain_over_window": 2.27,
      "paid": false
     }
    ],
    "hits": 0,
    "hit_points": 0,
-   "actual_points_before_hits": 57,
-   "bank": 0.1,
+   "actual_points_before_hits": 47,
+   "bank": 0.9,
    "free_transfers_available": 1,
    "chip_used": null,
    "match_results": [
@@ -21853,9 +21907,9 @@
    "solve_seconds": 0.0,
    "candidate_pool_size": 15,
    "formation": "3-5-2",
-   "total_cost": 103.3,
-   "forecasted_points": 65,
-   "actual_points": 71,
+   "total_cost": 102.2,
+   "forecasted_points": 59,
+   "actual_points": 68,
    "players": [
     {
      "name": "Alphonse Areola",
@@ -21878,99 +21932,39 @@
      "pred_points": 3.58,
      "actual_points": 0,
      "actual_minutes": 0,
-     "is_starter": false,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 1,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Antoine Semenyo",
-     "web_name": "Semenyo",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Bournemouth",
-     "team_short": "BOU",
-     "team_code": 91,
-     "photo_code": "437730",
-     "opponents": [
-      {
-       "team": "Leicester",
-       "team_short": "LEI",
-       "team_code": 13,
-       "was_home": true
-      }
-     ],
-     "cost": 5.7,
-     "pred_points": 4.76,
-     "actual_points": 16,
-     "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
      "sub_priority": null,
      "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
+     "was_subbed_out": true,
+     "sub_label": "Sub1",
      "points_multiplier": 1
     },
     {
-     "name": "Benjamin White",
-     "web_name": "White",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Arsenal",
-     "team_short": "ARS",
-     "team_code": 3,
-     "photo_code": "198869",
+     "name": "Bryan Mbeumo",
+     "web_name": "Mbeumo",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "446008",
      "opponents": [
       {
-       "team": "Southampton",
-       "team_short": "SOU",
-       "team_code": 20,
+       "team": "Wolves",
+       "team_short": "WOL",
+       "team_code": 39,
        "was_home": false
       }
      ],
-     "cost": 6.2,
-     "pred_points": 4.28,
-     "actual_points": 5,
+     "cost": 8.3,
+     "pred_points": 4.41,
+     "actual_points": 8,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
-     "sub_priority": null,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Bukayo Saka",
-     "web_name": "Saka",
-     "position": "MID",
-     "position_short": "MF",
-     "team": "Arsenal",
-     "team_short": "ARS",
-     "team_code": 3,
-     "photo_code": "223340",
-     "opponents": [
-      {
-       "team": "Southampton",
-       "team_short": "SOU",
-       "team_code": 20,
-       "was_home": false
-      }
-     ],
-     "cost": 10.4,
-     "pred_points": 6.14,
-     "actual_points": 1,
-     "actual_minutes": 27,
-     "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": true,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
@@ -22008,66 +22002,6 @@
      "points_multiplier": 1
     },
     {
-     "name": "Danny Welbeck",
-     "web_name": "Welbeck",
-     "position": "FWD",
-     "position_short": "FW",
-     "team": "Brighton",
-     "team_short": "BHA",
-     "team_code": 36,
-     "photo_code": "50175",
-     "opponents": [
-      {
-       "team": "Spurs",
-       "team_short": "TOT",
-       "team_code": 6,
-       "was_home": false
-      }
-     ],
-     "cost": 5.5,
-     "pred_points": 4.26,
-     "actual_points": 0,
-     "actual_minutes": 0,
-     "is_starter": false,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 2,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "David Raya Mart\u00edn",
-     "web_name": "Raya",
-     "position": "GKP",
-     "position_short": "GK",
-     "team": "Arsenal",
-     "team_short": "ARS",
-     "team_code": 3,
-     "photo_code": "154561",
-     "opponents": [
-      {
-       "team": "Southampton",
-       "team_short": "SOU",
-       "team_code": 20,
-       "was_home": false
-      }
-     ],
-     "cost": 5.6,
-     "pred_points": 4.43,
-     "actual_points": 2,
-     "actual_minutes": 90,
-     "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": null,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
      "name": "Emmanuel Agbadou",
      "web_name": "Agbadou",
      "position": "DEF",
@@ -22088,100 +22022,10 @@
      "pred_points": 2.84,
      "actual_points": 2,
      "actual_minutes": 90,
-     "is_starter": false,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 3,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Fabian Sch\u00e4r",
-     "web_name": "Sch\u00e4r",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Newcastle",
-     "team_short": "NEW",
-     "team_code": 4,
-     "photo_code": "119471",
-     "opponents": [
-      {
-       "team": "Everton",
-       "team_short": "EVE",
-       "team_code": 11,
-       "was_home": true
-      }
-     ],
-     "cost": 5.5,
-     "pred_points": 4.27,
-     "actual_points": 1,
-     "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
      "is_vice_captain": false,
      "sub_priority": null,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Francisco Evanilson de Lima Barbosa",
-     "web_name": "Evanilson",
-     "position": "FWD",
-     "position_short": "FW",
-     "team": "Bournemouth",
-     "team_short": "BOU",
-     "team_code": 91,
-     "photo_code": "444102",
-     "opponents": [
-      {
-       "team": "Leicester",
-       "team_short": "LEI",
-       "team_code": 13,
-       "was_home": true
-      }
-     ],
-     "cost": 5.9,
-     "pred_points": 4.97,
-     "actual_points": 2,
-     "actual_minutes": 90,
-     "is_starter": true,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": null,
-     "was_subbed_in": false,
-     "was_subbed_out": false,
-     "sub_label": null,
-     "points_multiplier": 1
-    },
-    {
-     "name": "Jacob Greaves",
-     "web_name": "Greaves",
-     "position": "DEF",
-     "position_short": "DF",
-     "team": "Ipswich",
-     "team_short": "IPS",
-     "team_code": 40,
-     "photo_code": null,
-     "opponents": [
-      {
-       "team": "West Ham",
-       "team_short": "WHU",
-       "team_code": 21,
-       "was_home": true
-      }
-     ],
-     "cost": 3.8,
-     "pred_points": 2.26,
-     "actual_points": 1,
-     "actual_minutes": 90,
-     "is_starter": false,
-     "is_captain": false,
-     "is_vice_captain": false,
-     "sub_priority": 4,
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
@@ -22210,7 +22054,7 @@
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
-     "is_vice_captain": false,
+     "is_vice_captain": true,
      "sub_priority": null,
      "was_subbed_in": false,
      "was_subbed_out": false,
@@ -22218,25 +22062,25 @@
      "points_multiplier": 1
     },
     {
-     "name": "Milos Kerkez",
-     "web_name": "Kerkez",
+     "name": "Jo\u0161ko Gvardiol",
+     "web_name": "Gvardiol",
      "position": "DEF",
      "position_short": "DF",
-     "team": "Bournemouth",
-     "team_short": "BOU",
-     "team_code": 91,
-     "photo_code": "544877",
+     "team": "Man City",
+     "team_short": "MCI",
+     "team_code": 43,
+     "photo_code": "477424",
      "opponents": [
       {
-       "team": "Leicester",
-       "team_short": "LEI",
-       "team_code": 13,
-       "was_home": true
+       "team": "Fulham",
+       "team_short": "FUL",
+       "team_code": 54,
+       "was_home": false
       }
      ],
-     "cost": 5.3,
-     "pred_points": 4.21,
-     "actual_points": 6,
+     "cost": 6.5,
+     "pred_points": 4.12,
+     "actual_points": 8,
      "actual_minutes": 90,
      "is_starter": true,
      "is_captain": false,
@@ -22245,6 +22089,66 @@
      "was_subbed_in": false,
      "was_subbed_out": false,
      "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Martin \u00d8degaard",
+     "web_name": "\u00d8degaard",
+     "position": "MID",
+     "position_short": "MF",
+     "team": "Arsenal",
+     "team_short": "ARS",
+     "team_code": 3,
+     "photo_code": "184029",
+     "opponents": [
+      {
+       "team": "Southampton",
+       "team_short": "SOU",
+       "team_code": 20,
+       "was_home": false
+      }
+     ],
+     "cost": 8.2,
+     "pred_points": 4.99,
+     "actual_points": 7,
+     "actual_minutes": 15,
+     "is_starter": true,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Matz Sels",
+     "web_name": "Sels",
+     "position": "GKP",
+     "position_short": "GK",
+     "team": "Nott'm Forest",
+     "team_short": "NFO",
+     "team_code": 17,
+     "photo_code": "85633",
+     "opponents": [
+      {
+       "team": "Chelsea",
+       "team_short": "CHE",
+       "team_code": 8,
+       "was_home": true
+      }
+     ],
+     "cost": 5.2,
+     "pred_points": 3.06,
+     "actual_points": 2,
+     "actual_minutes": 90,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 1,
+     "was_subbed_in": true,
+     "was_subbed_out": false,
+     "sub_label": "Sub1",
      "points_multiplier": 1
     },
     {
@@ -22278,6 +22182,96 @@
      "points_multiplier": 2
     },
     {
+     "name": "Nathan Collins",
+     "web_name": "Collins",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "432830",
+     "opponents": [
+      {
+       "team": "Wolves",
+       "team_short": "WOL",
+       "team_code": 39,
+       "was_home": false
+      }
+     ],
+     "cost": 4.6,
+     "pred_points": 3.03,
+     "actual_points": 2,
+     "actual_minutes": 90,
+     "is_starter": true,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Neco Williams",
+     "web_name": "N.Williams",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Nott'm Forest",
+     "team_short": "NFO",
+     "team_code": 17,
+     "photo_code": "215136",
+     "opponents": [
+      {
+       "team": "Chelsea",
+       "team_short": "CHE",
+       "team_code": 8,
+       "was_home": true
+      }
+     ],
+     "cost": 4.5,
+     "pred_points": 2.67,
+     "actual_points": 2,
+     "actual_minutes": 90,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 2,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Norberto Bercique Gomes Betuncal",
+     "web_name": "Beto",
+     "position": "FWD",
+     "position_short": "FW",
+     "team": "Everton",
+     "team_short": "EVE",
+     "team_code": 11,
+     "photo_code": "486385",
+     "opponents": [
+      {
+       "team": "Newcastle",
+       "team_short": "NEW",
+       "team_code": 4,
+       "was_home": false
+      }
+     ],
+     "cost": 4.8,
+     "pred_points": 2.01,
+     "actual_points": 2,
+     "actual_minutes": 87,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 3,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
      "name": "Ollie Watkins",
      "web_name": "Watkins",
      "position": "FWD",
@@ -22306,82 +22300,82 @@
      "was_subbed_out": false,
      "sub_label": null,
      "points_multiplier": 1
+    },
+    {
+     "name": "Wout Faes",
+     "web_name": "Faes",
+     "position": "DEF",
+     "position_short": "DF",
+     "team": "Leicester",
+     "team_short": "LEI",
+     "team_code": 13,
+     "photo_code": null,
+     "opponents": [
+      {
+       "team": "Bournemouth",
+       "team_short": "BOU",
+       "team_code": 91,
+       "was_home": false
+      }
+     ],
+     "cost": 3.8,
+     "pred_points": 1.66,
+     "actual_points": 1,
+     "actual_minutes": 90,
+     "is_starter": false,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": 4,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
+    },
+    {
+     "name": "Yoane Wissa",
+     "web_name": "Wissa",
+     "position": "FWD",
+     "position_short": "FW",
+     "team": "Brentford",
+     "team_short": "BRE",
+     "team_code": 94,
+     "photo_code": "216646",
+     "opponents": [
+      {
+       "team": "Wolves",
+       "team_short": "WOL",
+       "team_code": 39,
+       "was_home": false
+      }
+     ],
+     "cost": 6.9,
+     "pred_points": 4.25,
+     "actual_points": 1,
+     "actual_minutes": 90,
+     "is_starter": true,
+     "is_captain": false,
+     "is_vice_captain": false,
+     "sub_priority": null,
+     "was_subbed_in": false,
+     "was_subbed_out": false,
+     "sub_label": null,
+     "points_multiplier": 1
     }
    ],
    "transfers": [
     {
-     "out": "Declan Rice",
-     "in": "Bukayo Saka",
-     "gain_over_window": 1.37,
-     "paid": false
-    },
-    {
-     "out": "Dean Henderson",
-     "in": "Alphonse Areola",
-     "gain_over_window": 1.22,
-     "paid": false
-    },
-    {
-     "out": "Morgan Rogers",
-     "in": "Jarrod Bowen",
-     "gain_over_window": 1.22,
-     "paid": false
-    },
-    {
-     "out": "Mark Flekken",
-     "in": "David Raya Mart\u00edn",
-     "gain_over_window": 1.14,
-     "paid": false
-    },
-    {
-     "out": "Virgil van Dijk",
-     "in": "Milos Kerkez",
-     "gain_over_window": 0.89,
-     "paid": false
-    },
-    {
-     "out": "Yoane Wissa",
-     "in": "Francisco Evanilson de Lima Barbosa",
-     "gain_over_window": 0.72,
-     "paid": false
-    },
-    {
-     "out": "Wout Faes",
-     "in": "Jacob Greaves",
-     "gain_over_window": 0.6,
-     "paid": false
-    },
-    {
-     "out": "Harvey Barnes",
-     "in": "Antoine Semenyo",
-     "gain_over_window": 0.57,
-     "paid": false
-    },
-    {
-     "out": "Alexander Isak",
-     "in": "Danny Welbeck",
-     "gain_over_window": 0.48,
-     "paid": false
-    },
-    {
-     "out": "Jo\u0161ko Gvardiol",
-     "in": "Benjamin White",
-     "gain_over_window": 0.16,
-     "paid": false
-    },
-    {
-     "out": "Marc Cucurella Saseta",
-     "in": "Emmanuel Agbadou",
-     "gain_over_window": -0.43,
+     "out": "Kevin De Bruyne",
+     "in": "Martin \u00d8degaard",
+     "gain_over_window": 2.14,
      "paid": false
     }
    ],
    "hits": 0,
    "hit_points": 0,
-   "actual_points_before_hits": 71,
-   "bank": 0.1,
+   "actual_points_before_hits": 68,
+   "bank": 2.1,
    "free_transfers_available": 1,
-   "chip_used": "wildcard",
+   "chip_used": null,
    "match_results": [
     {
      "home": "Bournemouth",
